@@ -1,0 +1,442 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta property="fb:admins" content="834554733,730180950" />
+<title>JetBrains :: World's Leading Vendor of Professional Development Tools</title>
+<meta name="robots" content="all" />
+<meta name="copyright" content="JetBrains, Inc., http://www.jetbrains.com" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="verify-v1" content="9EryFSFvvHuIKFqc4c4MH6kBhP+BspRUJXgQ1HZNumg=" />
+<meta name="google-site-verification" content="N783lfAAJHXUDFXqDWOOUUngreqz1zym-tdwQqGCy7I" />
+ <meta class="local" name="description" content="JetBrains, creator of the best Java IDE - IntelliJ IDEA - is a technology-leading software development firm specializing in the
+creation of intelligent development tools."/>
+<META class="local" Http-Equiv="Cache-Control" Content="no-cache"/>
+<META class="local" Http-Equiv="Pragma" Content="no-cache"/>
+<META class="local" Http-Equiv="Expires" Content="0"/>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+_uacct = "UA-940435-1";
+urchinTracker();
+</script>
+
+ <link rel="alternate" type="application/rss+xml" title="JetBrains RSS" href="http://www.jetbrains.com/rss.xml"/>
+ <link rel="stylesheet" type="text/css" media="screen" href="styleset2.css"/>
+ <link rel="stylesheet" type="text/css" media="screen" href="styles2/home.css"/>
+ <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="/js2/style_switcher.js" language="JavaScript"></script>
+<script type="text/javascript" src="/js2/search.js" language="JavaScript"></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js2/matching_columns.js" language="JavaScript"></script>
+
+     <script type="text/javascript">
+        function eapShow(param) {
+            var d = param ? 'block' : 'none';
+            document.getElementById('eap_list').style.display = d;
+        }
+
+    </script>      <script type="text/javascript" src="js2/jquery/jquery.min.js"></script>      <script type="text/javascript" src="js2/rotation.js"></script>      <script type="text/javascript">
+        $(document).ready(function() {
+            messageLoad(3);
+            messageLoad_sc(3);
+            $('div.rotate').each(function(i) {
+                if ($(this).attr("style")) {
+                    $('#rotate' + i + '_text').css("display", "block");
+                }
+            });
+        });
+
+    </script>      <script type="text/javascript" src="js2/swfobject.js"></script> <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(
+    ['all._setAccount', 'UA-940435-1'],
+    ['all._trackPageview']
+);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script></head>
+
+<body id="${page.bodyid}" class="${page.bodyclass}">
+<div id="container" class="outer jb_home">
+    
+    
+    <div id="header">
+        <div class="jb_logo">
+            <img src="img/logo.gif" alt="JetBrains home" border="0"/>
+        </div>
+        
+    <div class="jb_logo">
+        <img src="img/logo.gif" alt="JetBrains home" border="0"/>
+        <strong>World&#8217;s Leading Vendor of Professional Development Tools</strong>
+    </div>
+    <!--<h1>JetBrains</h1>--><!-- Global navigation menu. global_navi block -->
+    <div class="search">
+        <form method="get" action="/scripts/search" name="formSearch" onsubmit="return checkWords(this);">
+            <input name="restrict" id="restrict" value="" type="hidden">
+            <input name="exclude" id="exclude" value="/idea/docs/|/idea/openapi/|/resharper/documentation/"
+                   type="hidden">
+            <input name="method" value="and" type="hidden">
+            <input name="sort" value="score" type="hidden">
+            <input name="words" class="words" value="SEARCH" onkeyup="DokeyupOn(document.forms['formSearch']);"
+                   onblur="blurOn(document.forms['formSearch']);" onfocus="focusOn(document.forms['formSearch']);"
+                   type="text">
+            <input class="image" src="img/iconSearch.png" value="Search" alt="Search" title="Search" type="image">
+        </form>
+    </div>
+
+    <div id="jb_nav">
+        <ul>
+            <li class="why"><a href="why">Why JetBrains</a></li>
+            <li class="products"><a href="products.html">Products</a></li>
+            <li class="support"><a href="support">Support</a></li>
+            <li class="devnet"><a href="devnet">Community</a></li>
+            <li class="partners"><a href="partners">Partners</a></li>
+            <li class="company"><a href="company">Company</a></li>
+            <li class="yourcart"><a href="eshop/shopping/displayCartDetails.do">Cart</a></li>
+        </ul>
+    </div>
+
+
+    </div>
+    <div id="subcontent">
+        
+
+
+        <div id="banner">
+            <div id="rotate_sc1" class="rotate">
+                <a href="dotcover/whatsnew/index.html?home_banner" title="dotCover 2.0: Updated .NET unit test runner and coverage tool">
+                    <img src="img/banners/dc2_isb.png" alt="dotCover 2.0: Updated .NET unit test runner and coverage tool">
+                </a>
+            </div>
+            <div id="rotate_sc2" class="rotate">
+                <a href="decompiler/features/index.html?home_banner" title="Free .NET decompiler and assembly browser">
+                    <img src="img/banners/dp1_isb.png" alt="Free .NET decompiler and assembly browser">
+                </a>
+            </div>
+            <div id="rotate_sc3" class="rotate">
+                <a href="teamcity/whatsnew/index.html?home_banner" title="The TeamCIty 7.1 &mdash; Control the Flow">
+                    <img src="img/banners/tc71_isb.png" alt="The TeamCIty 7.1 &mdash; Control the Flow">
+                </a>
+            </div>
+        </div>
+
+        <div class="news"><!-- News sector. Starting news block -->
+            <h3><a class="noborder blackColor" href="allnews.html">News</a>
+                <a class="noborder" href="rss.xml">
+                    <img src="img/rssFeedshad.gif" title="JetBrains News" alt="JetBrains News"/></a>
+            </h3>
+            <ul>
+                <li><a href="phpstorm/download/index.html">PhpStorm 5.0.4 Update</a></li>
+                <li><a href="webstorm/download/index.html">WebStorm 5.0.4 Update</a></li>
+                <li><a href="idea/download/index.html">IntelliJ IDEA 11.1.4 Update</a></li>
+                <li><a href="pycharm/download/index.html">PyCharm 2.6.3 is Released</a></li>
+                <li><a href="objc/download/index.html">AppCode 1.6.2 is Available</a></li>
+                <li><a href="youtrack/download/index.html">YouTrack 4.0.4 Update</a></li>
+            </ul>
+            <p><a href="allnews.html">News archive &raquo;</a></p>
+        </div>
+
+        <!-- End of news -->
+
+        <div id="jetbrains_info">
+            <p>At JetBrains, we have a passion
+for making people more productive
+through smart software.</p>
+
+
+            <dl class="award">
+                <dt>Our Awards:</dt>
+                <dd class="dotnetRC">
+                    <a href="company/press/awards.html"><img alt=".NET Reader's Choice Award"
+                                                             src="img/home/dotnetReaderChoice_gray.png"/></a></dd>
+                <dd class="JDJ_rca">
+                    <a href="company/press/awards.html"><img alt="JDJ Reader's Choice Award"
+                                                             src="img/home/JDJ_rca_gray.png"/></a>
+
+                </dd>
+                <dd class="Jolt">
+                    <a href="company/press/awards.html"><img alt="Software development. Jolt"
+                                                             src="img/home/jolt_gray.png"/></a>
+
+                </dd>
+            </dl>
+
+            <dl class="customers">
+                <dt>Our Customers:</dt>
+
+                <dd class="customer1">
+                    <a href="company/customers">
+                        <img src="img/home/hp_gray.png" alt="Hewlett Packard"/>
+                    </a>
+                </dd>
+
+                <dd class="customer2">
+                    <a href="company/customers">
+                        <img src="img/home/ae_gray.png" alt="American Express"/>
+                    </a>
+                </dd>
+            </dl>
+        </div>
+
+    
+    </div>
+    <div id="content_enclosure">
+    <div id="content">
+        
+    <!-- Product list. Starting products block -->
+    <ul id="products_pan">
+        <!--<h2>Products</h2>-->
+
+        <li class="idea">
+            <h4><a href="idea/"><span>IntelliJ IDEA</span><br/>
+                <span class="desc">The Most Intelligent Java IDE</span>
+            </a></h4>
+        </li>
+
+        <li class="kotlin">
+            <h4><a href="http://kotlin.jetbrains.org"><span>Kotlin</span><img alt="Open sourced" src="img/icons/open-sourced.gif"/><br/>
+                <span class="desc">New Language for Kool Koding</span>
+            </a></h4>
+        </li>
+
+        <li class="objc">
+            <h4><a href="objc/"><span>AppCode</span><br/>
+                <span class="desc">Objective-C IDE</span>
+            </a></h4>
+        </li>
+
+        <li class="resharper">
+            <h4><a href="resharper/"><span>ReSharper</span><img alt="Just Released" src="img/icons/just-updated.gif"/><br/>
+                <span class="desc">Productivity Tool for .NET Developers</span>
+            </a></h4>
+        </li>
+
+        <li class="youtrack">
+            <h4><a href="youtrack/"><span>YouTrack</span><br/>
+                <span class="desc">Agile Issue &amp; Project Tracker</span>
+            </a></h4>
+        </li>
+
+        <li class="teamcity">
+            <h4><a href="teamcity/"><span>TeamCity</span><img alt="Just Released" src="img/icons/just-updated.gif"/><br/>
+                <span class="desc">Continuous Integration Server</span>
+            </a></h4>
+        </li>
+
+        <li class="dottrace">
+            <h4><a href="profiler/"><span>dotTrace</span><br/>
+                <span class="desc">.NET Performance and Memory Profiler</span>
+            </a></h4>
+        </li>
+
+        <li class="dotcover">
+            <h4><a href="dotcover/"><span>dotCover</span><br/>
+                <span class="desc">.NET Code Coverage Tool</span>
+            </a></h4>
+        </li>
+
+        <li class="decompiler">
+            <h4><a href="decompiler/"><span>dotPeek</span><br/>
+                <span class="desc">Free .NET Decompiler</span>
+            </a></h4>
+        </li>
+
+        <li class="rubymine">
+            <h4><a href="ruby/"><span>RubyMine</span><br/>
+                <span class="desc">Ruby on Rails IDE</span>
+            </a></h4>
+        </li>
+
+        <li class="phpstorm">
+            <h4><a href="phpstorm/"><span>PhpStorm</span><img alt="Just Released" src="img/icons/just-updated.gif"/><br/>
+                <span class="desc">IDE for HTML, JavaScript and PHP</span>
+            </a></h4>
+        </li>
+
+        <li class="webstorm">
+            <h4><a href="webstorm/"><span>WebStorm</span><img alt="Just Released" src="img/icons/just-updated.gif"/><br/>
+                <span class="desc">Lightweight JavaScript IDE</span></a></h4>
+        </li>
+
+        <li class="pycharm">
+            <h4><a href="pycharm/"><span>PyCharm</span><img alt="Just Released" src="img/icons/just-updated.gif"/><br/>
+                <span class="desc">Python IDE with Support for Django</span></a></h4>
+        </li>
+
+        <li class="mps">
+            <h4><a href="mps/"><span>MPS</span><br/>
+                <span class="desc">Meta Programming System</span>
+            </a></h4>
+        </li>
+
+        <!--<span class="all"> <a href="products.html">All products &raquo;</a></span>-->
+
+    </ul>
+    <!-- End of products pan -->
+        <script type="text/javascript" src="js2/swfobject.js"></script>
+        <div id="editorial">
+            <div id="rotate1" class="rotate">
+                <div id="genbanner0">
+                    <a href="phpstorm/whatsnew/index.html" class="hovered">
+                        <img src="img/banners/ps5.png" alt="PhpStorm 5.0 &mdash; PHP Coding at Its Finest"/>
+                    </a>
+                </div>
+            </div>
+            <div id="rotate2" class="rotate">
+                <div id="genbanner1">
+                    <a href="webstorm/whatsnew/index.html" class="hovered">
+                        <img src="img/banners/ws5.png" alt="WebStorm 5.0 &mdash; Productivity Through Innovation"/>
+                    </a>
+                </div>
+            </div>
+            <div id="rotate3" class="rotate">
+                <div id="genbanner2">
+                    <a href="resharper/whatsnew/index.html" class="hovered">
+                        <img src="img/banners/rs7.png" alt="ReSharper 7.0 Quick to Support Visual Studio 2012"/>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--End of trick code for swf banners. -->
+
+        <div id="content_inside">
+            <div id="annonces">
+                <h2>Recent Updates</h2>
+                <div class="one">
+                    <h3>PhpStorm 5.0 &mdash; PHP Coding at Its Finest</h3>
+                    <p>Professional PHP IDE gets an improved code editor for generic PHP stressing code quality, as well as extended support for framework-specific projects and a brand new, intelligent 'Live Edit' mode.
+                        <a href="phpstorm">Try PhpStorm 5!</a></p>
+                </div>
+                <div class="two">
+                    <h3>WebStorm 5.0 &mdash; Web Coding with Instant Feedback</h3>
+                    <p>The intelligent JavaScript IDE brings to life the latest innovations in web development workflow by introducing easy-to-use live page editing and adds more top-notch technologies and coding techniques.
+                        <a href="webstorm">Get it now!</a></p>
+                </div>
+                <div class="two">
+                    <h3>ReSharper 7.0 Quick to Support Visual Studio 2012</h3>
+                    <p>ReSharper 7.0 integrates into Visual Studio 2012; simplifies Metro style application development; provides new code inspections, contract annotations, refactorings and code hierarchy views. <a href="resharper/whatsnew/index.html">Learn more and download ReSharper 7.0</a>.</p>
+                </div>
+
+            </div>
+
+            <div id="events">
+                <h2>Meet Us at These Events</h2>
+
+                <div class="leftfloated block45">
+                    <img alt="Build Conference Fall 2012" src="img/logos/conf/logo_build.png"
+                         style="display:block; float:left; margin: 28px 0 0 10px"/>
+                    <h5>Build 2012</h5>
+                    <p>Redmond, WS</p>
+                    <p><a href="http://www.buildwindows.com/" target="_blank" title="Build Conference 2012">Oct 30 - Nov 2,
+                        2012</a></p>
+                </div>
+                <div class="leftfloated block50">
+                    <img alt="&Oslash;REDEV DEVELOPER CONFERENCE" src="img/logos/conf/logo_oredev.png"
+                         style="display:block; float:left; margin: 31px 0 0 10px;"/>
+                    <h5>&Oslash;REDEV 2012</h5>
+                    <p>Malm&ouml;, Sweden</p>
+                    <p><a href="http://oredev.org/2012" target="_blank" title="&Oslash;REDEV DEVELOPER CONFERENCE"> November 5-9,
+                        2012</a></p>
+                </div>
+                <div class="leftfloated block45">
+                    <img src="img/logos/conf/logo_w-jaxpng.png" alt="W-JAX 2012"
+                         style="display:block; float:left; margin: 20px 0 0 14px"/>
+                    <h5>W-JAX 2012</h5>
+                    <p>Munich, Germany</p>
+                    <p><a href="http://macoun.de/" target="_blank" title="W-JAX 2012">November 6-8,
+                        2012</a></p>
+                </div>
+                <div class="leftfloated block50">
+                    <img alt="DEVOXX 2012" src="img/logos/conf/logo_devoxx_head.png"
+                         style="display:block; float:left; margin: 11px 0 0 25px"/>
+                    <h5>DEVOXX 2012</h5>
+                    <p>Antwerp, Belgium</p>
+                    <p><a href="http://www.devoxx.com/display/DV12/Home" target="_blank" title="DEVOXX We code in peace">November 16-16,
+                        2012</a></p>
+                </div>
+
+
+            </div>
+
+
+
+            </div>
+
+        
+    </div>
+    </div>
+</div>
+<div id="footer">
+        <div id="inner">
+            <dl>
+                <dt>Products</dt>
+                <dd><a href="/idea/index.html">IntelliJ IDEA</a></dd>
+                <dd><a href="/resharper/index.html">ReSharper</a></dd>
+                <dd><a href="/profiler/index.html">dotTrace</a></dd>
+                <dd><a href="/teamcity/index.html">TeamCity</a></dd>
+                <dd><a href="/ruby/index.html">RubyMine</a></dd>
+                <dd><a href="/youtrack/">YouTrack</a></dd>
+                <dd><a href="/webstorm/">WebStorm</a></dd>
+                <dd><a href="/phpstorm/index.html">PhpStorm</a></dd>
+                <dd><a href="/pycharm/index.html">PyCharm</a></dd>
+                <dd><a href="/objc/index.html">AppCode</a></dd>
+                <dd class="last"><a href="/mps/index.html">MPS</a></dd>
+                <dd class="last rightfloated">Contact: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#108;&#101;&#115;&#64;&#106;&#101;&#116;&#98;&#114;&#97;&#105;&#110;&#115;&#46;&#99;&#111;&#109;">Sales Department</a>, <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#106;&#101;&#116;&#98;&#114;&#97;&#105;&#110;&#115;&#46;&#99;&#111;&#109;">Webmaster</a></dd>
+            </dl>
+            <dl>
+                <dt>Help</dt>
+                <dd><a href="http://www.jetbrains.net/devnet">Developer Community</a></dd>
+                <dd><a href="/support/index.html">Support</a></dd>
+                <dd><a href="/idea/webhelp/">IntelliJ IDEA Web Help</a></dd>
+                <dd><a href="/resharper/webhelp/">ReSharper Web Help</a></dd>
+                <dd class="last"><a href="/ruby/webhelp/">RubyMine Web Help</a></dd>
+                <dd class="last rightfloated">
+                    <dl>
+                        <dd><a href="/company/privacy.html">Privacy Policy</a></dd>
+                        <dd><a href="/company/useterms.html">Terms of Use</a></dd>
+                        <dd class="last"><a href="/map.html">Site map</a></dd>
+                    </dl>
+                </dd>
+            </dl>
+            <dl>
+                <dt>Company</dt>
+                <dd><a href="/company/">About</a></dd>
+                <dd><a href="/company/contacts/">Contact Us</a></dd>
+                <dd><a href="/company/customers/customer_list.html">Customer List</a></dd>
+                <dd><a href="/company/customers/testimonials.html">Testimonials</a></dd>
+                                <dd><a href="http://blogs.jetbrains.com/">Blogs</a></dd>
+                                <dd class="last"><a href="/company/jobs/">Jobs</a></dd>
+                <dd class="last rightfloated">&copy;2000-2012 JetBrains. All rights reserved</dd>
+            </dl>
+            <div id="tool">Developed with <a class="noborder" href="/webstorm">WebStorm</a></div>
+        </div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter16823155 = new Ya.Metrika({id:16823155, enableAll: true, webvisor:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/16823155" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></body>
+</html>

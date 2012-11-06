@@ -1,0 +1,194 @@
+compiz (core) - Info: Loading plugin: core
+compiz (core) - Info: Starting plugin: core
+compiz (core) - Info: Loading plugin: ccp
+compiz (core) - Info: Starting plugin: ccp
+compiz (core) - Info: Loading plugin: composite
+compiz (core) - Info: Starting plugin: composite
+compiz (core) - Info: Loading plugin: opengl
+compiz (core) - Info: Unity is not supported by your hardware. Enabling software rendering instead (slow).
+compiz (core) - Info: Unity is fully supported by your hardware.
+compiz (core) - Info: Starting plugin: opengl
+compiz (core) - Info: Loading plugin: compiztoolbox
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: decor
+compiz (core) - Info: Starting plugin: decor
+compiz (core) - Info: Loading plugin: vpswitch
+compiz (core) - Info: Starting plugin: vpswitch
+compiz (core) - Info: Loading plugin: snap
+compiz (core) - Info: Starting plugin: snap
+compiz (core) - Info: Loading plugin: mousepoll
+compiz (core) - Info: Starting plugin: mousepoll
+compiz (core) - Info: Loading plugin: resize
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Info: Loading plugin: place
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Info: Loading plugin: move
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Info: Loading plugin: wall
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Info: Loading plugin: grid
+compiz (core) - Info: Starting plugin: grid
+compiz (core) - Info: Loading plugin: regex
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Info: Loading plugin: imgpng
+compiz (core) - Info: Starting plugin: imgpng
+compiz (core) - Info: Loading plugin: session
+compiz (core) - Info: Starting plugin: session
+I/O warning : failed to load external entity "/home/nikulinn/.compiz/session/10e6ab56ba2c637e65135223656197111000000013770031"
+compiz (core) - Info: Loading plugin: gnomecompat
+compiz (core) - Info: Starting plugin: gnomecompat
+compiz (core) - Info: Loading plugin: animation
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Info: Loading plugin: fade
+compiz (core) - Info: Starting plugin: fade
+compiz (core) - Info: Loading plugin: unitymtgrabhandles
+compiz (core) - Info: Starting plugin: unitymtgrabhandles
+** Message: applet now removed from the notification area
+compiz (core) - Info: Loading plugin: workarounds
+compiz (core) - Info: Starting plugin: workarounds
+compiz (core) - Info: Loading plugin: scale
+compiz (core) - Info: Starting plugin: scale
+compiz (core) - Info: Loading plugin: expo
+compiz (core) - Info: Starting plugin: expo
+compiz (expo) - Warn: failed to bind image to texture
+compiz (core) - Info: Loading plugin: ezoom
+compiz (core) - Info: Starting plugin: ezoom
+compiz (core) - Info: Loading plugin: unityshell
+** Message: using fallback from indicator to GtkStatusIcon
+compiz (core) - Info: Starting plugin: unityshell
+** Message: moving back from GtkStatusIcon to indicator
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/ubuntu/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/ubuntu/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/gnome/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/gnome/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/local/share/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/local/share/unity-webapps/userscripts»: Нет такого файла или каталога
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+
+
+** (zeitgeist-datahub:1940): WARNING **: downloads-directory-provider.vala:113: Couldn't process /home/nikulinn/????????/PhpStorm-5.0.4 (2): Error when getting information for file '/home/nikulinn/????????/PhpStorm-5.0.4 (2)': No such file or directory
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+
+
+(gtk-window-decorator:1824): GLib-CRITICAL **: g_hash_table_remove_internal: assertion `hash_table != NULL' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/ubuntu/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/ubuntu/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/gnome/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/gnome/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/local/share/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/local/share/unity-webapps/userscripts»: Нет такого файла или каталога
+
+(firefox:8792): GLib-CRITICAL **: g_variant_new_string: assertion `string != NULL' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_boolean: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+(firefox:8792): GLib-CRITICAL **: g_variant_get_uint32: assertion `g_variant_is_of_type (value, G_VARIANT_TYPE_UINT32)' failed
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/ubuntu/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/ubuntu/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/share/gnome/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/share/gnome/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (firefox:8792): WARNING **: Failed to open webapp application path dir /usr/local/share/unity-webapps/userscripts: Произошла ошибка при открытии каталога «/usr/local/share/unity-webapps/userscripts»: Нет такого файла или каталога
+
+** (zeitgeist-datahub:1940): WARNING **: downloads-directory-provider.vala:113: Couldn't process /home/nikulinn/????????/jdk-7-linux-i586 (2): Error when getting information for file '/home/nikulinn/????????/jdk-7-linux-i586 (2)': No such file or directory
+ноя 07, 2012 12:19:50 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+ноя 07, 2012 12:19:50 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /home/nikulinn/.java/.userPrefs/prefs.xml
+/home/nikulinn/downloads/PhpStorm/bin/phpstorm.sh: 178: /home/nikulinn/downloads/PhpStorm/bin/phpstorm.sh: NAME: not found
+/home/nikulinn/downloads/PhpStorm/bin/phpstorm.sh: 180: /home/nikulinn/downloads/PhpStorm/bin/phpstorm.sh: Syntax error: "done" unexpected
+
+** (zeitgeist-datahub:1940): WARNING **: downloads-directory-provider.vala:113: Couldn't process /home/nikulinn/????????/agent.jar_ (2): Error when getting information for file '/home/nikulinn/????????/agent.jar_ (2)': No such file or directory
+
+** (zeitgeist-datahub:1940): WARNING **: downloads-directory-provider.vala:113: Couldn't process /home/nikulinn/????????/agent.jar_: Error when getting information for file '/home/nikulinn/????????/agent.jar_': No such file or directory
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+
+Nautilus-Share-Message: Called "net usershare info" but it failed: Ошибка 255 при запуске 'net usershare': net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Нет такого файла или каталога
+Please ask your system administrator to enable user sharing.
+

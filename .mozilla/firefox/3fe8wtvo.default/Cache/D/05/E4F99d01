@@ -1,0 +1,551 @@
+    <!DOCTYPE html>
+<html>
+<head>
+
+    <title>PHP IDE :: JetBrains PhpStorm</title>
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+    <meta name="author" content="JetBrains, Inc., http://www.jetbrains.com"/>
+
+                  <meta class="local" name="keywords" content="PHP IDE, php editor, php code editor, javascript editor, javascript php, php windows, php linux, php mac, web development, php programming"/>  <meta class="local" name="description" content="Smart PHP IDE with refactorings, code completion, on-the-fly code analysis and coding productivity orientation"/>     
+                <link rel="stylesheet" type="text/css" media="screen" href="styleset1.css?ver=15102012"/>
+    
+     <link rel="stylesheet" type="text/css" media="screen" href="styleset1.css"/> 
+    <link rel="stylesheet" type="text/css" media="handheld" href="/styles2/mobile.css"/>
+    <link rel="alternate stylesheet" type="text/css" media="screen"
+          href="/styles2/alternate_styles/alternate_style.css" title="textmode"/>
+    
+    <noscript>
+        <link rel="stylesheet" type="text/css" media="screen" href="/styles2/noscript.css"/>
+    </noscript>
+    <script type="text/javascript" src="/js2/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js2/html5.js"></script>
+         <link rel="stylesheet" type="text/css" media="screen" href="styleset1.css"/>              <script type="text/javascript" src="../js2/checkOS.js"></script>                      <script type="text/javascript" src="../js2/button_download.js"></script>                      <script type="text/javascript" src="../js2/cookie.js"></script>                      <script src="../js2/jquery/fancybox.js" type="text/javascript"></script>                      <script type="text/javascript">
+        function newsJetBrains(e) {
+            deleteCookie("downloadFile", "/");
+            form = document.getElementById("sendEmail");
+            form.os.value = e;
+            if (form) {
+                form.submit();
+            }
+        }
+    </script>                      <script type="text/javascript">
+        $(document).ready(function() {
+        $(".videopopup").fancybox({
+            'width'			    : 830,
+            'height'			: 480,
+            'autoScale'			: false,
+            'transitionIn'		: 'none',
+            'transitionOut'		: 'none',
+            'type'				: 'iframe'
+        });
+    });
+    </script>                      <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>                                                     
+        
+        
+<link rel="canonical" href="http://www.jetbrains.com/phpstorm/" />
+
+
+                <link rel="Shortcut Icon" href="/phpstorm/favicon.ico" type="image/x-icon"/>
+        
+        <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(
+    ['_setAccount', 'UA-940435-18'],
+    ['_trackPageview'],
+    ['all._setAccount', 'UA-940435-1'],
+    ['all._trackPageview']
+);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script></head>
+
+<body id="products" class="phpstorm overview wide subscription" >
+
+<header>
+    <div class="container">
+        <a class="jb_logo" href="/index.html"><img alt="JetBrains home" src="/img/logo_bw.gif"></a>
+        <ul id="jb_nav">
+            <li class="why"><a title="Why JetBrains" href="/why/index.html">Why JetBrains</a></li>
+            <li class="products"><a title="Products" href="/products.html">Products</a></li>
+            <li class="support"><a title="Support" href="/support/index.html">Support</a></li>
+            <li class="devnet"><a title="Community" href="/devnet/index.html">Community</a></li>
+            <li class="partners"><a title="Partners" href="/partners/index.html">Partners</a></li>
+            <li class="company"><a title="Company" href="/company/index.html">Company</a></li>
+            <li class="yourcart"><a href="/eshop/shopping/displayCartDetails.do">Cart</a></li>
+            <li class="search">
+                <form onsubmit="return checkWords(this);" name="formSearch" action="/scripts/search" method="get">
+                    <fieldset>
+                    <label><input type="hidden" value="" id="restrict" name="restrict"/></label>
+                    <label><input type="hidden" value="/idea/docs/|/idea/openapi/|/resharper/documentation/" id="exclude" name="exclude"/></label>
+                    <label><input type="hidden" value="and" name="method"/></label>
+                    <label><input type="hidden" value="score" name="sort"/></label>
+                    <label><input type="text" onfocus="focusOn(document.forms['formSearch'])" onblur="blurOn(document.forms['formSearch'])" onkeyup="DokeyupOn(document.forms['formSearch'])" value="" class="words" name="words"/></label>
+                    <label><input type="image" alt="Search" src="http://www.jetbrains.com/img/newdesign/search.gif" class="image"/></label>
+                    </fieldset>
+                </form>
+            </li>
+        </ul>
+    </div>
+</header>
+<div id="product">
+    <div class="container">
+            <a class="home_product" href="/phpstorm/">PhpStorm</a>
+    
+                         
+        
+
+        
+
+    </div>
+</div>
+<nav>
+    <div class="container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--start_noindex-->
+
+   <ul class="nav">
+
+        <li class="current">Overview</li>
+
+        <li class="whatsnew"><a href="/phpstorm/whatsnew/index.html" title="What's New">What's New</a></li>
+
+        <li class="features"><a href="/phpstorm/features/index.html" title="Features &amp; Screenshots">Features &amp; Screenshots</a></li>
+
+        <li class="documentation"><a href="/phpstorm/documentation/index.html" title="Docs &amp; Demos">Docs &amp; Demos</a></li>
+
+        <li class="quickstart"><a href="/phpstorm/quickstart/index.html" title="Quickstart Guide">Quickstart Guide</a></li>
+
+        <li class="download"><a href="/phpstorm/download/index.html" title="Download">Download</a></li>
+
+        <li class="buy"><a href="/phpstorm/buy/index.jsp" title="Buy &amp; Upgrade">Buy &amp; Upgrade</a></li>
+
+    </ul>
+
+
+<!--end_noindex-->
+
+
+
+    </div>
+</nav>
+
+<div id="main">
+    <div class="container">
+        <div id="content">
+                                                            
+            
+        <h1>Lightweight and Smart PHP IDE</h1>
+        <form action="download/download_thanks.jsp" id="sendEmail">
+            <input type="hidden" name="os" value=""/>
+        </form>
+
+        <div class="leftfloated block65">
+            <p class="intro">PhpStorm is a lightweight and smart PHP IDE focused on developer productivity that deeply understands your code, provides smart code completion, quick navigation and on-the-fly error checking. It is always ready to help you shape your code, run unit-tests or provide visual debugging.</p>
+            <!--<p><a href="whatsnew/index.html">See what's new in PhpStorm 4.0 &raquo;</a></p>-->
+            <br/>
+            <p>Note: PhpStorm includes all the functionality of <a href="../webstorm">WebStorm</a> (<a href="../editors/html_xhtml_css_editor.jsp?ide=phpstorm">HTML/CSS Editor</a>, <a href="../editors/javascript_editor.jsp?ide=phpstorm">JavaScript Editor</a>) and adds full-fledged support for PHP.</p>
+            <div class="leftfloated checkIDE">
+            <h4 class="archer">Check out <a href="../webide/index.html" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'WebIDE']);">more JetBrains IDEs</a> for:</h4>
+            <ul>
+                <li class="java"><a href="../webide/index.html?java" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'WebIDE :: JAVA']);">WebStorm &mdash; JavaScript IDE. JAVA</a></li>
+                <li class="php"><a href="../webide/index.html?php" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'WebIDE :: PHP']);">PhpStorm &mdash; JavaScript IDE. PHP</a></li>
+                <li class="ruby"><a href="../webide/index.html?ruby" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'WebIDE :: RUBY']);">RubyMine &mdash; JavaScript IDE. RUBY</a></li>
+                <li class="python"><a href="../webide/index.html?python" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'WebIDE :: Python']);">Python &mdash; JavaScript IDE. Python</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="rightfloated block25 fresh">
+            <h2>PhpStorm 5 Released!</h2>
+            <ul>
+                <li>Better type inference engine for PHP</li>
+                <li>MVC view for Symfony2 &amp; Yii projects</li>
+                <li>Live Edit for PHP, HTML, JS, CSS</li>
+                <li>Built-in PSR1/PSR2 styles &amp; more&hellip;</li>
+            </ul>
+            <p class="learn_more smalltext"><a title="What's new in PhpStorm 5" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'What\'s new']);" href="whatsnew/index.html">Learn more and try PhpStorm 5 &raquo;</a></p>
+            <div class="leftfloated block100" id="buttonDownloadPS">
+                <a class="button_download ps"  onclick="newsJetBrains('win');"><span>Get PhpStorm 5</span></a>
+                <p class="comment smallertext">Free 30-day trial for Windows (93.5MB) <a href="download/index.html" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'Features']);">more &raquo;</a></p>
+            </div>
+        </div>
+        <br class="clr"/><br/>
+
+        <h2>PhpStorm Key Features</h2>
+        <!--<hr class="double"/>-->
+        <!--<br class="clr"/><br/>-->
+
+        <div class="leftfloated pcScreenshot">
+            <div class="leftfloated img screenshot shadow"><img src="img/PS_completion.png" alt="Intelligent PHP IDE"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Intelligent_PHP_Editor">Intelligent PHP Editor</a></h6>
+                <ul class="starlist">
+                    <li>PHP code completion</li>
+                    <li>Smart duplicated code detector</li>
+                    <li>PHP refactoring</li>
+                    <li><a title="Smarty support in PhpStorm" href="http://blogs.jetbrains.com/webide/2010/12/develop-your-apps-using-smarty-3-and-phpstorm/">Smarty</a> and PHPDoc support</li>
+                    <li>Language mixing (JS/SQL/XML etc.)</li>
+                </ul>
+            </div>
+            <br class="clr"/><br/>
+
+            <div class="leftfloated img screenshot shadow"><img src="img/PS_JavaScript.gif" alt="PHP IDE with with HTML/CSS and JavaScript Support"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Advanced_JavaScript_Editor">Advanced JavaScript Editor</a></h6>
+                <ul class="starlist">
+                    <li>DOM-based/browser-specific completion</li>
+                    <li>Code navigation and usages search</li>
+                    <li>JavaScript refactoring</li>
+                    <li>JavaScript debugger</li>
+                </ul>
+            </div>
+            <br class="clearedL"/><br/>
+
+            <div class="leftfloated img screenshot shadow"><img src="img/PS_css_html.png" alt="PHP IDE with with HTML/CSS and JavaScript Support"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Advanced_HTML_XHTML_CSS_Editor">HTML/CSS Editor</a></h6>
+                <ul class="starlist">
+                    <li>HTML5 Support</li>
+                    <li>Zen coding</li>
+                    <li>Validation and quick-fixes</li>
+                    <li>Show applied styles</li>
+                    <li>Extract embedded styles</li>
+                </ul>
+            </div>
+            <br class="clr"/><br/>
+        </div>
+
+        <div class="rightfloated pcScreenshot">
+            <div class="leftfloated img screenshot shadow"><img  src="img/PS_ide.gif" alt="Lighweight PHP IDE"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Lightweight_IDE">Lightweight IDE</a></h6>
+                <ul class="starlist">
+                    <li>Easy installation</li>
+                    <li>Runs on Windows, Mac OS X, Linux</li>
+                    <li>Easy project configuration &mdash; open code from anywhere and start working</li>
+                    <li>Key priority &mdash; performance</li>
+                </ul>
+            </div>
+            <br class="clr"/><br/>
+
+            <div class="leftfloated img screenshot shadow"><img src="img/PS_tests.png" alt="Smart PHP IDE"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Smart_Environment">Smart Environment</a></h6>
+                <ul class="starlist">
+                    <li>Visual PHPUnit test-runner</li>
+                    <li>VCS support: SVN, Git, Mercurial, etc</li>
+                    <li>PHP UML, UML diff for changes</li>
+                    <li>FTP and remote files synchronization</li>
+                    <li>Local changes history</li>
+                </ul>
+            </div>
+            <br class="clr"/><br/>
+            
+            <div class="leftfloated img screenshot shadow"><img src="img/PS_debug.png" alt="PHP IDE with visual debugging"/></div>
+            <div class="leftfloated block55">
+                <h6><a href="features/index.html#Visual_PHP_Debugger">Visual Debugging</a></h6>
+                <ul class="starlist">
+                    <li>Zero-configuration debugger</li>
+                    <li>Breakpoints in PHP, JS, HTML</li>
+                    <li>Inspect variables, watches</li>
+                    <li>Batch code analysis</li>
+                    <li>Profiler integration</li>
+                </ul>
+            </div>
+        </div>
+        <br class="clr"/><br/>
+
+        <a class="bright_link features archer" href="features/index.html" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'Features']);"><span>Check other PhpStorm features</span></a>
+
+
+        <div class="footer">
+            <div class="leftfloated block25">
+            <div class="block85">
+                <h3 class="underline">See Also</h3>
+                <ul class="starlist">
+                    <li><a href="features/index.html" title="PhpStorm Features and Screenshots" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'Features :: from Footer']);">Features</a></li>
+                    <li><a href="whatsnew/index.html" title="What's New in PhpStorm 5" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'What\'s New :: from Footer']);">What's New in PhpStorm 5</a></li>
+                    <!--<li><a href="quickstart/?fromIndex" title="PhpStorm Quickstart Guide">Quickstart Guide</a></li>-->
+                    <li><a href="http://tv.jetbrains.net/channel/phpstorm" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'TV']);" title="PhpStorm Demos and Screencasts">Demos and Screencasts</a></li>
+                    <li><a href="http://plugins.jetbrains.net/?webide" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Plugins']);" title="PhpStorm Plugins">IDE Plugins</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="leftfloated block20">
+                <h3 class="underline">Communicate</h3>
+                <ul class="starlist feedback">
+                    <li><a class="forum nol" href="http://devnet.jetbrains.net/community/wi/" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Forum']);" title="PhpStorm Discussion Forums">Community forum</a></li>
+                    <li><a class="rss nol" href="http://blogs.jetbrains.com/webide" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Blog']);" title="PhpStorm Official Blog">PhpStorm blog</a></li>
+                    <li><a class="bugtracker" href="http://youtrack.jetbrains.net/dashboard/WI#tab=0" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'JIRA']);" title="PhpStorm Bug Tracker">Bug tracker</a></li>
+                    <li><a class="twitter nol" href="http://twitter.com/webide" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Twitter']);" title="PhpStorm Twitter">Follow us on Twitter</a></li>
+                </ul>
+            </div>
+            <div class="rightfloated block45 downloads">
+                <h3>Buy and Upgrade</h3>
+                <dl class="download">
+                    <dd><a class="noborder" href="buy/index.jsp" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'Buy :: from Footer']);">Licensing options and prices</a></dd>
+                    <dt class="comment smalltext">Flexible licensing. Free for open source projects</dt>
+                </dl>
+                <dl class="download">
+                    <dd><a class="noborder" href="buy/buy.jsp#renew" onClick="_gaq.push(['_trackEvent', 'Follow links', 'Internal', 'Upgrad :: from Footer']);">Upgrading to PhpStorm 5</a></dd>
+                    <dt class="comment smalltext">Only licenses purchased before Sep 12, 2011 need upgrade.</dt>
+                </dl>
+            </div>
+        </div>
+        <br class="clr"/>
+
+        <div class="leftfloated like">
+            <ul>
+                <li><g:plusone size="medium"></g:plusone></li>
+                <li><a href="http://twitter.com/share" class="twitter-share-button" data-text="PhpStorm - hands down the best PHP IDE!" data-count="horizontal" data-via="webide" data-hashtags="HTML,JS">Tweet</a><script charset="local" type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+                <li><div id="fb-root"></div><script charset="local" type="text/javascript" src="http://connect.facebook.net/en_US/all.js#appId=225642620794980&xfbml=1"></script><fb:like href="http://www.jetbrains.com/phpstorm/" send="false" layout="button_count" width="200" show_faces="false" font="arial"></fb:like></li>
+            </ul>
+        </div>
+
+
+
+
+
+    
+                            <div class="leftfloated">
+                
+
+
+<script type='text/javascript' src='/eforms/dwr/interface/SubscriptionService.js'></script>
+<script type='text/javascript' src='/eforms/dwr/engine.js'></script>
+
+<script type="text/javascript">
+    function trim(str) {
+        return str.replace(/^\s+|\s+$/g, '');
+    }
+    function errMsg(state) {
+        var msg = document.getElementById('error-msg');
+        if (state)msg.style.display = 'block';
+        else msg.style.display = 'none';
+    }
+    function validateEmail(valfield) {
+        var tfld = trim(valfield.value);
+        var email = /^[^@]+@[^@.]+\.[^@]*\w\w$/  ;
+        if (!email.test(tfld)) {
+            errMsg(true);
+            return false;
+        }
+        errMsg(false);
+        return true;
+    }
+    function Proceed() {
+        var el = document.getElementById('emaiForSubscription');
+        if (!validateEmail(el)) {
+            el.focus();
+            return;
+        }
+        document.getElementById('sForm').style.display = "none";
+        document.getElementById('progress').style.display = "block";
+        var request = {
+            email: document.getElementById('emaiForSubscription').value,
+            topic: "jb.webide.announce"
+        };
+        SubscriptionService.submitSubscriptionRequest(request, {
+            callback: function (result) {
+                setMessage(result ? "You request has been processed! Please check your mailbox." : "Internal error.");
+            },
+            timeout: 30000,
+            errorHandler:function(message) {
+                setMessage("Oops: " + message);
+            }
+        });
+        function setMessage(text) {
+            var span = document.getElementById("formContainer");
+            span.style.display = "block";
+            span.innerHTML = text;
+            document.getElementById('progress').style.display = "none";
+        }
+    }
+    function doBlurOn(el) {
+        if (el.value == '') {
+            el.value = 'Email PhpStorm news to me';
+        }
+    }
+    function doFocusOn(el) {
+        /*alert("ss");*/
+        if (el.value == 'Email PhpStorm news to me') {
+            el.value = '';
+        }
+    }
+</script>
+<dl id="submitionContent" class="subcription">
+    
+    <dd id="formContainer">
+        <form action="javascript:get();" name="sForm" id="sForm">
+            <input class="text required" name="emaiForSubscription" id="emaiForSubscription" value="Email PhpStorm news to me" onblur="doBlurOn(this)" onfocus="doFocusOn(this)"/>
+            <input type="submit" class="submit" id="button" value="Subscribe" onclick="Proceed();"/>
+            <span class="msg" id="error-msg" style="display:none;">Incorrect e-mail address</span>
+        </form>
+    </dd>
+    <dd id="progress" style="display:none;"></dd>
+</dl>
+
+                </div>
+                <br class="clr"/>
+                                </div>
+        <aside>
+                    </aside>
+        <br class="clr"/>
+    </div>
+</div>
+
+
+<!-- Google Code - site Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1071903267;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "oFEOCNCi8QEQo-SP_wM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1071903267/?label=oFEOCNCi8QEQo-SP_wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<footer>
+    <div class="container">
+        <div class="leftfloated block55 products">
+            <h6>Products</h6>
+            <div class="leftfloated block50">
+                <ul>
+                    <li><a href="/idea/">Java IDE &mdash; IntelliJ IDEA</a></li>
+                    <li><a href="/phpstorm/">PHP IDE &mdash; PhpStorm</a></li>
+                    <li><a href="/webstorm/">JavaScript IDE &mdash; WebStorm</a></li>
+                    <li><a href="/pycharm/">Python and Django IDE &mdash; PyCharm</a></li>
+                    <li><a href="/ruby/">Ruby &amp; Rails IDE &mdash; RubyMine</a></li>
+                    <li><a href="/objc/">Objective-C IDE &mdash; AppCode</a></li>
+                    <li class="mps"><a href="/mps/">Language-oriented programming &mdash; MPS</a></li>
+                </ul>
+            </div>
+            <div class="rightfloated block50">
+                <ul>
+                    <li><a href="/resharper/">Visual Studio extension &mdash; ReSharper</a></li>
+                    <li><a href="/profiler/">.NET profiler &mdash; dotTrace</a></li>
+                    <li><a href="/dotcover/">.NET code coverage tool &mdash; dotCover</a></li>
+                    <li><a href="/decompiler/">Free .NET decompiler &mdash; dotPeek</a></li>
+                    <li><a href="/teamcity/">Continuous integration &mdash; TeamCity</a></li>
+                    <li><a href="/youtrack/">Issue and bug tracker &mdash; YouTrack</a></li>
+                </ul>
+            </div>
+            <br class="clr"/>
+            <p class="why"><a href="/why/">Why choose JetBrains tools?</a></p>
+        </div>
+        <div class="rightfloated block35">
+            <div class="leftfloated block45">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="/company/">About</a></li>
+                    <li><a href="/company/press/">Press room</a></li>
+                    <li><a href="/company/customers/">Customers</a></li>
+                    <li><a href="/company/customers/testimonials.html">Testimonials</a></li>
+                    <li><a href="/partners/">Partners</a></li>
+                    <li><a href="/company/press/awards.html">Awards</a></li>
+                    <li><a href="/company/jobs/">Careers</a></li>
+                    <li><a href="/company/contacts/">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="rightfloated block45">
+                <h6>Support</h6>
+                <ul>
+                    <li><a href="/support/">Support center</a></li>
+                    <li><a href="/devnet/">Community forums</a></li>
+                </ul>
+                <h6 class="social">Networking</h6>
+                <ul>
+                    <li><a href="http://blogs.jetbrains.com/" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Blogs']);">JetBrains blogs</a></li>
+                    <li><a href="http://twitter.com/#!/jetbrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Twitter']);">Twitter</a></li>
+                    <li><a href="http://www.facebook.com/JetBrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Facebook']);">Facebook</a></li>
+                    <li><a href="http://www.linkedin.com/company/jetbrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'LinkedIn']);">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <br class="clr"/>
+    </div>
+</footer>
+<div id="footer">
+    <div class="container">
+        <ul>
+            <li>&copy; JetBrains.com</li>
+            <li><a href="/company/privacy.html">Privacy Policy</a></li>
+            <li><a class="border_no" href="/company/useterms.html">Terms of Use</a></li>
+            <li class="rightfloated marketing"><a href="mailto:marketing@jetbrains.com">Marketing</a></li>
+            <li class="rightfloated"><a href="mailto:sales@jetbrains.com">Sales</a></li>
+            <li class="rightfloated"><a href="mailto:webmaster@jetbrains.com">Webmaster</a></li>
+            <li class="rightfloated">Contacts:</li>
+        </ul>
+    </div>
+</div>                                    <script type="text/javascript" src="/js2/search.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter16823155 = new Ya.Metrika({id:16823155, enableAll: true, webvisor:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/16823155" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></body>
+</html>

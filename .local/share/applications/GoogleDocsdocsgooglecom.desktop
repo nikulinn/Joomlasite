@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Google Docs
+Type=Application
+Icon=Google Docs-docs.google.com
+MimeType=application/pdf;application/vnd.ms-word;application/vnd.oasis.opendocument.text;text/plain;
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'R29vZ2xlIERvY3MA' -d 'docs.google.com' %u

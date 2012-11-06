@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=GMail
+Type=Application
+Icon=GMail-mail.google.com
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'R01haWwA' -d 'mail.google.com' %u

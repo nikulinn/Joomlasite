@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Thank you for downloading PhpStorm</title>
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+    <meta name="author" content="JetBrains, Inc., http://www.jetbrains.com"/>
+
+                    <meta http-equiv="cache-control" content="no-cache"/>  <meta http-equiv="pragma" content="no-cache"/>  <meta http-equiv="expires" content="0"/>     
+                <link rel="stylesheet" type="text/css" media="screen" href="styleset1.css?ver=15102012"/>
+    
+    
+    <link rel="stylesheet" type="text/css" media="handheld" href="/styles2/mobile.css"/>
+    <link rel="alternate stylesheet" type="text/css" media="screen"
+          href="/styles2/alternate_styles/alternate_style.css" title="textmode"/>
+    
+    <noscript>
+        <link rel="stylesheet" type="text/css" media="screen" href="/styles2/noscript.css"/>
+    </noscript>
+    <script type="text/javascript" src="/js2/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/js2/html5.js"></script>
+                                           <script type="text/javascript" src="../../js2/cookie.js"></script>                      <script type="text/javascript">                      $(document).ready(function() {                      var os = 'linux';                      var getCookieDownload = getCookie("downloadFile");                      var url = 'http://download.jetbrains.com/webide/PhpStorm-5.0.4.tar.gz';                      if (url && getCookieDownload != os) {                      location.href = url;                      setCookie("downloadFile", os, "/", "/");                      }                      });                      </script>                      <script type="text/javascript">                      var _gaq = _gaq || [];                      _gaq.push(                      ['_setAccount', 'UA-940435-18'],                      ['_trackPageview', '/phpstorm/download/start'],                      ['all._setAccount', 'UA-940435-1'],                      ['all._trackPageview']                      );                      </script>             
+        
+        
+<link rel="canonical" href="http://www.jetbrains.com/phpstorm/download/download_thanks.jsp" />
+
+
+                <link rel="Shortcut Icon" href="/phpstorm/favicon.ico" type="image/x-icon"/>
+        
+        <script type="text/javascript">
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script></head>
+
+<body id="products" class="phpstorm down wide" >
+
+<header>
+    <div class="container">
+        <a class="jb_logo" href="/index.html"><img alt="JetBrains home" src="/img/logo_bw.gif"></a>
+        <ul id="jb_nav">
+            <li class="why"><a title="Why JetBrains" href="/why/index.html">Why JetBrains</a></li>
+            <li class="products"><a title="Products" href="/products.html">Products</a></li>
+            <li class="support"><a title="Support" href="/support/index.html">Support</a></li>
+            <li class="devnet"><a title="Community" href="/devnet/index.html">Community</a></li>
+            <li class="partners"><a title="Partners" href="/partners/index.html">Partners</a></li>
+            <li class="company"><a title="Company" href="/company/index.html">Company</a></li>
+            <li class="yourcart"><a href="/eshop/shopping/displayCartDetails.do">Cart</a></li>
+            <li class="search">
+                <form onsubmit="return checkWords(this);" name="formSearch" action="/scripts/search" method="get">
+                    <fieldset>
+                    <label><input type="hidden" value="" id="restrict" name="restrict"/></label>
+                    <label><input type="hidden" value="/idea/docs/|/idea/openapi/|/resharper/documentation/" id="exclude" name="exclude"/></label>
+                    <label><input type="hidden" value="and" name="method"/></label>
+                    <label><input type="hidden" value="score" name="sort"/></label>
+                    <label><input type="text" onfocus="focusOn(document.forms['formSearch'])" onblur="blurOn(document.forms['formSearch'])" onkeyup="DokeyupOn(document.forms['formSearch'])" value="" class="words" name="words"/></label>
+                    <label><input type="image" alt="Search" src="http://www.jetbrains.com/img/newdesign/search.gif" class="image"/></label>
+                    </fieldset>
+                </form>
+            </li>
+        </ul>
+    </div>
+</header>
+<div id="product">
+    <div class="container">
+            <a class="home_product" href="/phpstorm/">PhpStorm</a>
+    
+                         
+        
+
+        
+
+    </div>
+</div>
+<nav>
+    <div class="container">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--start_noindex-->
+
+   <ul class="nav">
+
+        <li class="phpstorm"><a href="/phpstorm/index.html" title="Overview">Overview</a></li>
+
+        <li class="whatsnew"><a href="/phpstorm/whatsnew/index.html" title="What's New">What's New</a></li>
+
+        <li class="features"><a href="/phpstorm/features/index.html" title="Features &amp; Screenshots">Features &amp; Screenshots</a></li>
+
+        <li class="documentation"><a href="/phpstorm/documentation/index.html" title="Docs &amp; Demos">Docs &amp; Demos</a></li>
+
+        <li class="quickstart"><a href="/phpstorm/quickstart/index.html" title="Quickstart Guide">Quickstart Guide</a></li>
+
+        <li class="current"><a href="/phpstorm/download/index.html" title="Download">Download</a></li>
+
+        <li class="buy"><a href="/phpstorm/buy/index.jsp" title="Buy &amp; Upgrade">Buy &amp; Upgrade</a></li>
+
+    </ul>
+
+
+<!--end_noindex-->
+
+
+
+    </div>
+</nav>
+
+<div id="main">
+    <div class="container">
+        <div id="content">
+                                                            
+            
+<h1>Thank you for downloading PhpStorm!</h1>
+
+<div class="box nota_bene licenseKey">
+    <p>Your download should start shortly. If it doesn't, please <a href="http://download.jetbrains.com/webide/PhpStorm-5.0.4.tar.gz">click here</a>.</p>
+</div>
+<br/>
+<p class="leftfloated block55">Enter your e-mail to be notified when a new version becomes available:</p>
+<div class="leftfloated">
+    
+
+
+<script type='text/javascript' src='/eforms/dwr/interface/SubscriptionService.js'></script>
+<script type='text/javascript' src='/eforms/dwr/engine.js'></script>
+
+<script type="text/javascript">
+    function trim(str) {
+        return str.replace(/^\s+|\s+$/g, '');
+    }
+    function errMsg(state) {
+        var msg = document.getElementById('error-msg');
+        if (state)msg.style.display = 'block';
+        else msg.style.display = 'none';
+    }
+    function validateEmail(valfield) {
+        var tfld = trim(valfield.value);
+        var email = /^[^@]+@[^@.]+\.[^@]*\w\w$/  ;
+        if (!email.test(tfld)) {
+            errMsg(true);
+            return false;
+        }
+        errMsg(false);
+        return true;
+    }
+    function Proceed() {
+        var el = document.getElementById('emaiForSubscription');
+        if (!validateEmail(el)) {
+            el.focus();
+            return;
+        }
+        document.getElementById('sForm').style.display = "none";
+        document.getElementById('progress').style.display = "block";
+        var request = {
+            email: document.getElementById('emaiForSubscription').value,
+            topic: "jb.webide.announce"
+        };
+        SubscriptionService.submitSubscriptionRequest(request, {
+            callback: function (result) {
+                setMessage(result ? "You request has been processed! Please check your mailbox." : "Internal error.");
+            },
+            timeout: 30000,
+            errorHandler:function(message) {
+                setMessage("Oops: " + message);
+            }
+        });
+        function setMessage(text) {
+            var span = document.getElementById("formContainer");
+            span.style.display = "block";
+            span.innerHTML = text;
+            document.getElementById('progress').style.display = "none";
+        }
+    }
+    function doBlurOn(el) {
+        if (el.value == '') {
+            el.value = 'Email PhpStorm news to me';
+        }
+    }
+    function doFocusOn(el) {
+        /*alert("ss");*/
+        if (el.value == 'Email PhpStorm news to me') {
+            el.value = '';
+        }
+    }
+</script>
+<dl id="submitionContent" class="subcription">
+    
+    <dd id="formContainer">
+        <form action="javascript:get();" name="sForm" id="sForm">
+            <input class="text required" name="emaiForSubscription" id="emaiForSubscription" value="Email PhpStorm news to me" onblur="doBlurOn(this)" onfocus="doFocusOn(this)"/>
+            <input type="submit" class="submit" id="button" value="Subscribe" onclick="Proceed();"/>
+            <span class="msg" id="error-msg" style="display:none;">Incorrect e-mail address</span>
+        </form>
+    </dd>
+    <dd id="progress" style="display:none;"></dd>
+</dl>
+
+</div>
+<br class="clr"/><br/>
+<div class="leftfloated block40">
+    <h4>Join the PhpStorm Community!</h4>
+    <ul class="starlist">
+        <li>Subscribe to <a href="http://blogs.jetbrains.com/webide" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Blog']);">our blog</a></li>
+        <li>Follow <a href="http://twitter.com/webide" onClick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Twitter']);">@webide on Twitter</a></li>
+        <li>Visit <a href="http://devnet.jetbrains.com/community/wi?view=discussions" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Forum']);">our discussion forum</a>.</li>
+    </ul>
+</div>
+<div class="leftfloated block55">
+    <h4>New to PhpStorm?</h4>
+    <ul class="starlist">
+        <li>Print <a href="../../webstorm/documentation/WebStorm_ReferenceCard.pdf">keyboard shortcuts</a> to become more productive even faster </li>
+        <li>Check out the <a href="../../phpstorm/documentation/index.html">Doc &amp; Demos</a> page</li>
+        <li>Browse Tips of the Day inside the IDE</li>
+    </ul>
+</div>
+<br class="clr"/><br/>
+<hr/>
+<div class="block45 leftfloated">
+    <div class="block70 jbIDE nobackgr">
+        <h6>Use other programming languages?</h6>
+        <ul>
+            <li><a href="../../webide/index.html#java"><img src="../../img/logos/ideJava.png" alt="Java"></a></li>
+            <li><a href="../../webide/index.html#js"><img src="../../img/logos/ideJs.png" alt="Javascript"></a></li>
+            <li><a href="../../webide/index.html#ruby"><img src="../../img/logos/ideRuby.png" alt="Ruby"></a></li>
+            <li><a href="../../webide/index.html#python"><img src="../../img/logos/idePython.png" alt="Python"></a></li>
+        </ul>
+        <p>- Check <a href="../../webide/" title="JetBrains IDEs for your language">JetBrains IDEs for your language</a>!</p>
+    </div>
+</div>
+<div class="leftfloated block45 yt">
+    <h6>Try JetBrains Teamware Tools!</h6>
+    <p>Take a look at our <strong>keyboard-centric</strong><br/><a href="../../youtrack/" id="vn14" title="bug tracker - YouTrack">bug tracker - YouTrack</a>.</p>
+</div>
+<br class="clr"/>
+
+<!-- Google Code for PHPstorm Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1071903267;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "6aAhCOC_4AEQo-SP_wM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1071903267/?value=0&label=6aAhCOC_4AEQo-SP_wM&guid=ON&script=0"/>
+</div>
+</noscript>
+
+                                </div>
+        <aside>
+                    </aside>
+        <br class="clr"/>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="leftfloated block55 products">
+            <h6>Products</h6>
+            <div class="leftfloated block50">
+                <ul>
+                    <li><a href="/idea/">Java IDE &mdash; IntelliJ IDEA</a></li>
+                    <li><a href="/phpstorm/">PHP IDE &mdash; PhpStorm</a></li>
+                    <li><a href="/webstorm/">JavaScript IDE &mdash; WebStorm</a></li>
+                    <li><a href="/pycharm/">Python and Django IDE &mdash; PyCharm</a></li>
+                    <li><a href="/ruby/">Ruby &amp; Rails IDE &mdash; RubyMine</a></li>
+                    <li><a href="/objc/">Objective-C IDE &mdash; AppCode</a></li>
+                    <li class="mps"><a href="/mps/">Language-oriented programming &mdash; MPS</a></li>
+                </ul>
+            </div>
+            <div class="rightfloated block50">
+                <ul>
+                    <li><a href="/resharper/">Visual Studio extension &mdash; ReSharper</a></li>
+                    <li><a href="/profiler/">.NET profiler &mdash; dotTrace</a></li>
+                    <li><a href="/dotcover/">.NET code coverage tool &mdash; dotCover</a></li>
+                    <li><a href="/decompiler/">Free .NET decompiler &mdash; dotPeek</a></li>
+                    <li><a href="/teamcity/">Continuous integration &mdash; TeamCity</a></li>
+                    <li><a href="/youtrack/">Issue and bug tracker &mdash; YouTrack</a></li>
+                </ul>
+            </div>
+            <br class="clr"/>
+            <p class="why"><a href="/why/">Why choose JetBrains tools?</a></p>
+        </div>
+        <div class="rightfloated block35">
+            <div class="leftfloated block45">
+                <h6>Company</h6>
+                <ul>
+                    <li><a href="/company/">About</a></li>
+                    <li><a href="/company/press/">Press room</a></li>
+                    <li><a href="/company/customers/">Customers</a></li>
+                    <li><a href="/company/customers/testimonials.html">Testimonials</a></li>
+                    <li><a href="/partners/">Partners</a></li>
+                    <li><a href="/company/press/awards.html">Awards</a></li>
+                    <li><a href="/company/jobs/">Careers</a></li>
+                    <li><a href="/company/contacts/">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="rightfloated block45">
+                <h6>Support</h6>
+                <ul>
+                    <li><a href="/support/">Support center</a></li>
+                    <li><a href="/devnet/">Community forums</a></li>
+                </ul>
+                <h6 class="social">Networking</h6>
+                <ul>
+                    <li><a href="http://blogs.jetbrains.com/" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Blogs']);">JetBrains blogs</a></li>
+                    <li><a href="http://twitter.com/#!/jetbrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Twitter']);">Twitter</a></li>
+                    <li><a href="http://www.facebook.com/JetBrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'Facebook']);">Facebook</a></li>
+                    <li><a href="http://www.linkedin.com/company/jetbrains" onclick="_gaq.push(['_trackEvent', 'Follow links', 'External', 'LinkedIn']);">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <br class="clr"/>
+    </div>
+</footer>
+<div id="footer">
+    <div class="container">
+        <ul>
+            <li>&copy; JetBrains.com</li>
+            <li><a href="/company/privacy.html">Privacy Policy</a></li>
+            <li><a class="border_no" href="/company/useterms.html">Terms of Use</a></li>
+            <li class="rightfloated marketing"><a href="mailto:marketing@jetbrains.com">Marketing</a></li>
+            <li class="rightfloated"><a href="mailto:sales@jetbrains.com">Sales</a></li>
+            <li class="rightfloated"><a href="mailto:webmaster@jetbrains.com">Webmaster</a></li>
+            <li class="rightfloated">Contacts:</li>
+        </ul>
+    </div>
+</div>                                                                                        <script type="text/javascript" src="/js2/search.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter16823155 = new Ya.Metrika({id:16823155, enableAll: true, webvisor:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/16823155" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></body>
+</html>

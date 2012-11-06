@@ -1,0 +1,87 @@
+compiz (core) - Info: Loading plugin: core
+compiz (core) - Info: Starting plugin: core
+compiz (core) - Info: Loading plugin: ccp
+compiz (core) - Info: Starting plugin: ccp
+compiz (core) - Info: Loading plugin: composite
+compiz (core) - Info: Starting plugin: composite
+compiz (core) - Info: Loading plugin: opengl
+** Message: applet now removed from the notification area
+** Message: using fallback from indicator to GtkStatusIcon
+compiz (core) - Info: Unity is fully supported by your hardware.
+compiz (core) - Info: Unity is fully supported by your hardware.
+compiz (core) - Info: Starting plugin: opengl
+compiz (core) - Info: Loading plugin: compiztoolbox
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: decor
+compiz (core) - Info: Starting plugin: decor
+compiz (core) - Info: Loading plugin: vpswitch
+compiz (core) - Info: Starting plugin: vpswitch
+compiz (core) - Info: Loading plugin: snap
+compiz (core) - Info: Starting plugin: snap
+compiz (core) - Info: Loading plugin: mousepoll
+compiz (core) - Info: Starting plugin: mousepoll
+compiz (core) - Info: Loading plugin: resize
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Info: Loading plugin: place
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Info: Loading plugin: move
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Info: Loading plugin: wall
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Info: Loading plugin: grid
+compiz (core) - Info: Starting plugin: grid
+compiz (core) - Info: Loading plugin: regex
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Info: Loading plugin: imgpng
+compiz (core) - Info: Starting plugin: imgpng
+compiz (core) - Info: Loading plugin: session
+compiz (core) - Info: Starting plugin: session
+I/O warning : failed to load external entity "/home/nikulinn/.compiz/session/1087806efb5c4807a3135222775666435400000014870031"
+compiz (core) - Info: Loading plugin: gnomecompat
+compiz (core) - Info: Starting plugin: gnomecompat
+compiz (core) - Info: Loading plugin: animation
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Info: Loading plugin: fade
+compiz (core) - Info: Starting plugin: fade
+compiz (core) - Info: Loading plugin: unitymtgrabhandles
+compiz (core) - Info: Starting plugin: unitymtgrabhandles
+compiz (core) - Info: Loading plugin: workarounds
+compiz (core) - Info: Starting plugin: workarounds
+compiz (core) - Info: Loading plugin: scale
+compiz (core) - Info: Starting plugin: scale
+compiz (core) - Info: Loading plugin: expo
+compiz (core) - Info: Starting plugin: expo
+compiz (expo) - Warn: failed to bind image to texture
+compiz (core) - Info: Loading plugin: ezoom
+compiz (core) - Info: Starting plugin: ezoom
+compiz (core) - Info: Loading plugin: unityshell
+compiz (core) - Info: Starting plugin: unityshell
+compiz (core) - Warn: Attempted to restack relative to 0xe00009 which is not a child of the root window or a window compiz owns
+** Message: moving back from GtkStatusIcon to indicator
+
+(gnome-settings-daemon:1570): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(gnome-settings-daemon:1570): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+gnome-session[1487]: CRITICAL: gsm_manager_set_phase: assertion `GSM_IS_MANAGER (manager)' failed
+gnome-session[1487]: Gtk-CRITICAL: gtk_main_quit: assertion `main_loops != NULL' failed
+
+(gnome-fallback-mount-helper:1745): Gdk-WARNING **: gnome-fallback-mount-helper: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+
+(bluetooth-applet:1744): Gdk-WARNING **: bluetooth-applet: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+
+(nm-applet:1742): Gdk-WARNING **: nm-applet: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+
+(nautilus:1747): Gdk-WARNING **: nautilus: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+gtk-window-decorator: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.0.
+
+(telepathy-indicator:1914): Gdk-WARNING **: telepathy-indicator: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+
+(check-new-release-gtk:2085): Gdk-WARNING **: check-new-release-gtk: Fatal IO error 11 (Ресурс временно недоступен) on X server :0.
+
+
+** (zeitgeist-datahub:1930): WARNING **: zeitgeist-datahub.vala:227: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!

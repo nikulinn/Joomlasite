@@ -1,0 +1,5375 @@
+/*----- Boxes with lists ----- */
+#subcontent dl,
+#subcontent .box,
+#sidebar dl,
+#sidebar .box    
+{
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0 7px 15px;
+}
+#subcontent .box dl,
+#sidebar .box dl
+{
+    border:0;
+    padding:0;
+    margin:0;
+}
+#subcontent dl dt,
+#sidebar dl dt
+{
+    font-weight:bold;
+    font-size: 90%;
+    padding: 5px 0 10px 10px;
+}
+#subcontent dl dd,
+#sidebar dl dd  
+{
+    margin-left: 10px;
+    font-size: 85%;
+    margin-bottom: 0.3em;
+    padding-right: 10px;
+}
+#container #subcontent .related_links dt,
+#container #sidebar .related_links dt
+{
+    font-weight: normal;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+------ Start of Whats new box -----------------------------------------------
+----------------------------------------------------------------
+--------------------------------------------------------------- */
+#container #subcontent .whatsnew dt,
+#container #sidebar .whatsnew dt,
+#container #subcontent .roadmap dt
+
+{
+    padding: 0.4em 0 1em 10px;
+    /*font-size:110%;*/
+    border-bottom: none;
+    /*font-family: "Times New Roman", serif;*/
+}
+/* ------ End of Whats new box ---------------------------------
+----------------------------------------------------------------
+--------------------------------------------------------------- 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#subcontent .banner {
+    position: relative;
+    margin: 0 auto 1em auto;
+    text-align: center;
+    padding: 0;
+    width:15.4em;
+    _width:200px;
+    border-width: 1px;
+    border-style:solid;
+    height:170px;
+}
+/* -----------------Sidebar banner RS1 Start --------------*/
+#subcontent .banner a {
+    display: block;
+    width:15.25em;
+    height: 168px;
+    color: #fff;
+    text-indent: -50000px;
+    border: solid 1px #fff;
+    padding:0;
+    margin:0;
+    outline:none;
+    }
+#subcontent .banner.offer{
+    height: 108px!important;
+    overflow: hidden;
+}
+ #container #subcontent .banner.centaur a{
+   text-indent: 0;
+    height:auto;
+    width:auto;
+    display:inline;
+    border:0;
+}
+
+
+/*Half banner*/
+
+#subcontent .hbanner {
+    position: relative;
+    margin: 0 auto 1em auto;
+    text-align: center;
+    padding: 0;
+    width:15.4em;
+    _width:200px;
+    border-width: 1px;
+    border-style:solid;
+    height:70px;
+}
+/* -----------------Sidebar banner RS1 Start --------------*/
+#subcontent .hbanner a {
+    display: block;
+    width:15.25em;
+    height: 68px;
+    color: #fff;
+    text-indent: -50000px;
+    border: solid 1px #fff;
+    padding:0;
+    margin:0;
+    outline:none;
+    }
+
+/* new download button for sidebar */
+/*#subcontent dl.sb-download{
+    border: 0;
+    padding: 0;
+    padding-left: 7px;
+    height: 50px;
+    margin-bottom: 7px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/tc-download.gif") no-repeat 0 -50px;
+}
+#subcontent dl.sb-download dd{
+    padding:0;
+    margin:0;
+    height: 50px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/tc-download.gif") no-repeat right 0;
+}
+
+#subcontent dl.sb-download dd a{
+    padding:0;
+    margin:0;
+    display: block;
+    height: 40px;
+    text-indent: -9000em;
+    border: 0;
+}*/
+#subcontent dl.sb-download-b{
+    border: 0;
+    padding: 0;
+    padding-left: 9px;
+    margin-bottom: 1.3em;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/sb-download.gif") no-repeat 0 -61px;
+    display: block!important;
+}
+#subcontent dl.sb-download-b dd{
+    display: block!important;
+    padding:0;
+    margin:0;
+}
+body.rs #subcontent dl.sb-download-b{
+    background-image: url("/phpstorm/download/../../styles2/../img/buttons/sb-download-rs.gif");
+}
+body.rs #subcontent dl.sb-download-b dd a{
+    background-image: url("/phpstorm/download/../../styles2/../img/buttons/sb-download-rs.gif");
+}
+
+#subcontent dl.sb-download-b dd a{
+    font-family: Tahoma, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+    border: 0;
+    color: #3250b5;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/sb-download.gif") no-repeat right 0;
+
+    padding:0;
+    padding-top: 38px;
+    padding-left: 3px;
+    display: block;
+    margin:0;
+}
+/* screenshots tour */
+.box.screenshots{
+    height: 120px!important;
+    overflow: hidden!important;
+    padding: 0;
+    margin: auto;
+    }
+.box.screenshots dd{
+}
+.box.screenshots dt{
+    position: relative;
+    width: 98%;
+    height: 125px;
+    padding: 0!important;
+}
+.box.screenshots dt a span{
+    display: block;
+    width: 60%;
+    background-color: white;
+    margin: 45px auto 0 auto;
+    padding: 5px 10px;
+    border: 1px solid #2277d9;
+}
+
+.box.screenshots dt a, .box.screenshots dt a:hover{
+    font-size: 110%;
+    display: block;
+    position:absolute;
+    width: 100%;
+    height: 125px;
+    cursor: pointer;
+    text-align: center;
+    border: 0!important;
+}
+.TeamCity .box.screenshots dt a, .TeamCity .box.screenshots dt a:hover{
+    background: url("/phpstorm/download/../../styles2/../teamcity/features/screenshots/tour/thumbnail.gif") no-repeat 0 0;
+}
+.mps .box.screenshots dt a, .mps .box.screenshots dt a:hover{
+    background: url("/phpstorm/download/../../styles2/../mps/docs/tutorial/thumbnail.gif") no-repeat 0 0;
+}
+
+body.dt #subcontent dl.contact, body.dotcover #subcontent dl.contact {
+    margin: 0 10px 1em 10px;
+    border: none;
+}
+body.dt #subcontent dl.contact dt, body.dotcover #subcontent dl.contact dt {
+    padding: .2em .8em;
+    color: #757575;
+    font-weight: normal;
+}
+body.dt #subcontent dl.contact dd, body.dotcover #subcontent dl.contact dd {
+    margin: 0 0 .3em 0;
+    padding: .5em .8em;
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+/* small inline 'new' icon */
+.newinside {
+    background: url("/phpstorm/download/../../styles2/../img/small_bullet_new2.gif") no-repeat right 4px;
+    padding-right: 19px;
+    border: 0;
+}
+
+/* special contact form */
+#container .question {
+    background: white url("/phpstorm/download/../../styles2/../img/icons/question-smaller.gif") no-repeat 0 3px;
+    border-bottom: 1px solid #e0e4f3;
+    padding: 0 5px 3px 20px;
+    display: block;
+}
+
+#container .question a {
+    color: #5f77a2;
+}
+
+#container .call {
+    background: url("/phpstorm/download/../../styles2/../img/icons/phone.gif") no-repeat 0 2px;
+    border-bottom: 1px solid #e0e4f3;
+    padding: 0 5px 3px 20px;
+    display: block;
+}
+
+/* customer quotes */
+#container .quote {
+    background: url("/phpstorm/download/../../styles2/../img/quote_top.gif") no-repeat 10px top;
+    padding: 10px 5px 0 15px;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+}
+
+#container .quote p {
+    font-size: 86%;
+}
+
+#container .quote p.text {
+    text-indent: 10px;
+}
+
+#container .quote p.author {
+    background: url("/phpstorm/download/../../styles2/../img/quote_bottom.gif") no-repeat right bottom;
+    text-align: right;
+    padding-bottom: 1em;
+}
+
+/* buy pages extentions */
+dl.buy dd.addquot {
+    background: url("/phpstorm/download/../../styles2/../img/addquote_sb.gif") no-repeat 4px 40%;
+}
+
+dl.buy dd.addcart {
+    background: url("/phpstorm/download/../../styles2/../img/cart_bw.gif") no-repeat 0 40%;
+}
+
+/*- headers on the feature pages -*/
+#training h4 {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 0.15em;
+}
+
+.feature h4 {
+    display: block;
+    padding: 0 0 0 2.2em;
+    margin-bottom: 1em;
+    background: #F0F0F0 url("/phpstorm/download/../../styles2/../img/bullet.gif") no-repeat 0.5em 6px;
+    font-size: 86%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.feature h4.new {
+    background: url("/phpstorm/download/../../styles2/../img/new_feature_rs.gif") no-repeat 0 0.45em;
+    padding: 0.9em 0.3em 0.9em 4em;
+    border: none;
+}
+.new {
+    background: url("/phpstorm/download/../../styles2/../img/new.gif") no-repeat 0 0;
+    padding-left: 45px;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+}
+
+.new-small {
+    background: url("/phpstorm/download/../../styles2/../img/new-small-grad.gif") no-repeat right 0;
+    padding-right: 26px;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+}
+
+.feature li.new {
+    margin-left: -1em;
+    font-size: 100%;
+    background: url("/phpstorm/download/../../styles2/../img/star_bullet_new.gif") no-repeat 0 4px;
+    padding: 0 0 0 30px;
+    font-weight: normal;
+}
+
+h4.new {
+    background: url("/phpstorm/download/../../styles2/../img/new.gif") no-repeat 0 0;
+    height: 1.2em;
+    padding-left: 45px;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    border-bottom: 1px solid #ccc;
+}
+
+/*------------------*/
+/* sidebar blog box */
+.blog {
+    background: url("/phpstorm/download/../../styles2/../img/icons/blog-icon.gif") no-repeat 10px 7px;
+    border: #DADADA solid 1px;
+    margin: 0 7px 15px;
+    padding: 10px 10px 10px 50px;
+}
+
+.blog.feed {
+    font-size: 85%;
+    background-image: none;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    background-color: white;
+}
+
+.blog .blog-box a {
+    font-weight: bold;
+    display: block;
+    line-height: 1.1em;
+    border: 0;
+}
+
+.blog.feed a.feed {
+    background: url("/phpstorm/download/../../styles2/../img/icons/feed-icon-28x28.gif") no-repeat 0 0;
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    margin-top: 1px;
+    border: 0;
+}
+
+.blog .blog-box a .comment {
+    display: block;
+    padding: 0;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.blog.small-icon {
+    background: url("/phpstorm/download/../../styles2/../img/icons/blog-icon-small.gif") no-repeat 5px 3px;
+    margin: 0 0 5px;
+    padding: 7px 10px 7px 30px !important;
+    border: 0;
+}
+
+.blog.small-icon .blog-box a {
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
+/* sidebar twitter box */
+
+.half_box {
+    border: #DADADA solid 1px;
+    margin: 0 7px 15px;
+    padding: 15px 10px 15px 40px;
+}
+
+.half_box a {
+    font-weight:bold;
+    border:0;
+    font-size:1.1em;
+    padding:0;
+}
+
+/*enlarge region for enlarge images*/
+.enlargePic {
+    position: relative;
+    z-index: 2;
+    top: -4px;
+    left: -29px;
+    background: white;
+    display: inline-block;
+    padding: 3px;
+    *padding: 1px 1px 0 2px;
+    *top: -5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: -moz-inline-box;
+}
+
+.enlargePic img {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: 4px !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+a.lightwindow {
+    position: relative;
+}
+
+a img.enlargeP {
+    position: absolute;
+    z-index: 3 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+/*testimonials rotator*/
+
+#testimonial {
+    padding: 0;
+    font-size: 86%;
+    background: url("/phpstorm/download/../../styles2/../img/quote_bottom.gif") no-repeat right bottom;
+}
+
+#testimonial #quote {
+    margin: 0;
+    padding: 5px 10px 0 10px;
+    line-height: 1.4em;
+    background: url("/phpstorm/download/../../styles2/../img/quote_top.gif") no-repeat left top;
+}
+
+.features #testimonial, .features #testimonial #quote {
+    height: 7.5em;
+}
+
+#testimonial a#next {
+    border: 0;
+    margin-left: 11px;
+    margin-top: -2.5em;
+    float: left;
+}
+
+#testimonial #quote a.textTsm {
+    margin: 0;
+    padding: 10px 0 2px 0;
+    display: block;
+    height: 4em;
+    cursor: pointer;
+    text-align: justify;
+}
+
+#testimonial #quote a.textTsm:hover {
+    color: #666;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#testimonial #quote p.authorTsm {
+    margin: 0;
+    padding: 0 5px 0 0;
+    text-align: right;
+    background: none;
+}
+
+#subcontent #testimonial {
+    background-position: 95% 72%;
+}
+
+#subcontent .box.testimonial {
+    padding: 10px 7px;
+}
+
+#subcontent #testimonial, #subcontent #testimonial #quote {
+/*height: 14em;*/
+}
+
+/*progress bar*/
+#progress {
+    /*background: url("/phpstorm/download/../../styles2/../img/loading.gif") no-repeat -10px -4px;*/
+    background: url("/phpstorm/download/../../styles2/../img/newdesign/js/loading.gif") no-repeat 0 0;
+    padding-left: 40px;
+    padding-top: 5px;
+    height: 32px !important;
+    width: 100px!important;
+}
+/* Domo box for demos with a screenshot as a link*/
+/* ********************************************* */
+.demobox {
+    float: right;
+    margin: 5px 0 10px 10px;
+    font-size: 0.85em;
+    /*width: 160px;*/
+    position: relative;
+    line-height: 1.4em;
+    text-align: center;
+}
+.documentation .demobox{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.demobox.large {
+    float: left;
+    margin: 10px 13px 10px 0;
+    text-align: left;
+    width: 307px;
+    /*height: 300px;*/
+    height: 27.2em;
+    /*border-bottom: 1px solid #ccc;*/
+    background-color: #f0efef;
+}
+.demobox a {
+    border: 0;
+    display: block;
+}
+.demobox a img{
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+.demobox p{
+    padding: 0;
+}
+.demobox.large p{
+    margin: 0;
+    padding: 5px 10px 10px 10px;
+}
+.demobox.large p a{
+    font-size: 1.2em;
+    margin-bottom: 3px;
+}
+.demobox span{
+    position: absolute; 
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 2px 5px 3px;
+    top: 101px;
+    left:62px;
+    color: #555;
+    height: 14px;
+    display: block;
+}
+.demobox.large span{
+    top: 209px;
+    left: 142px;
+}
+#container .nofloat{
+    float: none!important;
+}
+
+#header ul.nav .bokmark-button{
+    width: 63px;
+    float: right;
+    margin: 0;
+    margin-right: 12px;
+    padding: 0;
+    list-style: none;
+    border: none;
+    background: none;
+}
+#header ul.nav .bokmark-button a{
+    padding: 6px 6px 7px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#at15s a, #at16pf a, #at16pt a{
+    border: 0;    
+}
+#subcontent .twitter {
+    border:1px solid #DADADA;
+    margin:0 7px 15px;
+    padding:10px;
+    background: url("/phpstorm/download/../../styles2/../img/twitter-bird.gif") no-repeat 10px center;
+}
+.twitter a{
+    margin-left: 35px;
+}
+
+
+
+.country_selector {
+    margin-top: .5em;
+    line-height: 1.3em;
+}
+.country_selector a#CountrySelector {
+    cursor: pointer;
+}
+.country_selector #CountrySelector_txt form {
+    margin: .8em 0;
+    display: none;
+}
+/*
+#CountrySelector_txt:before{
+    content: "Please enable JavaScript to use this feature.";
+}*/
+
+#subcontent .banner {
+    margin: 0 auto 1em;
+    padding: 0;
+    height: 170px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    border: solid 1px #ccc;
+}
+#subcontent .banner a {
+    height: 168px;
+    width: 198px;
+    color: #fff;
+    display: block;
+    height: 168px;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    text-indent: -50000px;
+    border: 1px solid #fff;
+}
+#subcontent .ideasb a {
+    background: #fff url("/phpstorm/download/../../styles2/../img/banners/ij11_sb.png") no-repeat center 0;
+}
+#subcontent .yt_sb a {
+    background: #273f9f url("/phpstorm/download/../../styles2/../img/banners/yt4_sb.png") no-repeat center 0;
+}
+#subcontent .pw_sb a {
+    background: #073345 url("/phpstorm/download/../../styles2/../img/banners/ps5_sb.png") no-repeat center 0;
+}
+#subcontent .ws_sb a {
+    background:#073345 url("/phpstorm/download/../../styles2/../img/banners/ws5_sb.png") no-repeat center 0;
+}
+#subcontent .tc_sb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/tc71_sb.png") no-repeat 0 50%;
+}
+#subcontent .rm a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/rm45_sb.png") no-repeat 0 50%;
+}
+#subcontent .pysb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/py20_sb.png") no-repeat 0 50%;
+}
+#subcontent .dtsb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/dt5_sb.png") no-repeat 0 50%;
+}
+#subcontent .dcsb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/dc2_sb.png") no-repeat 0 50%;
+}
+#subcontent .rssb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/rs7_sb.png") no-repeat 0 50%;
+}
+#subcontent .rsrus a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/rs_ru.png") no-repeat 0 50%;
+}
+#subcontent .rm-tc_hsb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/tc_free_rm1.gif") no-repeat 0 50%;
+}
+#subcontent .objc a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/appcode_sb.png") no-repeat 0 50%;
+}
+#subcontent .dp_sb a {
+    background: white url("/phpstorm/download/../../styles2/../img/banners/dp1_sb.png") no-repeat 0 50%;
+}
+
+@font-face {
+    font-weight:normal;
+    font-style:normal;
+    font-variant:normal;
+
+}
+@font-face {
+    font-family: "Archer-Bold";
+    src: url("/phpstorm/download/../../styles2/fonts/archer-bold-pro.eot");
+    src: url("/phpstorm/download/../../styles2/fonts/archer-bold-pro.woff") format('woff'), url("/phpstorm/download/../../styles2/fonts/archer-bold-pro.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Archer-Semibold";
+    src: url("/phpstorm/download/../../styles2/fonts/archer-semibold-pro.eot");
+    src: url("/phpstorm/download/../../styles2/fonts/archer-semibold-pro.woff"),url("/phpstorm/download/../../styles2/fonts/archer-semibold-pro.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Archer-Light";
+    src: url("/phpstorm/download/../../styles2/fonts/archer-light-pro.eot");
+    src: url("/phpstorm/download/../../styles2/fonts/archer-light-pro.woff") format("woff"), url("/phpstorm/download/../../styles2/fonts/archer-light-pro.ttf") format("truetype");
+}
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: #333;
+  font: 12px/21px  Verdana, "Lucida Grande", Lucida, sans-serif;
+  font: 13.5px/23px  Verdana, "Lucida Grande", Lucida, sans-serif;
+  font1: 14px/23px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;;
+  background: white;
+}
+body.white {
+    margin: 1em;
+}
+body.demo {
+    text-align: center;
+}
+
+ol, ul {list-style: none;}
+a {color: #3358c0; text-decoration: none;}
+a:hover {text-decoration: underline;}
+a.black {color: #333;}
+a.gray {color: #777;}
+a.black:hover {text-decoration: underline;}
+a.underline_link {text-decoration: underline}
+a.underline_link:hover {text-decoration: none}
+a.underline_link_border {border-bottom: solid 1px #3358c0;}
+a.underline_link_border:hover {border-bottom: none}
+a.underline_link_gray {border-bottom: solid 1px #777;}
+a.underline_link_gray:hover {border-bottom: none;text-decoration: none}
+a.underline_link_black {border-bottom: solid 1px #333;}
+a.underline_link_black:hover {border-bottom: none;text-decoration: none}
+a.underline_link_dotted {border-bottom: dashed 1px #3358c0;}
+a.underline_link_dotted:hover {border-bottom: none;text-decoration: none}
+strong, b {font-weight: bold;}
+em {font-style: italic;}
+.noborder {border: none!important;}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 32px;
+    background: url("/phpstorm/download/../../styles2/../img/design/bgBlockquote.png");
+}
+blockquote:before, q:before {
+    margin-bottom: -1.5em;
+    background-position: 0 -42px;
+}
+blockquote:after, q:after {
+    margin-top: -1em;
+    float: right;
+    background-position: 0 0;
+}
+blockquote, q {
+    padding: 0 0 0 0;
+    quotes: "" "";
+    position: relative;
+    /*font-size: 110%;*/
+    color: #797C80;
+    font: italic 1.15em/1.67em Georgia,"Times New Roman",Times,serif;
+    text-indent: 3em;
+}
+blockquote p, q p {
+    margin-bottom: 0;
+}
+blockquote a, q a {
+    position: absolute;
+    right: 3.5em;
+    bottom: -1.5em;
+    color: #797C80;
+    font-size: 85%;
+}
+blockquote .author {
+    margin-bottom: -1.5em;
+    padding-top: 1em;
+    padding-right: 3em;
+    display: block;
+    text-align: right;
+}
+blockquote .author a {
+    position: static;
+    font-size: 100%;
+    text-decoration: underline;
+}
+blockquote .author a:hover {
+    text-decoration: none;
+}
+
+
+.archer {
+    font-family: 'Archer-Semibold', sans-serif;
+}
+h1 {
+    /*padding-bottom: .2em;*/
+    margin-bottom:.5em;
+    color: #df6e00;
+    color: #f79100;
+    color: #f38400;
+    color: #f38400;
+    color: #e57b00;
+    color1: #CC6600;
+    color: #454545;
+    font-size: 250%;
+    /*color: #555;*/
+    /*text-shadow: 1px 1px 1px rgba(0, 0, 0 , 0.8);*/
+    /*border-bottom: solid 2px #f38400;*/
+    font-family: 'Archer-Bold', sans-serif;
+}
+h2 {
+    margin-bottom:.5em;
+    font-size: 220%;
+    font-family: 'Archer-Semibold', sans-serif;
+    line-height: 1em;
+}
+h3 {
+    margin-bottom:.5em;
+    font-size: 170%;
+    /*text-shadow: 1px 1px 1px rgba(0, 0, 0 , 0.2);*/
+}
+h4 {
+    margin-bottom:.5em;
+    font-size: 130%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0 , 0.1);
+}
+/*h4 strong, h5 strong {color: #e57b00;font-size:130%}*/
+h5 {
+    margin-bottom:.5em;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0 , 0.1);
+}
+h6 {
+    font-weight: bold;
+}
+ul, ol, p, blockquote, .block {margin-bottom: 1.5em;}
+p, ul li {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+ul.starlist li {
+    margin-bottom: .6em;
+    padding-left: 1.1em;
+    background: url("/phpstorm/download/../../styles2/../img/design/bullet_small.gif") no-repeat 0 .6em;
+}
+ul.starlist.range li {
+    padding-left: 2.1em;
+    background: url("/phpstorm/download/../../styles2/../img/design/bulletRange.png") no-repeat 0 .4em;
+}
+ul.starlist li ul {
+    margin-top: .6em;
+}
+
+ol li {
+    margin-left: 1.5em;
+    margin-bottom: .6em;
+    list-style: decimal;
+}
+ol li ul li {
+    list-style: none;
+}
+.comment {color: #777; font-size: 90%;}
+.red {color: #c00e28;}
+.gray {color: #777;}
+.smalltext {font-size: 90%; line-height: 20px; }
+.smallertext {font-size: 11px; line-height: 15px; }
+.smalltext ul li, ul.smalltext li {margin-bottom: .3em;}
+.bigtext {font-size:110%}
+.leftfloated {float: left;}
+.rightfloated {float: right;}
+.center-align {text-align:center;}
+.justify-align {text-align:justify;}
+.right-align {text-align:right;}
+.nowrap {white-space: nowrap;}
+#content .left-align {text-align:left;}
+.clr {clear:both;}
+.clearedL {clear: left;}
+.clearedR {clear: right;}
+a.button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    -moz-transition: all 0.1s ease 0s;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    background-color: #f4f4f4;
+    border: medium none;
+}
+a.button:hover {
+    background-color: #eee;
+}
+.box {padding: 1em;}
+.box p {margin-bottom:0}
+.block {display: block;}
+.block {margin-left:1.5em;margin-right:1.5em;}
+.block5 {width: 5%}
+.block10 {width: 10%}
+.block15 {width: 15%}
+.block20 {width: 20%}
+.block25 {width: 25%}
+.block30 {width: 30%}
+.block33 {width: 33%}
+.block35 {width: 35%}
+.block40 {width: 40%}
+.block45 {width: 45%}
+.block50 {width: 50%}
+.block55 {width: 55%}
+.block60 {width: 60%}
+.block66 {width: 66%}
+.block65 {width: 65%}
+.block70 {width: 70%}
+.block75 {width: 75%}
+.block80 {width: 80%}
+.block85 {width: 85%}
+.block90 {width: 90%}
+.block95 {width: 95%}
+.block100 {width: 100%}
+.blockcenter {margin-left: auto;margin-right: auto;}
+hr {
+    margin: 0 -2em 2.5em -2em;
+    clear: both;
+    background: #bcbcbc; /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #bcbcbc 10%, #bcbcbc 90%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(10%,#bcbcbc), color-stop(90%,#bcbcbc), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ffffff 0%,#bcbcbc 10%,#bcbcbc 90%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ffffff 0%,#bcbcbc 10%,#bcbcbc 90%,#ffffff 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(left, #ffffff 0%,#bcbcbc 10%,#bcbcbc 90%,#ffffff 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#bcbcbc',GradientType=1 ); /* IE6-9 */
+    background: linear-gradient(left, #ffffff 0%,#bcbcbc 10%,#bcbcbc 90%,#ffffff 100%); /* W3C */
+    border: none;
+    height: 1px;
+}
+hr.bold {
+    margin-left: 0;
+    margin-right: 0;
+    background: #dbdbdb;
+    height: 4px;
+}
+hr.markoff {
+    margin: 0;
+    background: #dbdbdb;
+    height: 1px;
+}
+hr.double {
+    margin: 0;
+    background: transparent;
+    height: 1px;
+    border-bottom: double 4px #ddd;
+}
+.underline {
+    padding-bottom: .2em;
+    border-bottom: 1px solid #ccc;
+}
+.underline-bold {
+    padding-bottom: .3em;
+    border-bottom: solid 5px #f4f4f4;
+}
+.borderDotted {
+    border-style:dotted;
+}
+.nota_bene {
+    border: solid 1px #ffe87f;
+    background-color: #fffccc;
+    border-radius: 5px;
+    padding: .3em .8em;
+}
+.box-dotted {
+    margin-bottom: 1.5em;
+    padding: 1.3em 2em;
+    border: solid 3px #f2f2f2;
+}
+.box-dotted h4:before {
+    padding-right: .3em;
+    content:"\2022";
+    color: #d0d0d0;
+    font-size: 170%;
+    vertical-align: top;
+}
+.button_style {
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    -moz-transition: all 0.1s ease 0s;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    background-color: #f4f4f4;
+    border: medium none;
+}
+.nota_bene p, .nota_bene ul, .button_style p, .button_style ul, .box-dotted p, .box-dotted ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.nota_bene ul li {
+    margin-left: .8em;
+    margin-bottom: .3em;
+}
+.bordered {
+    border: solid 1px #ccc;
+}
+.bordered_left {
+    padding-left: 1.5em;
+    border-left: solid 1px #ccc;
+}
+.nobackgr {
+    background: none!important;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    width: 73em;
+    min-width: 50em;
+    text-align: left;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+    head~body .container { width: 70em; }
+}
+
+
+header {
+    height: 60px;
+}
+header .jb_logo {
+    margin-left: .4em;
+    float: left;
+    width: 105px;
+    height: 44px;
+}
+header a.jb_logo:hover {
+    /*background-position: -108px 3px;*/
+}
+header .jb_logo img {
+    margin-top: .5em;
+    margin-left: -.5em;
+    display: block;
+    display1: none;
+}
+header ul#jb_nav {
+    margin-top: 1em;
+    float: right;
+}
+header ul#jb_nav li {
+    float: left;
+    list-style: none;
+    /*background-color: #fff;*/
+}
+header ul#jb_nav li.search {
+    margin-left: 1.5em;
+    background-color: transparent;
+    border: none;
+}
+header ul#jb_nav li.search input {
+    float: left;
+    color: #999;
+    border: solid 1px #ccc;
+}
+header ul#jb_nav li.search input.image {
+    padding-top: 3px;
+    padding-left: 2px;
+    float: right;
+    border: none;
+}
+header ul#jb_nav li a {
+    padding: .1em 1.2em;
+    font-size: 85%;
+    /*color: #333;
+    color: #555;*/
+    color1: #878787;
+    font-weight: bold;
+    font-family: Myriad, Helvetica, Arial, sans-serif;
+    border-left: solid 1px #ccc;
+}
+header ul#jb_nav li:first-child a {
+    border-left: none;
+}
+body#why header ul#jb_nav li.why a,
+body#products header ul#jb_nav li.products a,
+body#support header ul#jb_nav li.support a,
+body#devnet header ul#jb_nav li.devnet a,
+body#partners header ul#jb_nav li.partners a,
+body#company header ul#jb_nav li.company a
+{
+    color: #333;
+    background-color: #d9d9d9;
+    text-decoration: none;
+}
+header ul#jb_nav li.products a:before, header ul#jb_nav li.products a:after {
+
+}
+
+
+
+
+#product {
+    height: 80px;
+    background-color: #5d71b8;
+}
+body#spec #product, body#why #product {
+    background-color: #eca344;
+}
+body#products.rs #product,
+body#products.dt #product,
+body#products.dotcover #product,
+body#products.decompiler #product,
+body#products.dotnet #product {
+    background-color: #8d4f74;
+}
+body#products.dtm #product {
+    background-color: #eaa343;
+}
+body#products.ruby #product {
+    background-color: #ac445d;
+}
+body#products.phpstorm #product {
+    background-color: #7774b7;
+}
+body#products.webstorm #product {
+    background-color: #4691b1;
+}
+body#products.pycharm #product {
+    background-color: #5f8961;
+}
+body#products.objc #product {
+    background-color: #607591;
+}
+body#products.mps #product {
+    background-color: #7e7c7d;
+}
+body#products.om #product {
+    background-color: #7c74a5;
+}
+
+body #product .container {
+    padding: 0 1.7em;
+    position: relative;
+    height: 100%;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_JetBrains.jpg") no-repeat 0 0;
+}
+body#spec #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_productsOrange.jpg") no-repeat 0 0;
+}
+body#why #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_why.jpg") no-repeat 0 0;
+}
+body#error #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_error.jpg") no-repeat 0 0;
+}
+body#products.index #product .container,
+body#products.overview.webide #product .container,
+body#buy.index #product .container,
+body#products.dotnet #product .container,
+body#products.devnet #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_products.jpg") no-repeat 0 0;
+}
+body#products.dotnet #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_dotnetProducts.jpg") no-repeat 0 0;
+}
+body#partners.index #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_partnerPrograms.jpg") no-repeat 0 0;
+}
+body#downloads.index #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_downloads.jpg") no-repeat 0 0;
+}
+body#support.index #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_support.jpg") no-repeat 0 0;
+}
+body#devnet.academy #product .container {
+    padding: 0 1.8em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_academy.jpg") no-repeat 0 0;
+}
+body.account #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_accountCenter.jpg") no-repeat 0 0;
+}
+body#products.idea #product .container {
+    padding: 0 1.9em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_idea11.png") no-repeat 0 0;
+}
+body#products.TeamCity #product .container {
+    padding: 0 1.8em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_teamcity71.png") no-repeat 0 0;
+}
+body#products.rs #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_resharper7.png") no-repeat 0 0;
+}
+body#products.dt #product .container {
+    padding: 0 1.9em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_dottrace52+M35.png") no-repeat 0 0;
+}
+body#products.dtm #product .container {
+    padding: 0 1.9em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_dottraceM4.png") no-repeat 0 0;
+}
+body#products.dotcover #product .container {
+    padding: 0 1.9em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_dotcover2.png") no-repeat 0 0;
+}
+body#products.decompiler #product .container {
+    padding: 0 2em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_dotpeek10.png") no-repeat 0 0;
+}
+body#products.yt #product .container {
+    padding: 0 2.1em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_youtrack41EAP.png") no-repeat 0 0;
+}
+body#products.ruby #product .container {
+    padding: 0 1.8em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_rubymine45_.png") no-repeat 0 0;
+}
+body#products.phpstorm #product .container {
+    padding: 0 1.7em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_phpstorm50.png") no-repeat 0 0;
+}
+body#products.webstorm #product .container {
+    padding: 0 1.8em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_webstorm50.png") no-repeat 0 0;
+}
+body#products.pycharm #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_pycharm20.png") no-repeat 0 0;
+}
+body#products.objc #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_appCode.png") no-repeat 0 0;
+}
+
+body#products.mps #product .container {
+    padding: 0 4.6em;
+    background: url("/phpstorm/download/../../styles2/../img/design/header_mps25.png") no-repeat 0 0;
+}
+body#products.om #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_omeaPro.jpg") no-repeat 0 0;
+}
+body#products.om.reader #product .container {
+    background: url("/phpstorm/download/../../styles2/../img/design/header_omeaReader.jpg") no-repeat 0 0;
+}
+#product .container a.home_product {
+    display: block;
+    width: 300px;
+    height: 100%;
+    text-indent: -50000px;
+}
+
+
+
+
+
+
+nav {
+    margin: .5em 0 2.5em 0;
+}
+nav ul li {
+    margin-right: 1em;
+    padding-bottom: .1em;
+    display: inline;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Myriad, Helvetica, Arial, sans-serif;
+}
+nav ul li.current {
+    border-bottom: solid 3px #ffa500;
+    border-bottom: solid 3px #ff9600;
+    border-bottom: solid 3px #e57b00;
+    border-bottom: solid 3px #fd9204;
+    /*border-bottom: solid 3px #df6e00;*/
+}
+nav ul li a {
+    color: #666;
+    color: #8f8f8f;
+    position: relative;
+    z-index: 10;
+    /*text-shadow: 1px 1px 0 rgba(0, 0, 0 , 0.1);*/
+}
+nav ul li a:hover {
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #333;
+}
+p.top {
+    text-align: right;
+}
+p.top a {
+    background: #f4f4f4;
+    padding: 4px .6em;
+}
+span.key {
+    background-color: #f4f4f4;
+    color: black;
+    display: inline;
+    font-family: courer,courer new,monospace;
+    font-style: normal;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+span.code {
+    font-family: courier new, courier, monospace;
+    font-weight: bold;
+}
+span.inline_accent {
+    margin-left: -.6em;
+    margin-right: .6em;
+    padding: .1em .6em;
+    background-color: #e3e3e3;
+}
+#content .ico {
+    margin-bottom: -2px;
+}
+
+
+
+#content .footer {
+    margin: 2em 0 1em 0;
+    overflow: hidden;
+}
+#content .footer .float_left {
+    margin-right: 3.5em;
+}
+#content .footer h3.underline {
+    padding-bottom: 10px;
+    border-bottom: solid 6px #f4f4f4;
+}
+#content .footer ul, #content .footer ul li {
+    margin: 0 0 .6em 0;
+    padding: 0;
+    list-style: none;
+    background: none;
+}
+#content .footer .download {
+    margin-bottom: 1.5em;
+    padding: .5em 1em;
+    background: #f4f4f4 url("/phpstorm/download/../../styles2/../img/icon_arrowContentFooter.png") no-repeat 95% 50%;
+}
+#content .footer .download a {
+    font-size: 130%;
+}
+
+#content .feedback p {
+    margin-bottom: .5em;
+}
+#content .feedback a {
+    margin-right: 1em;
+    padding-left: 2.1em;
+}
+#content .feedback span.comment {
+    margin-top: -.9em;
+    padding-left: 2.7em;
+    font-size: 80%;
+    display: block;
+}
+#content .feedback .rss {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_rss.gif") no-repeat .4em .1em;
+}
+#content .feedback.smalltext .rss {
+    background-position: .3em 0;
+}
+#content .feedback .twitter {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_twitter_bird_new.png") no-repeat .2em .1em;
+}
+#content .feedback .forum {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_forum.gif") no-repeat .4em .1em;
+}
+#content .feedback .facebook {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_facebook.gif") no-repeat .4em .1em;
+}
+#content .feedback .eap {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_EAP.gif") no-repeat .4em .1em;
+}
+#content .feedback .bugtracker {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_BugTracker.gif") no-repeat .4em .1em;
+}
+#content .feedback.smalltext .bugtracker {
+    background-position: .4em 0;
+}
+#content .feedback .help {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_help.gif") no-repeat .4em .1em;
+}
+#content .feedback .demo {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_demo.gif") no-repeat .4em .1em;
+}
+#content .feedback .editions {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_editions.png") no-repeat .4em .1em;
+}
+#content .feedback .question {
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_question.png") no-repeat .4em .1em;
+}
+#content .feedback .tv, #content .tv {
+    padding-left: 2.7em;
+    padding-bottom: .2em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/ico_tv.png") no-repeat .4em -1px;
+}
+#content .tv {
+    padding-left: 2em;
+}
+
+#content .information {
+    padding-left: 4.5em;
+    min-height: 3em;
+    background: #f4f6fc url("/phpstorm/download/../../styles2/../img/icons/info.png") no-repeat 1em 1em;
+    border: none;
+}
+#content .information.small-icon {
+    padding: .8em 1em .3em 2.7em;
+    min-height: .5em;
+    background: #f4f6fc url("/phpstorm/download/../../styles2/../img/icons/info_small.png") no-repeat 1em 1em;
+}
+#content .importance {
+    padding-left: 4.5em;
+    min-height: 3em;
+    background: #fffccc url("/phpstorm/download/../../styles2/../img/icons/attention.png") no-repeat 1em 1em;
+    border: none;
+}
+#content .importance p, #content .information p {
+    margin-bottom: .5em;
+}
+#content .importance.small-icon {
+    padding: .8em 1em .3em 2.7em;
+    min-height: .5em;
+    background: #fffccc url("/phpstorm/download/../../styles2/../img/icons/attention_small.png") no-repeat 1em .9em;
+}
+#content .rubyIDE {
+    padding-left: 4.5em;
+    min-height: 3em;
+    background: #f4f6fc url("/phpstorm/download/../../styles2/../img/icons/rubyIDE.png") no-repeat 1em 1em;
+    border: none;
+}
+table.fullprintable {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    font-size: 90%;
+    text-align: center;
+}
+table.fullprintable caption{
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: left;
+    padding-bottom: 5px;
+}
+table.fullprintable td {
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align:middle;
+}
+table.fullprintable td.inCenter{
+    text-align: center;
+    font-weight: bold;
+}
+table.fullprintable td.inCenter strong{
+    font-size: 140%;
+}
+table.fullprintable th{
+    padding: 7px 7px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+table.fullprintable th.last{
+    border-right: 1px solid #bbb;
+}
+table.fullprintable tr{
+    background-color: #fff;
+    vertical-align: middle;
+}
+body.white table.fullprintable td span, table.fullprintable td span {
+    display: none;
+}
+dl.buy {
+    padding: 10px;
+    border: 1px dotted #ddd;
+    border-bottom: 4px solid #eee;
+}
+dl.buy dt {
+    /*font-size: 150%;*/
+    /*display: block;*/
+    float: left;
+    color: #959fa7;
+    font-weight: bold;
+    padding-right: 10px;
+}
+dl.buy dd {
+    padding-left: 20px;
+    margin-left: 55px;
+    display: block;
+}
+.cheked {
+    background:url("/phpstorm/download/../../styles2/../teamcity/img/ok.gif") no-repeat 50% 50%;
+    padding:5px;
+    text-align: center;
+}
+.minus{
+    background:url("/phpstorm/download/../../styles2/../teamcity/img/none.gif") no-repeat 50% 50%;
+    padding:5px;
+    text-align: center;
+}
+.better{
+    background:url("/phpstorm/download/../../styles2/../teamcity/img/limited.gif") no-repeat 50% 50%;
+    padding:5px;
+    text-align: center;
+}
+#legend .cheked, #legend .minus, #legend .better {
+    padding-left: 1.6em;
+    background-position: 0 50%;
+}
+td.cheked.text-inside, td.better.text-inside{
+    background-position: center .4em;
+}
+
+td.cheked.text-inside p, td.better.text-inside p{
+    margin-top: 1.6em;
+}
+
+
+
+#content .feature {
+    margin-bottom: 1.5em;
+}
+#content .feature img {
+    border: solid 1px #ccc;
+}
+#content #toc1, #content .toc1, #content #toc2, #content .toc2, #toc3 {
+    margin-left: 0;
+    padding: 0 0 1.5em;
+    float: left;
+    display: block;
+    width: 45%;
+}
+#content #toc1 ul.manual, #content .toc1  ul.manual, #content #toc2  ul.manual, #content .toc2  ul.manual, #toc3  ul.manual {
+    margin-bottom: -.5em;
+}
+#content #toc1 li, #content #toc2 li, #content .toc1 li, #content .toc2 li, #toc3 li, .toc li {
+    margin-bottom: 0.3em;
+    margin-left: 1em;
+    color: #ccc; /*list-style-position: outside;*/
+    list-style: disc outside;
+}
+#content .gray-backgr {
+    background-color: #f4f4f4;
+}
+#content .radius, #subcontent .radius {
+    border-radius: 5px;
+    -moz-transition: all 0.1s ease 0s;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+#content .strong {
+    font-weight: bold;
+}
+#subcontent ul#contnav li {
+    margin-left: 0;
+}
+#subcontent #contnav li, #subcontent #contnav dd {
+    background: url("/phpstorm/download/../../styles2/../img/arrow_grey.gif") no-repeat scroll 0 0 transparent;
+    list-style: none outside none;
+    margin-left: 20px;
+    padding: 0 0 0.5em 12px;
+}
+#subcontent #contnav li.act, #subcontent #contnav dd.act {
+    background: url("/phpstorm/download/../../styles2/../img/arrow_black.gif") no-repeat scroll 0 0 transparent;
+}
+#subcontent .featureTree {
+    width: auto!important;
+}
+#subcontent .featureTree h5 {
+    padding-left: .8em;
+    font-size: 90%;
+    font-weight: normal;
+    background-color: #f4f4f4;
+}
+#subcontent .featureTree ul {
+    margin-left: .8em;
+}
+.learnMore {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+a.learnMore:hover {
+    text-decoration: none;
+}
+body.dt .learnMore, body.rs .learnMore, body.dotcover .learnMore, body.decompiler .learnMore {
+    padding: 0;
+    right: 388px;
+    font-size: 90%;
+    width: auto;
+    height: auto;
+}
+body.rs .learnMore {
+    right: 384px;
+}
+body.dotcover .learnMore {
+    right: 388px;
+}
+body.decompiler .learnMore {
+    right: 391px;
+}
+body.dt .learnMore.rs, body.rs .learnMore.dt, body.dotcover .learnMore.rs, body.decompiler .learnMore.rs {
+    top: 6px;
+}
+body.dt .learnMore.dc, body.rs .learnMore.dc, body.dotcover .learnMore.dt, body.decompiler .learnMore.dt {
+    top: 28px;
+}
+body.dt .learnMore.dp, body.rs .learnMore.dp, body.dotcover .learnMore.dp, body.decompiler .learnMore.dc {
+    top: 51px;
+}
+body.dt .learnMore span, body.rs .learnMore span, body.dotcover .learnMore span, body.decompiler .learnMore span {
+    padding-bottom: 0;
+    color: #ff9404!important;
+    border-bottom: solid 1px #ff9404;
+}
+body.dt a.learnMore:hover span, body.rs a.learnMore:hover span, body.dotcover a.learnMore:hover span, body.decompiler a.learnMore:hover span {
+    text-decoration: none;
+    border-bottom: none;
+}
+/*--------------------- School Offer Start ---------------------*/
+/*body.dt .learnMore.school, body.dotcover .learnMore.school, body.rs .learnMore.school, body.pycharm .learnMore.school, body.phpstorm .learnMore.school, body.webstorm .learnMore.school, body.objc .learnMore.school, body.ruby .learnMore.school, body.idea .learnMore.school {
+    top: -5px;
+    width: 333px;
+    height: 113px;
+    text-indent: -5000px;
+    z-index: 0;
+    background: url("/phpstorm/download/../../styles2/../img/banners/bus.png") no-repeat 0 0;
+}*/
+/*--------------------- School Offer End ---------------------*/
+
+
+body.webstorm .learnMore.whatsnew, body.phpstorm .learnMore.whatsnew, body.yt .learnMore.whatsnew, body.ruby .learnMore.whatsnew {
+    height: 80px;
+    width: 350px;
+    right: 10px;
+    text-indent: -5000px;
+}
+
+
+#content .green_highlight {
+    background-color: #e5fde5;
+}
+#content strong.green_highlight {
+    font-weight: normal;
+    padding: 0 3px;
+}
+#feedControl {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 0.85em;
+    border-top: 1px solid #DADADA;
+    line-height: 1.5em;
+    position:relative;
+}
+.pycharm #feedControl, .ruby #feedControl, .webide #feedControl {
+    margin-top: .5em;
+    padding-top: 0;
+    border-top: none;
+}
+#feedControl .gf-snippet,#feedControl .gfc-resultsHeader, #feedControl .gf-author,
+#feedControl .gf-spacer, #feedControl .gf-relativePublishedDate {
+    display : none;
+}
+#feedControl .gfc-result{
+    width: 173px;
+    /*background: url("/phpstorm/download/../../styles2/../img/readmore_link.gif") no-repeat 155px 75%;*/
+    /*line-height: 1.2em;*/
+}
+#feedControl .gfc-result div.gf-title{
+    background: url("/phpstorm/download/../../styles2/../img/bullet_star_bw.gif") no-repeat 0 5px;
+    padding-left: 10px;
+}
+#feedControl .gfc-result div.gf-title a.gf-title{
+    border: 0;
+}
+.pycharm #feedControl .gfc-result div.gf-title, .ruby #feedControl .gfc-result div.gf-title, .webide #feedControl .gfc-result div.gf-title {
+    padding-top: .2em;
+    padding-left: 0;
+    height: auto;
+    background: none;
+}
+ul.talk {
+    margin: 0;
+    list-style: none;
+}
+ul.talk li {
+    margin: 0 0 .1em -.3em;
+    padding: 0;
+}
+ul.talk li a, ul.talk .link {
+    padding: .4em 0 .5em 2.9em;
+    display: block;
+}
+ul.talk .link {color:#3358c0; text-decoration:none; cursor:pointer;}
+ul.talk .link:hover {text-decoration:underline;}
+ul.talk li.community a {
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoCommunity_ChB.gif") no-repeat 0 0;
+}
+ul.talk li.twitterProduct a, ul.talk li.twitterProduct span {
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoTwitter_ChB.gif") no-repeat 0 0;
+}
+ul.talk li.blogProduct a {
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoBlog_ChB.gif") no-repeat 0 0;
+}
+ul.talk li.issueTracker a {
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoIssuetracker_ChB.gif") no-repeat 0 0;
+}
+#content .intro {
+    color: #797c80;
+    font: italic 1.15em/1.67em Georgia,"Times New Roman",Times,serif;
+}
+#content .italic {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+
+
+
+#content .threeColonText {
+    margin-right: 6%;
+    float: left;
+    font-size: 90%;
+    width: 29%;
+}
+#content .threeColonText.rightfloated {
+    margin-right: 0;
+}
+#content .threeColonText h5 {
+    margin-top: 2em;
+}
+#content .threeColonText .ico {
+    margin-top: 1.5em;
+}
+#content ul.starlist.plus li {
+    padding-left: 1.6em;
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoPlus.png") no-repeat 0 .3em;
+}
+#content ul.starlist.plus li ul.starlist li {
+    margin-left: -.8!important;
+    padding-left: 1.1em;
+    background: url("/phpstorm/download/../../styles2/../img/design/bullet_small.gif") no-repeat 0 .6em;
+}
+ul.starlist li ol li {
+    padding-left: 0;
+    background: none;
+}
+#content .threeColonText  a.video {
+    display: block;
+    width: 96px;
+    height: 80px;
+    text-indent: -50000px;
+    background: url("/phpstorm/download/../../styles2/../../img/icons/movie.png") no-repeat 0 0;
+}
+#content .threeColonText a.video:hover {
+    background: url("/phpstorm/download/../../styles2/../../img/icons/movie.png") no-repeat 0 -90px;
+}
+#content .gray-round {
+    padding: 1em 2em 0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #f4f4f4;
+}
+#content .gray-round h4 {
+    margin-bottom: .3em;
+}
+#content ul.features-list {
+    list-style: none;
+}
+#content ul.features-list li {
+    margin: 0;
+    padding-left: 1em;
+    font-size: 110%;
+}
+#content ul.features-list li a {
+    border: none;
+}
+
+#content .like {
+    margin-left: 1em;
+    height: 26px;
+}
+#content .like ul li {
+    float: left;
+}
+#content .like ul li.facebook {
+    width: 6em;
+}
+
+
+
+
+
+
+
+
+
+
+#main #content {
+    float: left;
+    width: 76%;
+    /*margin-right: 250px;*/
+}
+body.wide #main #content {
+    width: auto;
+    float: none;
+}
+aside {
+    margin-left: -22%;
+    float: right;
+    width: 22%;
+    /*display: none;*/
+}
+aside .box, aside dl {
+    margin-top: 1em!important;
+    border: solid 1px #ccc;;
+}
+
+
+
+
+
+footer {
+    margin: 2em 0 .5em 0;
+    padding: 25px 0 1em 0;
+    background-color: #f4f4f4;
+}
+footer .products {
+    margin-top: -35px;
+    padding: 35px 3.5em 0 0;
+    background: url("/phpstorm/download/../../styles2/../img/design/bgFooter.png") no-repeat right 0;
+}
+footer ul {
+    font-size: 85%;
+}
+footer a {
+    color: #333;
+}
+footer .social {
+    margin-top: -1.1em;
+}
+footer .products ul li.mps {
+    letter-spacing: -.5px;
+}
+footer h3 a {
+    float: right;
+    font-size: 50%;
+    font-weight: bold;
+    margin-right: 5em;
+    margin-top: -1em;
+}
+footer p.why {
+    margin-bottom: 1.4em;
+    font-weight: bold;
+    font-size: 90%;
+}
+#footer ul {
+    margin-bottom: 3em;
+    font-size: 90%;
+}
+#footer ul li {
+    margin-right: .7em;
+    color: #777;
+    display: inline-block;
+}
+#footer ul li a {
+    padding-right: .9em;
+    border-right: solid 1px #c0c0c0;
+}
+#footer ul li.marketing a {
+    border-right: none;
+}
+
+
+
+
+/* redefine default menu styles */
+/*
+nav ul li {position:relative; z-index:2;}
+nav ul li a, nav ul li.current .text {position:relative; z-index:2;}
+body.yt nav ul li:nth-child(4):before {
+    z-index:1;
+    content:'';
+    display:block;
+    top:-7px;
+    left:-14px;
+    width:24px;
+    height:26px;
+    position:absolute;
+    background:url("/phpstorm/download/../../styles2/'/youtrack/agile_project_management/img/eap-attract-decor.png'") no-repeat;
+}
+*/
+.search-button {position:relative; top:3px;}
+
+.feature .leftfloated.block50 + p {padding-left:15px; overflow:hidden;}
+
+#container .disable {
+    display: none;
+}
+
+div.rating-cancel,div.star-rating {
+    float: left;
+    width: 28px;
+    height: 28px;
+    text-indent:-999em;
+    cursor:pointer;
+    display:block;
+    background:transparent;
+    overflow:hidden
+}
+div.rating-cancel,div.rating-cancel a {
+    display: none!important;
+}
+div.star-rating,div.star-rating a{
+    background: url("/phpstorm/download/../../styles2/../img/jquery/stars.png") no-repeat 0 0
+}
+div.rating-cancel a, div.star-rating a {
+    display:block;
+    width: 28px;
+    height:100%;
+    background-position:0 0;
+    border:0
+}
+div.star-rating-on a{
+    background-position:0 -28px!important
+}
+div.star-rating-hover a {
+    background-position:0 -28px
+}
+div.star-rating-readonly a{
+    cursor:default !important
+}
+div.star-rating{
+    background:transparent!important;
+    overflow:hidden!important
+}
+
+
+/*-------------------------- Validation ------------------------*/
+label.error {
+    margin-left: .5em;
+    color : #ff0000;
+}
+input.error, textarea.error {
+    background-color: #FEECEC;
+}
+
+
+/*-------------------------- Tabs ------------------------*/
+.regular .tabb {
+    display: none;
+}
+.regular .tabb.activeTabBody {
+    display: block;
+}
+.regular ul.visibilityHidden {
+    visibility: hidden;
+    height: 44px;
+}
+.regular.ui-tabs ul.visibilityHidden {
+    visibility: inherit;
+}
+.regular.ui-tabs {
+    margin-top: 1.5em;
+    position: relative;
+    zoom: 1;
+}
+.regular.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    clear: left;
+    height: 44px;
+    border-bottom: solid 1px #c4c9cf;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav {
+    height: 35px;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs {
+    margin-left: -.7em;
+    margin-bottom: 1em;
+    font-size: 90%;
+    border: none;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs.vertical {
+    margin-left: 0;
+    height: auto;
+}
+.regular.ui-tabs .ui-tabs-nav li {
+    margin: 0 .5em 0 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabLeft.png") no-repeat 0 0;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs li {
+    background: none;
+    border-left: solid 1px #ccc;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs.vertical li {
+    float: none;
+    border: none;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs li:first-child {
+    border-left: none;
+}
+.regular.ui-tabs .ui-tabs-nav li a {
+    padding: 12px 1.5em;
+    height: 20px;
+    display: block;
+    text-align: center;
+    border: none;
+    font-size: 120%;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabRight.png") no-repeat right 0;
+    border-bottom: solid 1px #c4c9cf;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav li a {
+    padding-top: 6px;
+    height: 17px;
+    font-size: 100%;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav li a:hover {
+    text-decoration: none;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs li a {
+    padding: .2em .5em .5em .7em;
+    background: none;
+    border: none;
+}
+.regular.ui-tabs.minTabs .ui-tabs-nav.sub_tabs.vertical li a {
+    margin-bottom: .5em;
+    padding: 0 0 .2em .8em;
+    text-align: left;
+}
+.regular.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabLeftSelect.png") no-repeat 0 0;
+}
+.regular.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabRightSelect.png") no-repeat right 0;
+    border-bottom: solid 1px #fff;
+}
+.regular.ui-tabs .ui-tabs-nav.sub_tabs li.ui-tabs-selected a {
+    color: #777;
+}
+.regular.ui-tabs .ui-tabs-nav.sub_tabs.vertical li.ui-tabs-selected a {
+    background: url("/phpstorm/download/../../styles2/../img/arrow_grey.gif") no-repeat 0 0;
+}
+.regular.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .regular.ui-tabs .ui-tabs-nav li.ui-state-disabled a, .regular.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    
+}
+.regular.ui-tabs .ui-tabs-nav li a, .regular.ui-tabs.ui-tabs-collapsible .regular.ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+}
+.regular.ui-tabs .ui-tabs-nav li a:hover, .regular.ui-tabs.ui-tabs-collapsible .regular.ui-tabs-nav li.ui-tabs-selected a:hover {
+    text-decoration: none;
+}
+.regular.ui-tabs .ui-tabs-panel {
+    display: block;
+    border: 0;
+}
+.regular.ui-tabs .ui-tabs-hide, .buttTabs .ui-tabs-hide {
+    display: none;
+}
+
+.bullets.ui-tabs .ui-tabs-nav {
+    height: 15px;
+    border: none;
+}
+.bullets.ui-tabs .ui-tabs-nav li, .bullets.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin: 0;
+    height: 9px;
+    background: none;
+}
+.bullets.ui-tabs .ui-tabs-nav li a {
+    padding: .2em;
+    height: 9px;
+    width: 9px;
+    color: #fff;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabBullets.gif") no-repeat 0 0;
+    border: none;
+}
+.bullets.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgTabBulletsSelect.gif") no-repeat 0 0;
+}
+.screenshots.ui-tabs .ui-tabs-nav {
+    margin: 1em 0;
+    height: auto;
+    border: none;
+}
+.screenshots.ui-tabs .ui-tabs-nav li, .screenshots.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    background: none;
+    float: none;
+    display: inline;
+}
+.screenshots.ui-tabs .ui-tabs-nav li a, .screenshots.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    margin: 0 .1em;
+    padding: 0;
+    height: auto;
+    display: inline;
+    background: none;
+    border: none;
+}
+.screenshots.ui-tabs .ui-tabs-nav li a img, .screenshots.ui-tabs .ui-tabs-nav li.ui-tabs-selected a img {
+    border: solid .3em #e9e9e9;
+}
+.screenshots.ui-tabs .ui-tabs-nav li.ui-tabs-selected a img {
+    border: solid .3em #ccc;
+}
+
+.buttons.ui-tabs .ui-tabs-nav {
+    height: auto;
+    border: none;
+}
+.buttons.ui-tabs .ui-tabs-nav li {
+    margin: 0;
+    background-color: #f8f8f8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#f5f5f5));
+    background-image: -webkit-linear-gradient(top, #fbfbfb, #f5f5f5);
+    background-image: -moz-linear-gradient(top, #fbfbfb, #f5f5f5);
+    background-image: -ms-linear-gradient(top, #fbfbfb, #f5f5f5);
+    background-image: -o-linear-gradient(top, #fbfbfb, #f5f5f5);
+    background-image: linear-gradient(top, #fbfbfb, #f5f5f5);
+}
+.buttons.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    background-color: #f2f2f2;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#f8f8f8));
+    background-image: -webkit-linear-gradient(top, #ededed, #f8f8f8);
+    background-image: -moz-linear-gradient(top, #ededed, #f8f8f8);
+    background-image: -ms-linear-gradient(top, #ededed, #f8f8f8);
+    background-image: -o-linear-gradient(top, #ededed, #f8f8f8);
+    background-image: linear-gradient(top, #ededed, #f8f8f8);
+}
+.buttons.ui-tabs .ui-tabs-nav li a {
+    padding: 3px 2em 6px;
+    text-align: center;
+    font-size: 95%;
+    background: none;
+    border: 1px solid #d6d6d6;
+    /*border-right: none;*/
+}
+.buttons.ui-tabs .ui-tabs-nav li:first-child a {
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.buttons.ui-tabs .ui-tabs-nav li:last-child a {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    border-right: 1px solid #d6d6d6;
+}
+.buttons.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    color: #333;
+    -webkit-box-shadow: inset 0 1px 0 0 #bfbfbf, inset 0 2px 0 0 #d6d6d6, inset 0 3px 0 0 #e6e6e6;
+    -moz-box-shadow: inset 0 1px 0 0 #bfbfbf, inset 0 2px 0 0 #d6d6d6, inset 0 3px 0 0 #e6e6e6;
+    -ms-box-shadow: inset 0 1px 0 0 #bfbfbf, inset 0 2px 0 0 #d6d6d6, inset 0 3px 0 0 #e6e6e6;
+    -o-box-shadow: inset 0 1px 0 0 #bfbfbf, inset 0 2px 0 0 #d6d6d6, inset 0 3px 0 0 #e6e6e6;
+    box-shadow: inset 0 1px 0 0 #bfbfbf, inset 0 2px 0 0 #d6d6d6, inset 0 3px 0 0 #e6e6e6;
+    background: none;
+    border: 1px solid #c8c8c8;
+    border-right: none;
+}
+.buttons.ui-tabs .ui-tabs-nav li:last-child.ui-tabs-selected a {
+    border-right: 1px solid #c8c8c8;
+}
+
+
+.regular.vertical.ui-tabs .ui-tabs-nav {
+    height: auto;
+    background: none;
+    border: none;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li {
+    float: none;
+    background: none;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li a {
+    margin-top: -1px;
+    margin-right: 30px;
+    padding: 14px 0 18px 0;
+    text-align: left;
+    color: #777;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #e0e0e0;
+    border-top: solid 1px #e0e0e0;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li:first-child a {
+    border-top: solid 1px #e0e0e0;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    margin-left: -8px;
+    padding-left: 7px;
+    padding-right: 30px;
+    position: relative;
+    color: #333;
+    background: -moz-linear-gradient(top,  #fff 0%, #f4f4f4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#f4f4f4));
+    background: -webkit-linear-gradient(top,  #fff 0%,#f4f4f4 100%);
+    background: -o-linear-gradient(top,  #fff 0%,#f4f4f4 100%);
+    background: -ms-linear-gradient(top,  #fff 0%,#f4f4f4 100%);
+    background: linear-gradient(top,  #fff 0%,#f4f4f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f4f4f4',GradientType=0 );
+	border: 1px solid #dbdfe4;
+    border-right: none;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:before {
+    content: "";
+	position: absolute;
+	top: -1px;
+	right: -15px;
+    border-width: 27px 0 27px 15px;
+	border-style: solid;
+    border-color: transparent #dbdfe4;
+    display:block;
+    width:0;
+}
+.regular.vertical.ui-tabs .ui-tabs-nav li.ui-tabs-selected a:after {
+    content: "";
+	position: absolute;
+	top: 0;
+	right: -14px;
+	border-width: 26px 0 26px 15px;
+	border-style: solid;
+	border-color: transparent #f9f9f9;
+    display: block;
+    width: 0;
+}
+
+
+.text.ui-tabs .ui-tabs-nav {
+    height: auto;
+    border: none;
+}
+.text.ui-tabs .ui-tabs-nav li, .text.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin: 0;
+    padding: 0 .3em;
+    background: none;
+    border: none;
+}
+.text.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    background-color: #e7e7e8;
+}
+.text.ui-tabs .ui-tabs-nav li a, .text.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    padding: 0 0 .1em 0;
+    color: #333;
+    background: none;
+    border: none;
+}
+.text.ui-tabs .ui-tabs-nav li a {
+    border-bottom: dashed 1px #333;
+}
+.text.ui-tabs .ui-tabs-nav li a:hover {
+    border-bottom: solid 1px transparent;
+}
+.text.ui-tabs .ui-tabs-nav li:first-child a:after {
+
+}
+
+
+
+
+
+.language_selector.ui-tabs .ui-tabs-nav {
+    margin: 1em;
+    padding: .2em .2em 2px;
+    float: none;
+    height: auto;
+    display: inline;
+    background-color: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#f5f5f5));
+    background: -webkit-linear-gradient(top, #fdfdfd, #f5f5f5);
+    background: -moz-linear-gradient(top, #fdfdfd, #f5f5f5);
+    background: -ms-linear-gradient(top, #fdfdfd, #f5f5f5);
+    background: -o-linear-gradient(top, #fdfdfd, #f5f5f5);
+    background: linear-gradient(top, #fdfdfd, #f5f5f5);
+    -webkit-box-shadow: inset 0 0 0 1px #fff;
+    -moz-box-shadow: inset 0 0 0 1px #fff;
+    -ms-box-shadow: inset 0 0 0 1px #fff;
+    -o-box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #d4d4d4;
+}
+.language_selector.ui-tabs .ui-tabs-nav li, .language_selector.ui-tabs .ui-tabs-nav li a, .language_selector.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .language_selector.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    display: inline;
+    float: none;
+    background: none;
+    border: none;
+}
+.language_selector.ui-tabs .ui-tabs-nav li {
+    margin: 1px;
+    padding: 0 0;
+    height: auto;
+    border: solid 1px transparent;
+}
+.language_selector.ui-tabs .ui-tabs-nav li:hover a {
+    color:#333;
+}
+.language_selector.ui-tabs .ui-tabs-nav li:first-child a {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.language_selector.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    color: #333;
+    background-color: #e1e1e1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#e1e1e1));
+    background: -webkit-linear-gradient(top, #e3e3e3, #e1e1e1);
+    background: -moz-linear-gradient(top, #e3e3e3, #e1e1e1);
+    background: -ms-linear-gradient(top, #e3e3e3, #e1e1e1);
+    background: -o-linear-gradient(top, #e3e3e3, #e1e1e1);
+    background: linear-gradient(top, #e3e3e3, #e1e1e1);
+    border: solid 1px #cfcfcf;
+    border-bottom: solid 1px #fcfcfc;
+}
+.language_selector.ui-tabs .ui-tabs-nav li a {
+    padding: 0 1.5em;
+    font-size: 80%;
+}
+
+
+.language_selector.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+    color: #333;
+}
+
+
+/*-------------------------- New Window ------------------------*/
+.screenshot {
+    position: relative;
+}
+.screenshot a {
+    padding: .5em 0 0 1em;
+    display: block;
+    border: none;
+}
+.screenshot a img {
+    border: solid 1px #ccc;
+}
+.pullout {
+    /*margin: .5em 30px 2.5em 0;*/
+    margin: .5em 0 2.5em 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+}
+.pullout.light {
+    margin-bottom: .5em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.pullout:before, .pullout:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+    bottom:15px;
+    left:10px;
+    width:50%;
+    height:20%;
+    max-width:300px;
+    max-height:100px;
+    -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.3);
+            box-shadow:0 15px 10px rgba(0, 0, 0, 0.3);
+    -webkit-transform:rotate(-3deg);
+       -moz-transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+         -o-transform:rotate(-3deg);
+            transform:rotate(-3deg);
+}
+.pullout:after {
+    right:10px;
+    left:auto;
+    -webkit-transform:rotate(3deg);
+       -moz-transform:rotate(3deg);
+        -ms-transform:rotate(3deg);
+         -o-transform:rotate(3deg);
+            transform:rotate(3deg);
+}
+.pullout.light:before, .pullout.light:after {
+    bottom: 0;
+    height: 0;
+    max-width:auto;
+    max-height:auto;
+    -webkit-box-shadow:none;
+       -moz-box-shadow:none;
+            box-shadow:none;
+}
+.pullout a {
+    padding: .6em;
+    display: block;
+}
+.pullout.light a {
+    padding: 0;
+}
+.pullout.enlarge a:after {
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    width: 27px;
+    height: 27px;
+    content: "enlarge";
+    text-indent: -50000px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/enlarge.png") no-repeat 0 0;
+}
+.pullout.light.enlarge a:after {
+    padding: 0;
+    top: auto;
+    left: auto;
+    bottom: 15px;
+    right: 15px;
+    width: 32px;
+    height: 33px;
+    background-position: 0 -67px;
+}
+.pullout.video a:after {
+    margin-left: -24px;
+    margin-top: -24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    content: "play";
+    text-indent: -50000px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/play.png") no-repeat 0 0;
+}
+.pullout.video.color a:after {
+    margin-left: -14px;
+    margin-top: -14px;
+    width: 28px;
+    height: 28px;
+    background-position: -10px -103px;
+    opacity: .6;
+}
+@-webkit-keyframes play_animation_video {
+	0%   { opacity: .6; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes play_animation_video {
+	0%   { opacity: .6; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes play_animation_video {
+	0%   { opacity: .6; }
+	100% { opacity: 1; }
+}
+.pullout.video.color a:hover:after {
+    -webkit-animation: play_animation_video 2s infinite;
+     -moz-animation:    play_animation_video 2s infinite;
+     -ms-animation:     play_animation_video 2s infinite;
+}
+.pullout img {
+    display: block;
+    border: solid 1px #ccc;
+}
+.pullout.light.video img {
+    border: none;
+}
+
+
+.boximage {
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 0;
+    background-color: #fff;
+}
+.boximage.leftfloated {
+    margin-left: -1em;
+}
+.boximage.rightfloated {
+    margin-right: -1em;
+}
+.boximage .action, .screenshot .action {
+    display: block;
+    position: absolute;
+    text-indent: -999em;
+    z-index: 1;
+}
+.boximage .action.enlarge, .screenshot .action.enlarge {
+    width: 27px;
+    height: 27px;
+    top: -2px;
+    left: 0;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/enlarge.png") no-repeat 0 0;
+}
+body.yt .boximage .action.enlarge, body.yt .screenshot .action.enlarge {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/enlarge_yt.png") no-repeat 0 0;
+}
+.boximage .boximageTop {
+    text-align: right;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgTopLeft.gif") no-repeat 0 0;
+}
+.boximage span {
+    height: 19px;
+    display: block;
+    color: #fff;
+}
+.boximage .boximageTop span {
+    padding-left: 13px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgTopRight.gif") no-repeat right 0;
+}
+.boximage .boximageBottom {
+    text-align: right;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgBottomLeft.gif") no-repeat 0 0;
+}
+.boximage.small .boximageBottom {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgBottomLeft_small.gif") no-repeat 0 0;
+}
+.boximage .boximageBottom span {
+    height: 21px;
+    padding-left: 167px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgBottomRight.gif") no-repeat right 0;
+}
+.boximage.small .boximageBottom span {
+    padding-left: 102px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgBottomRight_small.gif") no-repeat right 0;
+}
+.boximage .boximageContent {
+    padding-left: 22px;
+    display: block;
+    text-align: center;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgLeft.gif") repeat-y 0 0;
+    border: none;
+}
+.boximage .boximageContent a {
+    padding-right: 23px;
+    display: block;
+    line-height: 1em;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/bgRight.gif") repeat-y right 0;
+    border: none;
+}
+.boximage .boximageContent a:hover {
+    text-decoration: none;
+}
+.boximage .boximageContent a span {
+    padding: .5em .7em;
+    margin-top: .5em;
+    height: auto;
+    color: #333;
+}
+.boximage .boximageContent img {
+    border: solid 1px #ccc;
+}
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+* html #fancybox-loading {	/* IE6 */
+    position: absolute;
+    margin-top: 0;
+}
+#fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png");
+}
+#fancybox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    z-index: 1100;
+    display: none;
+}
+* html #fancybox-overlay {	/* IE6 */
+    position: absolute;
+    width: 100%;
+}
+#fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+#fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    z-index: 1101;
+    display: none;
+}
+#fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+}
+#fancybox-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+}
+#fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+#fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px 0;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+    border: none;
+}
+#fancybox_error {
+    color: #444;
+    padding: 7px;
+    margin: 0;
+}
+#fancybox-content {
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+#fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+    -ms-interpolation-mode: bicubic;
+}
+#fancybox-frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+#fancybox-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1102;
+}
+.fancybox-title-inside {
+    padding: 10px 0;
+    text-align: center;
+}
+.fancybox-title-outside {
+    padding-top: 5px;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+.fancybox-title-over {
+    color: #FFF;
+    text-align: left;
+}
+#fancybox-title-over {
+    padding: 10px;
+    background-image: url("/phpstorm/download/../../styles2/../img/jquery/fancy_title_over.png");
+    display: block;
+}
+#fancybox-title-wrap {
+    display: inline-block;
+}
+#fancybox-title-wrap span {
+    height: 32px;
+    float: left;
+}
+#fancybox-title-left {
+    padding-left: 15px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") no-repeat -40px -90px;
+
+}
+
+#fancybox-title-main {
+    font-weight: bold;
+    line-height: 29px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox-x.png") 0 -40px;
+    color: #FFF;
+}
+
+#fancybox-title-right {
+    padding-left: 15px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") no-repeat -55px -90px;
+}
+#fancybox-left, #fancybox-right {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    z-index: 1102;
+    display: none;
+    border: none;
+}
+#fancybox-left {
+    left: 0;
+}
+#fancybox-right {
+    right: 0;
+}
+#fancybox-left-ico, #fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+#fancybox-left-ico {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -30px;
+
+}
+#fancybox-right-ico {
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -60px;
+}
+#fancybox-left:hover, #fancybox-right:hover {
+    visibility: visible;    /* IE6 */
+}
+#fancybox-left:hover span {
+    left: 20px;
+}
+#fancybox-right:hover span {
+    left: auto;
+    right: 20px;
+}
+.fancy-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+#fancy-bg-n {
+    top: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url("/phpstorm/download/../../styles2/../img/jquery/fancybox-x.png");
+}
+#fancy-bg-ne {
+    top: -20px;
+    right: -20px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -162px;
+}
+#fancy-bg-e {
+    top: 0;
+    right: -20px;
+    height: 100%;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox-y.png") -20px 0;
+}
+#fancy-bg-se {
+    bottom: -20px;
+    right: -20px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -182px;
+}
+#fancy-bg-s {
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox-x.png") 0 -20px;
+}
+#fancy-bg-sw {
+    bottom: -20px;
+    left: -20px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -142px;
+}
+#fancy-bg-w {
+    top: 0;
+    left: -20px;
+    height: 100%;
+    background-image: url("/phpstorm/download/../../styles2/../img/jquery/fancybox-y.png");
+}
+#fancy-bg-nw {
+    top: -20px;
+    left: -20px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -122px;
+
+}
+
+
+/*-------------------------- Gallery Start ------------------------*/
+.ad-gallery {
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/bgGalleryNav.gif") repeat-x 0 bottom;
+}
+.ad-gallery, .ad-gallery * {
+    margin: 0;
+    padding: 0;
+}
+.ad-gallery .ad-image-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.ad-gallery .ad-image-wrapper .ad-loader {
+    position: absolute;
+    z-index: 10;
+    top: 48%;
+    left: 48%;
+    border: 1px solid #CCC;
+}
+.ad-gallery .ad-image-wrapper .ad-next, .ad-gallery .ad-image-wrapper .ad-prev {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    height: 80%;
+    cursor: pointer;
+    display: block;
+    z-index: 100;
+}
+.ad-gallery .ad-image-wrapper .ad-prev {
+    left: 0;
+}
+.ad-gallery .ad-image-wrapper .ad-prev .ad-prev-image, .ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 47%;
+    left: 0;
+    z-index: 101;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -30px;
+}
+.ad-gallery .ad-image-wrapper .ad-next .ad-next-image {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    left: auto;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/fancybox.png") -40px -60px;
+}
+.ad-gallery .ad-image-wrapper .ad-image {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    top: 0!important;
+    left: 0;
+    z-index: 9;
+}
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    font-size: 130%;
+    /*background: url("/phpstorm/download/../../styles2/opa75.png");*/
+    color: #fff;
+    background-color: #000;
+    opacity: 0.7;
+}
+.ad-gallery .ad-image-wrapper .ad-image .ad-image-description .ad-description-title {
+    display: block;
+}
+.ad-gallery .ad-controls {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 30px;
+    text-align: center;
+}
+.ad-gallery .ad-info {
+    padding-right: 1em;
+    float: left;
+    width: 48%;
+    text-align: right;
+    color: #515151;
+    font-size: 130%;
+}
+.ad-gallery .ad-slideshow-controls {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.ad-gallery .ad-slideshow-controls .ad-slideshow-start {
+    width: 31px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/galleryPlay.gif") no-repeat 0 0;
+}
+.ad-gallery .ad-slideshow-controls .ad-slideshow-stop {
+    width: 31px;
+    height: 27px;
+    position: absolute;
+    left: 32px;
+    text-indent: -9999px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/galleryStop.gif") no-repeat 0 0;
+}
+.ad-gallery .ad-slideshow-controls .ad-slideshow-countdown {
+    display: none!important;
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+.ad-gallery .ad-slideshow-running .ad-slideshow-start {
+    cursor: default;
+    font-style: italic;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/galleryPlay.gif") no-repeat 0 -27px;
+}
+.ad-gallery .ad-nav {
+    padding-bottom: 2em;
+    width: 100%;
+    position: relative;
+}
+.ad-gallery .ad-forward, .ad-gallery .ad-back {
+    position: absolute;
+    top: 0;
+    width: 7em;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+}
+.ad-gallery .ad-back {
+    left: 0;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/galleryPrev.gif") no-repeat center 1em;
+}
+.ad-gallery .ad-forward {
+    right: 0;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/galleryNext.gif") no-repeat center 1em;
+}
+.ad-gallery .ad-nav .ad-thumbs {
+    margin: 0 7.3em;
+    overflow: hidden;
+    width: auto;
+}
+.ad-gallery .ad-thumbs .ad-thumb-list {
+    float: left;
+    width: 9000px;
+    list-style: none;
+}
+.ad-gallery .ad-thumbs li {
+    float: left;
+    padding-right: 1em;
+}
+.ad-gallery .ad-thumbs li a {
+    display: block;
+    border: none;
+}
+.ad-gallery .ad-thumbs li a img {
+    border: 3px solid #CCC;
+    display: block;
+}
+.ad-gallery .ad-thumbs li a.ad-active img {
+    border: 3px solid #616161;
+}
+/* Can't do display none, since Opera won't load the images then */
+.ad-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+/*-------------------------- Gallery Start ------------------------*/
+
+/*-------------------------- jCarouselLite Start ------------------------*/
+.jCarouselLite {
+    float: left;
+    visibility: visible;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+.carousel .navigation {
+    width: 70px;
+    height: 115px;
+    text-indent: -5000px;
+    cursor: pointer;
+    border: none;
+}
+.carousel .navigation.prev {
+    float: left;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/ad_prev.png") no-repeat center center;
+}
+.carousel .navigation.next {
+    float: right;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/ad_next.png") no-repeat center center;
+}
+.jCarouselLite ul {
+    position: relative;
+    list-style-type: none;
+    z-index: 1;
+    width: 2890px;
+    left: -1870px;
+}
+.jCarouselLite ul li {
+    overflow: hidden; float: left;
+}
+/*-------------------------- jCarouselLite End ------------------------*/
+
+
+/*-------------------------- Bookmark Start ------------------------*/
+.bookmark_popup {
+	display: none;
+	position: absolute;
+	z-index: 100;
+}
+.bookmark_popup ul {
+	float: left;
+	width: 320px;
+}
+.bookmark_list {
+    margin: 0;
+    padding: 0;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	font-size: 80%;
+}
+.bookmark_list li {
+	float: left;
+	width: 23%;
+	margin: 0 1px;
+	padding: 1px;
+	/*border: 1px outset;*/
+}
+.bookmark_compact {
+	/*background-color: #eee;
+	border: 1px outset;*/
+}
+.bookmark_compact li {
+    margin: 0;
+    padding: 2px;
+    width: 16px;
+    height: 16px;
+	background-color: transparent;
+	border: none;
+}
+.bookmark_list a {
+	width: 100%;
+	text-decoration: none;
+	cursor: pointer;
+}
+.bookmark_list span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.bookmark_list span.bookmark_icons {
+	background: url("/phpstorm/download/../../styles2/../img/jquery/bookmarks.gif") no-repeat center;
+}
+.bookmark_list img {
+	border: none;
+}
+/*-------------------------- Bookmark End ------------------------*/
+
+/*-------------------------- Carousel Start ------------------------*/
+.carousel {
+    position: relative;
+}
+#carousel {
+    margin: 0 auto;
+}
+#ui-carousel-next, #ui-carousel-prev {
+    margin-top: -20px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    text-decoration: none;
+    text-align: center;
+}
+#ui-carousel-next {
+    right: 2em;
+}
+#ui-carousel-prev {
+    left: 2em;
+}
+#ui-carousel-next span, #ui-carousel-prev span {
+    margin: 0 auto;
+    display: block;
+    width: 22px;
+    height: 40px;
+    text-indent: -50000px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/arrow_carousel.png") no-repeat 0 0;
+}
+#ui-carousel-next span {
+    background-position: 0 -50px;
+}
+.slide {
+    margin: 0;
+    position: relative;
+}
+.slide img {
+    border: solid 1px #d7d7d7;
+}
+#pages {
+    margin: 0 auto;
+    width: 150px;
+}
+.bullet {
+    margin-top: 1.5em;
+    margin-right: 1em;
+    display: block;
+    width: 10px;
+    height: 10px;
+    float: left;
+    -moz-box-shadow: inset -3px -3px 5px 0 #cbd4d9, inset 0 0 3px 2px #b0bbc5, 1px 1px 0 0 #fff;
+    -webkit-box-shadow: inset -3px -3px 5px 0 #cbd4d9, inset 0 0 3px 2px #b0bbc5, 1px 1px 0 0 #fff;
+    box-shadow: inset -3px -3px 5px 0 #cbd4d9, inset 0 0 3px 2px #b0bbc5, 1px 1px 0 0 #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.bullet.on {
+    -moz-box-shadow: inset 0 0 3px 4px #4763c3, 1px 1px white;
+    -webkit-box-shadow: inset 0 0 3px 4px #4763c3, 1px 1px white;
+    box-shadow: inset 0 0 3px 4px #4763c3, 1px 1px white;
+}
+.ui-carousel {
+	height: 100px;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+	position: relative; /*for ie7 to work e.g in html carousels*/
+	width: 300px
+}
+.ui-carousel > .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+}
+.ui-carousel > .wrapper > * {
+	border: 0;
+	display: block;
+	float: left;
+	height: 100px;
+	overflow: hidden;
+	width: 100px;
+}
+.slide .text {
+    padding: .5em 1.2em;
+	position: absolute;
+    width: 95%;
+    bottom: .4em;
+    color: #fff;
+    font-size: 130%;
+    background-color: rgba(157,181,207,.9);
+}
+/*-------------------------- Carousel End ------------------------*/
+
+
+/*-------------------------- Foobar Start ------------------------*/
+#bart_wrapper{
+    text-align:left;
+    display:none;
+    /*border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;*/
+    position:fixed;
+    opacity:.8;
+    height:100px;
+    /*-webkit-background-size:30px 30px;
+    -moz-background-size:30px 30px;
+    background-size:30px 30px;
+    background-image:-webkit-gradient(linear,left top,right bottom,color-stop(.25,rgba(255,255,255,.05)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,.05)),color-stop(.75,rgba(255,255,255,.05)),color-stop(.75,transparent),to(transparent));
+    background-image:linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    background-image:-webkit-linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    background-image:-moz-linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    background-image:-ms-linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    background-image:-o-linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    background-image:linear-gradient(135deg,rgba(255,255,255,.05) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+    -moz-box-shadow:inset 0 -1px 0 rgba(255,255,255,.4);
+    -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,.4);
+    box-shadow:inset 0 -1px 0 rgba(255,255,255,.4);
+    border:1px solid;
+    color:#fff;*/
+    _position:absolute;
+    /*text-shadow:0 1px 0 rgba(0,0,0,.5);
+    -webkit-animation:animate-bg 6s linear infinite;
+    -moz-animation:animate-bg 6s linear infinite*/
+}
+#bart_text{
+
+}
+#bart_icon{
+    float:left;
+    margin:18px 18px 0 18px;
+    height:100%
+}
+#bart_title{
+    height: 90px;
+    z-index: -1;
+}
+#bart_close{
+    margin: 7px 188px 0 0;
+    float: right;
+    cursor:pointer;
+    width: 20px;
+    height: 20px;
+}
+#bart_icon img,#bart_close img{
+    margin:0;
+    border:0;
+    padding:0
+}
+#bart_wrapper.bart_bubble{
+    min-width:200px;
+    max-width:50%;
+    margin:5px
+}
+#bart_wrapper.bart_modal{
+    min-width:200px;
+    max-width:50%;
+    min-height:70px;
+    max-height:50%;
+    z-index:999
+}
+#bart_wrapper.bart_bar{
+    width:100%;
+    height:70px
+}
+#bart_wrapper.bart_notice{
+    background-color:#4ea5cd;
+    border-color:#3b8eb5
+}
+#bart_wrapper.bart_error{
+    background-color:#fc1111;border-color:#c43d3d
+}
+#bart_wrapper.bart_warning{
+    background-color:#eaaf51;border-color:#d99a36
+}
+#bart_wrapper.bart_success{
+    background-color:#61b832;
+    border-color:#55a12c
+}
+/*for promotion SCHOOL*/
+#bart_wrapper.bart_success {
+    margin-left: -455px;
+    width: 909px;
+    height: 98px;
+    left: 50%;
+    cursor: pointer;
+    background: url("/phpstorm/download/../../styles2/../img/banners/backtoschool_promotionpopup.png") no-repeat 0 0;
+}
+#bart_wrapper img {
+    display: none
+}
+#bart_wrapper.bart_info{
+    /*background-color:#999;
+    border-color:#ccc*/
+}
+/*#bart_wrapper.bart_noAnimate{
+    background-image:none
+}
+@-webkit-keyframes animate-bg{
+    from{background-position:0 0}
+    to{background-position:-100px 0}
+}
+@-moz-keyframes animate-bg{
+    from{background-position:0 0}
+    to{background-position:-100px 0}
+}*/
+/*-------------------------- Foobar End ------------------------*/
+
+
+/* Buy, Download at the #header
+simple buttons inside the #content??? */
+
+#content a.text-button{
+    background: url("/phpstorm/download/../../styles2/../img/btn.gif") no-repeat top center;
+    width: 160px;
+    height: 27px;
+    display: block;
+    font-weight: bold;
+    color: #0158bc;
+    padding: 2px 0 0 0;
+    border: none;
+    text-align:center;
+}
+
+#content .buttonDownloadNow, #subcontent .buttonDownloadNow {
+    margin-top: 0;
+    margin-right: 1em;
+    padding: 16px 10px 10px 65px;
+    float: right;
+    width: 224px;
+    height: 40px;
+    color: #676767;
+    font-size: 90%;
+    cursor: pointer;
+    border: none;
+}
+#content .buttonDownloadNow:hover, #subcontent .buttonDownloadNow:hover {
+    text-decoration: none;
+}
+#content .buttonDownloadNow span, #subcontent .buttonDownloadNow span {
+    margin-bottom: -1.6em;
+    display: block;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: myriad, sans-serif;
+    color: #295bc9;
+}
+#subcontent .buttonDownloadNow a {
+    color: #676767;
+}
+body #content .buttonDownloadNow {
+    width: 194px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow.gif") no-repeat 0 0;
+}
+body.TeamCity #content .buttonDownloadNow {
+    width: 250px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_tc.gif") no-repeat 0 0;
+}
+body.yt #content .buttonDownloadNow {
+    padding-top: 10px;
+    height: 38px;
+    padding-left: 70px;
+    width: 245px;
+    color: #333;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_yt.png") no-repeat 0 0;
+}
+body.pycharm #content .buttonDownloadNow  {
+    padding-left: 85px;
+    width: 220px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_pycharm.gif") no-repeat 0 0;
+}
+body.rs #content .buttonDownloadNow, body.dt #content .buttonDownloadNow, body.dotcover #content .buttonDownloadNow, body.dotnet #content .buttonDownloadNow {
+    width: 224px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_rs.gif") no-repeat 0 0;
+}
+body.decompiler #content .buttonDownloadNow {
+    padding-left: 74px;
+    width: 235px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_dp.gif") no-repeat 0 0;
+}
+body.phpstorm #content .buttonDownloadNow {
+    width: 224px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_phpstorm.gif") no-repeat 0 0;
+}
+body.webstorm #content .buttonDownloadNow {
+    width: 224px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_webstorm.gif") no-repeat 0 0;
+}
+body.ruby #content .buttonDownloadNow {
+    padding-top: 12px;
+    padding-left: 80px;
+    width: 160px;
+    height: 49px;
+    line-height: 1.2em;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_rm.gif") no-repeat 0 0;
+}
+body.TeamCity.down #content .buttonDownloadNow, body.idea.down #content .buttonDownloadNow {
+    margin: .5em 0 0 -.7em;
+    padding-top: 8px;
+    padding-right: 0;
+    padding-left: 75px;
+    float: left;
+    width: 285px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_incloud.png") no-repeat 0 0;
+}
+body.rs #subcontent .buttonDownloadNow {
+    padding-left: 17px;
+    padding-right: 0;
+    padding-top: 12px;
+    width: 210px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNowLight_rs.gif") no-repeat 0 0;
+}
+body.idea #content .buttonDownloadNow.community {
+    background-image: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadNow_community.gif");
+}
+body.TeamCity.down #content .buttonDownloadNow span, body.idea.down #content .buttonDownloadNow span {
+    margin-bottom: .2em;
+    display: block;
+    font-weight: normal;
+}
+body.rm-next #content .buttonDownloadNow {
+    padding-top: 16px;
+    height: 45px;
+}
+body #content .buttonDownloadNow:hover {
+    background-position: 0 -66px;
+}
+body.ruby #content .buttonDownloadNow:hover {
+    background-position: 0 -71px;
+}
+body.yt #content .buttonDownloadNow:hover {
+    background-position: 0 0;
+}
+body.pycharm #content .buttonDownloadNow span {
+    color: #096f0b;
+}
+body.rs #content .buttonDownloadNow span, body.dt #content .buttonDownloadNow span, body.dotcover #content .buttonDownloadNow span, body.dotnet #content .buttonDownloadNow span, body.decompiler #content .buttonDownloadNow span {
+    color: #7e255b;
+}
+body.rs #content .buttonDownloadNow span {
+    font-size: 130%;
+}
+body.dt #content .buttonDownloadNow a:hover {
+    text-decoration: none;
+}
+body.ruby #content .buttonDownloadNow span {
+    line-height: 1.4em;
+    color: #af0a4f;
+    font-size: 160%;
+}
+body.phpstorm #content .buttonDownloadNow span {
+    color: #4642bf;
+}
+body.yt #content .buttonDownloadNow span {
+    font-size: 130%;
+}
+body.idea #content .buttonDownloadNow.community span {
+    color: #395a76;
+}
+body.rs #subcontent .buttonDownloadNow span {
+    margin-bottom: .2em;
+    display: block;
+    color: #7e255b;
+}
+body.yt #content .buttonDownloadNow span {
+    color: #333;
+}
+
+body.rs #content .buttonDownloadNow {/*FIX*/
+    padding-left: 70px;
+}
+
+
+
+#content .buttonDownloadGreen {
+    padding-left: 12px;
+    float: left;
+    width: 100%;
+    font-size: 90%;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadGreeen.png") no-repeat 0 0;
+    border: none;
+}
+#content .buttonDownloadGreen.big {
+    padding-left: 12px;
+    font-size: 100%;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadGreeenBig.png") no-repeat 0 0;
+}
+#content .buttonDownloadGreen span {
+    min-width: 200px;
+    height: 78px;
+    display: block;
+    font-size: 85%;
+    text-align: center;
+    cursor: pointer;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadGreeen.png") no-repeat right -78px;
+}
+#content .buttonDownloadGreen.big span {
+    padding: 22px 0 0 70px;
+    height: 77px;
+    text-align: left;
+    line-height: 1.2em;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/buttonDownloadGreeenBig.png") no-repeat right -99px;
+}
+#content .buttonDownloadGreen span img {
+    padding-top: 28px;
+}
+#content .buttonDownloadGreen p {
+    margin: .1em 0 0 0;
+}
+#content .buttonDownloadGreen p a {
+    border: none;
+}
+#content .buttonDownloadGreen h3 {
+    margin: .2em 0 .4em 0;
+}
+body.objc #content .buttonDownloadGreen span, body.yt #content .buttonDownloadGreen span {
+    padding-top:  24px;
+    font-size: 100%;
+}
+body.objc #content .buttonDownloadGreen span h3, body.yt #content .buttonDownloadGreen span h3 {
+    font-size: 140%;
+}
+body.yt #content .buttonDownloadGreen span h3 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+body.TeamCity #content .buttonDownloadGreen span h3 {
+    padding-top: 3px;
+    padding-bottom: 0;
+}
+body.pycharm #content .buttonDownloadGreen span {
+    padding-left: 65px;
+    font-size: 90%;
+}
+body.pycharm #content .buttonDownloadGreen span h3 {
+    font-size: 160%;
+}
+
+#content .buttonDownload_text {
+    padding: .9em .5em 1em 4em;
+    display: block;
+    width: 100%;
+    color: #585858;
+    font-size: 130%;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+    background: #f2f2f2 url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #dadada));
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -webkit-linear-gradient(top, #f2f2f2 0%, #dadada 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -moz-linear-gradient(top, #f2f2f2 0%, #dadada 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -ms-linear-gradient(top, #f2f2f2 0%, #dadada 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -o-linear-gradient(top, #f2f2f2 0%, #dadada 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, linear-gradient(top, #f2f2f2 0%, #dadada 100%);
+    border: 1px solid #cdcdcd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#content .buttonDownload_text.green, #content .active .buttonDownload_text {
+    color: #425821;
+    background: #aed855 url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c9ec56), color-stop(100%, #85b142));
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -webkit-linear-gradient(top, #c9ec56 0%, #85b142 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -moz-linear-gradient(top, #c9ec56 0%, #85b142 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -ms-linear-gradient(top, #c9ec56 0%, #85b142 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, -o-linear-gradient(top, #c9ec56 0%, #85b142 100%);
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButtonDownload.png") no-repeat .8em .3em, linear-gradient(top, #c9ec56 0%, #85b142 100%);
+    border: 1px solid #acb68a;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(218, 229, 115, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 0 1px rgba(218, 229, 115, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 1px rgba(218, 229, 115, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#content .buttonDownload_text:hover {
+    text-decoration: none;
+}
+#content .buttonDownloadNow_text {
+    padding: .9em .4em 1em .4em;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 130%;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    -moz-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    box-shadow: inset 0 1px 0 0 #fdfdfd;
+}
+#content .buttonDownloadNow_text:hover {
+    text-decoration: none;
+}
+
+
+#content .buttonDownload {
+    margin-top: 1.5em;
+    padding: .5em 2em .55em;
+    float: left;
+	vertical-align: baseline;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	border: solid 1px #c9c9c9;
+	border-top: solid 1px #d3d3d3;
+	border-bottom: solid 1px #bdbdbd;
+	background: #efefef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e1e1e1));
+	background: -moz-linear-gradient(top,  #fff,  #e1e1e1);
+}
+#content .buttonDownload:hover {
+	background: #ebebeb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#dbdbdb));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #dbdbdb);
+}
+
+
+
+
+.downloadButtonYellow {
+    margin-left: .5em;
+    margin-top: 1.5em;
+    padding: 9px 0 0 45px;
+    display: block;
+    cursor: pointer;
+    width: 170px;
+    height: 33px;
+    color: #043dbc;
+    font-family: myriad, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    background: transparent url("/phpstorm/download/../../styles2/../img/buttons/button_download_yellow.png") no-repeat scroll 0 0;
+}
+.downloadButtonBlue {
+    margin-left: .5em;
+    margin-top: 1.5em;
+    padding: 10px 0 0 45px;
+    display: block;
+    cursor: pointer;
+    width: 170px;
+    height: 32px;
+    color: #043dbc;
+    font-family: myriad, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    background: transparent url("/phpstorm/download/../../styles2/../img/buttons/button_download_blue.png") no-repeat scroll 0 0;
+}
+.downloadButtonChB {
+    margin-left: .5em;
+    margin-top: 1.5em;
+    padding: 9px 0 0 45px;
+    display: block;
+    cursor: pointer;
+    width: 170px;
+    height: 33px;
+    color: #043dbc;
+    font-family: myriad, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    background: transparent url("/phpstorm/download/../../styles2/../img/buttons/button_download_chb.png") no-repeat scroll 0 0;
+}
+.downloadButtonYellow:hover, .downloadButtonBlue:hover, .downloadButtonChB:hover {
+    text-decoration: none;
+}
+
+.downloadLink .nota_bene {
+    margin: 1em 0 1.6em 0;
+    border-top: none;
+    border-left: solid 1px #f5f7f9;
+    border-right: solid 2px #f5f7f9;
+    border-bottom: solid 2px #f5f7f9;
+}
+.downloadLink .nota_bene a {
+    padding: .5em;
+    font-weight1: bold;
+    font-size: 140%;
+    display: block;
+    text-align: center;
+}
+.downloadLink .nota_bene a:hover {
+    text-decoration: none;
+}
+
+
+.button-link {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 110%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eee));
+    background-image: -webkit-linear-gradient(top, #f6f6f6, #eee);
+    background-image: -moz-linear-gradient(top, #f6f6f6, #eee);
+    background-image: -ms-linear-gradient(top, #f6f6f6, #eee);
+    background-image: -o-linear-gradient(top, #f6f6f6, #eee);
+    background-image: linear-gradient(top, #f6f6f6, #eee);
+    -webkit-box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    -moz-box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    -ms-box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    -o-box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    border: 1px solid #e0e0e0;
+}
+.button-link.orange {
+    background-color: #f4b320;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f4b320), to(#ec7914));
+    background-image: -webkit-linear-gradient(top, #f4b320, #ec7914);
+    background-image: -moz-linear-gradient(top, #f4b320, #ec7914);
+    background-image: -ms-linear-gradient(top, #f4b320, #ec7914);
+    background-image: -o-linear-gradient(top, #f4b320, #ec7914);
+    background-image: linear-gradient(top, #f4b320, #ec7914);
+    -webkit-box-shadow: inset 0 1px 0 0 #f9d88c, inset 0 0 0 1px #f6bc86;
+    -moz-box-shadow: inset 0 1px 0 0 #f9d88c, inset 0 0 0 1px #f6bc86;
+    -ms-box-shadow: inset 0 1px 0 0 #f9d88c, inset 0 0 0 1px #f6bc86;
+    -o-box-shadow: inset 0 1px 0 0 #f9d88c, inset 0 0 0 1px #f6bc86;
+    box-shadow: inset 0 1px 0 0 #f9d88c, inset 0 0 0 1px #f6bc86;
+    border: 1px solid #ca7d17;
+}
+.button-link.gray_dark {
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#aaa));
+    background-image: -webkit-linear-gradient(top, #ccc, #aaa);
+    background-image: -moz-linear-gradient(top, #ccc, #aaa);
+    background-image: -ms-linear-gradient(top, #ccc, #aaa);
+    background-image: -o-linear-gradient(top, #ccc, #aaa);
+    background-image: linear-gradient(top, #ccc, #aaa);
+    -webkit-box-shadow: inset 0 1px 0 0 #e3e3e3, inset 0 0 0 1px #d2d2d2;
+    -moz-box-shadow: inset 0 1px 0 0 #e3e3e3, inset 0 0 0 1px #d2d2d2;
+    -ms-box-shadow: inset 0 1px 0 0 #e3e3e3, inset 0 0 0 1px #d2d2d2;
+    -o-box-shadow: inset 0 1px 0 0 #e3e3e3, inset 0 0 0 1px #d2d2d2;
+    box-shadow: inset 0 1px 0 0 #e3e3e3, inset 0 0 0 1px #d2d2d2;
+    border: 1px solid #686868;
+}
+.button-link a {
+    margin-right: 15px;
+    font-size: 150%;
+    display: block;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButton-link.png") no-repeat right 10px;
+}
+.button-link.strong a {
+    color: #3358c0;
+    text-shadow: 0 1px 0 #ffffff, rgba(51,88,192,0.5) 0 -1px;
+    font-weight: bold;
+}
+.button-link.buy a {
+    color: #64bf6c;
+    text-shadow: 0 1px 0 #ffffff, rgba(100,191,108,0.5) 0 -1px;
+    background-position: right -21px;
+}
+.button-link.yellow a {
+    color: #333;
+    background-position: right -54px;
+}
+.button-link.orange a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 130%;
+    text-shadow: 0 -1px 0 #bc7b14;
+    background-position: right -88px;
+}
+.button-link.gray_dark a {
+    color: #3a76da;
+    font-weight: bold;
+    font-size: 130%;
+    text-shadow:0 1px 0 #fff;
+    background-position: right -120px;
+}
+.button-link a:hover {
+    text-decoration: none;
+}
+.button-link a span {
+    margin: 1px 38px 1px 1px;
+    padding: 8px .5em 11px;
+    display: block;
+    position: relative;
+    box-shadow: 1px 0 0 0 #fafafa;
+    border-right: solid 1px #e0e0e0;
+}
+.button-link.orange span {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: 1px 0 0 0 #f9d88c;
+    border-right: solid 1px #ca7d17;
+}
+.button-link.gray_dark span {
+    box-shadow: 1px 0 0 0 #d4d4d4;
+    border-right: solid 1px #686868;
+}
+.button-link.yellow span {
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #ffd17c;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd17c), to(#eebb69));
+    background-image: -webkit-linear-gradient(top, #ffd17c, #eebb69);
+    background-image: -moz-linear-gradient(top, #ffd17c, #eebb69);
+    background-image: -ms-linear-gradient(top, #ffd17c, #eebb69);
+    background-image: -o-linear-gradient(top, #ffd17c, #eebb69);
+    background-image: linear-gradient(top, #ffd17c, #eebb69);
+}
+.button-link a span:before {
+    bottom: 0;
+    content: "";
+    display: block;
+    right: 0;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: none repeat scroll 0 0 #fff;
+}
+.button-link.orange a span:before {
+    background: none repeat scroll 0 0 #f9d88c;
+}
+.button-link.gray_dark a span:before {
+    background: none repeat scroll 0 0 #d4d4d4;
+}
+
+
+.button_link {
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 110%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e1e1e1));
+    background-image: -webkit-linear-gradient(top,  #fff, #e1e1e1);
+    background-image: -moz-linear-gradient(top, #fff, #e1e1e1);
+    background-image: -ms-linear-gradient(top,  #fff, #e1e1e1);
+    background-image: -o-linear-gradient(top,  #fff, #e1e1e1);
+    background-image: linear-gradient(top,  #fff, #e1e1e1);
+    -webkit-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    -moz-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    -ms-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    -o-box-shadow: inset 0 1px 0 0 #fdfdfd;
+    box-shadow: inset 0 1px 0 0 #fdfdfd, inset 0 0 0 1px #f4f4f4;
+    border: 1px solid #e0e0e0;
+}
+.button_link.green {
+    background-color: #c6f259;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c6f259), to(#87b810));
+    background-image: -webkit-linear-gradient(top, #c6f259, #87b810);
+    background-image: -moz-linear-gradient(top, #c6f259, #87b810);
+    background-image: -ms-linear-gradient(top, #c6f259, #87b810);
+    background-image: -o-linear-gradient(top, #c6f259, #87b810);
+    background-image: linear-gradient(top, #c6f259, #87b810);
+}
+.button_link a {
+    margin-right: 10px;
+    font-size: 140%;
+    display: block;
+    text-decoration: none;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButton_link.png") no-repeat right 11px;
+    border: none!important;
+}
+.button_link.green a {
+    background-position: right -22px;
+}
+.button_link a:hover {
+    text-decoration: none;
+}
+.button_link a span {
+    margin-right: 18px;
+    padding: 11px .5em 10px;
+    display: block;
+    color: #333;
+}
+
+
+
+a.button-apply {
+    padding: .9em 0 .7em 0;
+    display: block;
+    text-align: center;
+    color: #696969;
+    font-size: 90%;
+    line-height: 1.4em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #d5d5d5;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #d5d5d5));
+    background-image: -webkit-linear-gradient(top, #fff 0%, #d5d5d5 100%);
+    background-image: -moz-linear-gradient(top, #fff 0%, #d5d5d5 100%);
+    background-image: -ms-linear-gradient(top, #fff 0%, #d5d5d5 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #d5d5d5 100%);
+    background-image: linear-gradient(top, #fff 0%, #d5d5d5 100%);
+    border: 1px solid #bababa;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(233, 233, 233, 0.8), 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 1px rgba(233, 233, 233, 0.8), 0 1px 2px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: inset 0 0 0 1px rgba(233, 233, 233, 0.8), 0 1px 2px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: inset 0 0 0 1px rgba(233, 233, 233, 0.8), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1px rgba(233, 233, 233, 0.8), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+a.button-apply:hover {
+    text-decoration: none;
+}
+a.button-apply span {
+    color: #3358c0;
+    display: block;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+
+#content a.button_download {
+    padding: 0 0 .1em 0;
+    display: block;
+    position: relative;
+    min-height: 47px;
+    z-index: 10;
+    text-align: left;
+    color: #626262;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #b7b7b7;
+    background: -moz-linear-gradient(top,  #e4e4e4 30%, #b7b7b7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#e4e4e4), color-stop(100%,#b7b7b7));
+    background: -webkit-linear-gradient(top,  #e4e4e4 30%,#b7b7b7 100%);
+    background: -o-linear-gradient(top,  #e4e4e4 30%,#b7b7b7 100%);
+    background: -ms-linear-gradient(top,  #e4e4e4 30%,#b7b7b7 100%);
+    background: linear-gradient(to bottom,  #e4e4e4 30%,#b7b7b7 100%);
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 0 0 1px rgba(255,255,255,0.2), 0 1px 3px 1px rgba(136,136,136,0.5);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 0 0 1px rgba(255,255,255,0.2), 0 1px 3px 1px rgba(136,136,136,0.5);
+    -ms-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 0 0 1px rgba(255,255,255,0.2), 0 1px 3px 1px rgba(136,136,136,0.5);
+    -o-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 0 0 1px rgba(255,255,255,0.2), 0 1px 3px 1px rgba(136,136,136,0.5);
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 0 0 1px rgba(255,255,255,0.2), 0 1px 3px 1px rgba(136,136,136,0.5);
+    border: 1px solid #b6b6b6;
+}
+#content a.button_download.small {
+    min-height: 38px;
+}
+#content a.button_download.ruby {
+    color: #490000;
+    background-color: #b34762;
+    background: -webkit-gradient(linear, left top, left bottom, from(#de6b92), to(#b34762));
+    background: -webkit-linear-gradient(top, #de6b92, #b34762);
+    background: -moz-linear-gradient(top, #de6b92, #b34762);
+    background: -ms-linear-gradient(top, #de6b92, #b34762);
+    background: -o-linear-gradient(top, #de6b92, #b34762);
+    background: linear-gradient(top, #de6b92, #b34762);
+    border: 1px solid #ad002a;
+}
+#content a.button_download.rs {
+    color: #490000;
+    background-color: #dc7fb6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dc7fb6), to(#b9638f));
+    background: -webkit-linear-gradient(top, #dc7fb6, #b9638f);
+    background: -moz-linear-gradient(top, #dc7fb6, #b9638f);
+    background: -ms-linear-gradient(top, #dc7fb6, #b9638f);
+    background: -o-linear-gradient(top, #dc7fb6, #b9638f);
+    background: linear-gradient(top, #dc7fb6, #b9638f);
+    border: 1px solid #ad2467;
+}
+#content a.button_download.yt {
+    color: #244557;
+    background-color: #4990b3;
+    background: -moz-linear-gradient(top,  #5ed1e9 20%, #4990b3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#5ed1e9), color-stop(100%,#4990b3));
+    background: -webkit-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: -o-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: -ms-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: linear-gradient(to bottom,  #5ed1e9 20%,#4990b3 100%);
+    border: 1px solid #4c96b9;
+}
+#content a.button_download.ws {
+    color: #153f59;
+    background-color: #3e9ad2;
+    background: -moz-linear-gradient(top,  #79b9e0 20%, #3e9ad2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#79b9e0), color-stop(100%,#3e9ad2));
+    background: -webkit-linear-gradient(top,  #79b9e0 20%,#3e9ad2 100%);
+    background: -o-linear-gradient(top,  #79b9e0 20%,#3e9ad2 100%);
+    background: -ms-linear-gradient(top,  #79b9e0 20%,#3e9ad2 100%);
+    background: linear-gradient(to bottom,  #79b9e0 20%,#3e9ad2 100%);
+    border: 1px solid #2775a4;
+}
+#content a.button_download.ps {
+    color: #454377;
+    background-color: #3e9ad2;
+    background: -moz-linear-gradient(top,  #a09dde 20%, #7875b8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#a09dde), color-stop(100%,#7875b8));
+    background: -webkit-linear-gradient(top,  #a09dde 20%,#7875b8 100%);
+    background: -o-linear-gradient(top,  #a09dde 20%,#7875b8 100%);
+    background: -ms-linear-gradient(top,  #a09dde 20%,#7875b8 100%);
+    background: linear-gradient(to bottom,  #a09dde 20%,#7875b8 100%);
+    border: 1px solid #6a67b7;
+}
+#content a.button_download.ruby.small {
+    /*padding: 11px 0 10px 3.6em;
+    font-size: 110%;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#de6b92), to(#b34762));
+    background: -webkit-linear-gradient(top, #de6b92, #b34762);
+    background: -moz-linear-gradient(top, #de6b92, #b34762);
+    background: -ms-linear-gradient(top, #de6b92, #b34762);
+    background: -o-linear-gradient(top, #de6b92, #b34762);
+    background: linear-gradient(top, #de6b92, #b34762);
+}
+#content a.button_download span {
+    margin-bottom: -.3em;
+    padding: 13px .3em 10px 3.6em;
+    display: block;
+    font-size: 125%;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButton_download.png") no-repeat 1.3em 10px;
+}
+#content a.button_download.yt span {
+    background-position: 1.3em -75px;
+}
+#content a.button_download.ruby span {
+    background-position: 1.3em -162px;
+}
+#content a.button_download.rs span {
+    background-position: 1.3em -248px;
+}
+#content a.button_download.ws span {
+    background-position: 1.3em -294px;
+}
+#content a.button_download.ps span {
+    background-position: 1.3em -344px;
+}
+#content a.button_download.small span {
+    padding: 8px .3em 0 3.6em;
+    font-size: 100%;
+    background-position: 1.3em -35px;
+}
+#content a.button_download.ruby.small span {
+    background-position: 1.5em -206px
+}
+
+
+
+
+#content .button_download_selectOS {
+    padding: 0 0 .1em 0;
+    display: block;
+    position: relative;
+    min-height: 47px;
+    z-index: 10;
+    text-align: left;
+    color: #626262;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #e4e4e4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e4e4e4 0%, #b7b7b7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4e4e4), color-stop(100%,#b7b7b7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e4e4e4 0%,#b7b7b7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e4e4e4 0%,#b7b7b7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e4e4e4 0%,#b7b7b7 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e4e4e4 0%,#b7b7b7 100%); /* W3C */
+
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5), inset 0 0 0 1px rgba(255,255,255,0.5),  0 1px 3px 1px rgba(136,136,136,0.5);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5), inset 0 0 0 1px rgba(255,255,255,0.5),  0 1px 3px 1px rgba(136,136,136,0.5);
+    -ms-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5), inset 0 0 0 1px rgba(255,255,255,0.5),  0 1px 3px 1px rgba(136,136,136,0.5);
+    -o-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5), inset 0 0 0 1px rgba(255,255,255,0.5),  0 1px 3px 1px rgba(136,136,136,0.5);
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.5), inset 0 0 0 1px rgba(255,255,255,0.5),  0 1px 3px 1px rgba(136,136,136,0.5);
+    border: 1px solid #b6b6b6;
+}
+#content .button_download_selectOS.small {
+    min-height: 38px;
+}
+#content .button_download_selectOS.yt {
+    background-color: #58bdd8;
+    background: -moz-linear-gradient(top,  #5ed1e9 20%, #4990b3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#5ed1e9), color-stop(100%,#4990b3));
+    background: -webkit-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: -o-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: -ms-linear-gradient(top,  #5ed1e9 20%,#4990b3 100%);
+    background: linear-gradient(to bottom,  #5ed1e9 20%,#4990b3 100%);
+    border: 1px solid #4c96b9;
+}
+#content .button_download_selectOS a.download {
+    padding: .8em 1em 1em 4em;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    font-size: 125%;
+    color: #626262;
+    font-weight: bold;
+    text-decoration: none;
+}
+#content .button_download_selectOS.small a.download {
+    padding: .6em 1em 1em 3.5em;
+    font-size: 100%;
+}
+#content .button_download_selectOS.yt a.download {
+    color: #244557;
+}
+#content .button_download_selectOS a.download:before {
+    content: '';
+    position: absolute;
+    top: .6em;
+    left: 1.4em;
+    width: 30px;
+    height: 30px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgButton_download.png") no-repeat 0 0;
+}
+#content .button_download_selectOS.small a.download:before {
+    left: 1.2em;
+    background-position: 0 -44px;
+}
+#content .button_download_selectOS.yt a.download:before {
+    background-position: 0 -83px;
+}
+#content .button_download_selectOS .menu_os {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    border-left: solid 1px #4895bb;
+}
+#content .button_download_selectOS.small .menu_os {
+    border-left: solid 1px #a5a5a5;
+}
+#content .button_download_selectOS .menu_os:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 34px;
+    left: 18px;
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoDownload.png") no-repeat 0 0;
+}
+#content .button_download_selectOS.small .menu_os:after {
+    left: 15px;
+    top: 26px;
+    background-position: -29px 0;
+}
+#content .button_download_selectOS .menu_os a.select_os {
+    margin: 1px 1px 0 0;
+    display: block;
+    font-size: 0;
+    min-height: 46px;
+    width: 42px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+}
+#content .button_download_selectOS.small .menu_os a.select_os {
+    width: 39px;
+    min-height: 37px;
+}
+#content .button_download_selectOS.small .menu_os:hover a.select_os {
+    background: #eaeaea; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eaeaea 0%, #c3c3c3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#c3c3c3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #eaeaea 0%,#c3c3c3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #eaeaea 0%,#c3c3c3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #eaeaea 0%,#c3c3c3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #eaeaea 0%,#c3c3c3 100%); /* W3C */
+}
+#content .button_download_selectOS .menu_os a.select_os:before {
+    content: '';
+    width: 20px;
+    height: 26px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    background: url("/phpstorm/download/../../styles2/../img/icons/icoDownload.png") no-repeat 1px -30px;
+}
+#content .button_download_selectOS.small .menu_os a.select_os:before {
+    top: 7px;
+}
+#content .button_download_selectOS.small .menu_os.active a.select_os {
+    -moz-box-shadow: inset 0 5px 5px 0px rgba(58, 58, 58, 0.2);
+    -webkit-box-shadow: inset 0 5px 5px 0px rgba(58, 58, 58, 0.2);
+    box-shadow: inset 0 5px 5px 0px rgba(58, 58, 58, 0.2);
+    border-left: 0;
+    padding-left: 1px;
+    background: #C6C6C6; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cacaca 0%, #cdcdcd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cacaca), color-stop(100%,#cdcdcd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #cacaca 0%,#cdcdcd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #cacaca 0%,#cdcdcd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #cacaca 0%,#cdcdcd 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #cacaca 0%,#cdcdcd 100%); /* W3C */
+
+    -webkit-border-radius:0 3px 3px 0;
+    -moz-border-radius:0 3px 3px 0;
+    -ms-border-radius:0 3px 3px 0;
+    -o-border-radius:0 3px 3px 0;
+    border-radius:0 3px 3px 0;
+
+    min-height: 39px;
+
+    margin:0 -1px 0 0;
+    padding:1px 1px 0 2px;
+}
+
+#content .button_download_selectOS.small .menu_os.active .oss {
+    display:block;
+}
+#content .button_download_selectOS .menu_os a.select_os:before {
+    background-position: 0 -30px;
+}
+#content .button_download_selectOS .menu_os a.select_os.mac:before {
+    background-position: 1px -60px;
+}
+#content .button_download_selectOS .menu_os a.select_os.linux:before {
+    background-position: 0 -90px;
+}
+#content .button_download_selectOS .menu_os a.select_os.javaEE:before {
+    background-position: 0 -125px;
+}
+#content .button_download_selectOS.small .menu_os a.select_os:before {
+    width: 16px;
+    height: 18px;
+    background-position: -30px -30px;
+}
+#content .button_download_selectOS.small .menu_os a.select_os.mac:before {
+    background-position: -29px -60px;
+}
+#content .button_download_selectOS.small .menu_os a.select_os.linux:before {
+    background-position: -29px -90px;
+}
+#content .button_download_selectOS.small .menu_os a.select_os.javaEE:before {
+    background-position: -29px -123px;
+}
+#content .button_download_selectOS .menu_os:hover a.select_os {
+    background: #6addf5; /* Old browsers */
+    background: -moz-linear-gradient(top, #6addf5 0%, #4d9fc3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6addf5), color-stop(100%,#4d9fc3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #6addf5 0%,#4d9fc3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #6addf5 0%,#4d9fc3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #6addf5 0%,#4d9fc3 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #6addf5 0%,#4d9fc3 100%); /* W3C */
+}
+
+#content .button_download_selectOS .menu_os.active a.select_os {
+    -moz-box-shadow: inset 0 5px 5px 0px rgba(17, 70, 98, 0.4);
+    -webkit-box-shadow: inset 0 5px 5px 0px rgba(17, 70, 98, 0.4);
+    box-shadow: inset 0 5px 5px 0px rgba(17, 70, 98, 0.4);
+    border-left: 0;
+    padding-left: 1px;
+
+    background: #49AACA; /* Old browsers */
+    background: -moz-linear-gradient(top,  #5ac2e1 0%, #5cc2e0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ac2e1), color-stop(100%,#5cc2e0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #5ac2e1 0%,#5cc2e0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #5ac2e1 0%,#5cc2e0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #5ac2e1 0%,#5cc2e0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #5ac2e1 0%,#5cc2e0 100%); /* W3C */
+
+    -webkit-border-radius:0 3px 3px 0;
+    -moz-border-radius:0 3px 3px 0;
+    -ms-border-radius:0 3px 3px 0;
+    -o-border-radius:0 3px 3px 0;
+    border-radius:0 3px 3px 0;
+
+    min-height: 49px;
+
+    margin:-1px -1px 0 0;
+    padding:1px 1px 0 2px;
+}
+
+#content .button_download_selectOS .menu_os.active .oss {
+    display:block;
+}
+
+
+
+
+
+#content a.bright_link {
+    margin-bottom: 1.5em;
+    padding: .3em 1em .3em 2.5em;
+    display: block;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    color: #3358c0;
+    font-weight: bold;
+    font-size: 180%;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #c9eff4;
+    background: -moz-linear-gradient(top,  #cdf2f8 50%, #c9eff4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#cdf2f8), color-stop(100%,#c9eff4));
+    background: -webkit-linear-gradient(top,  #cdf2f8 50%,#c9eff4 100%);
+    background: -o-linear-gradient(top,  #cdf2f8 50%,#c9eff4 100%);
+    background: -ms-linear-gradient(top,  #cdf2f8 50%,#c9eff4 100%);
+    background: linear-gradient(to bottom,  #cdf2f8 50%,#c9eff4 100%);
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7), 0 1px 3px 0 rgba(136,136,136,.5);
+    -moz-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7), 0 1px 3px 0 rgba(136,136,136,.5);
+    -ms-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7), 0 1px 3px 0 rgba(136,136,136,.5);
+    -o-box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7), 0 1px 3px 0 rgba(136,136,136,.5);
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7), 0 1px 3px 0 rgba(136,136,136,.5);
+    border: 1px solid #a9dbee;
+}
+#content a.bright_link:before {
+    margin-left: -40px;
+    content: "";
+    position: absolute;
+    width: 29px;
+    height: 26px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgBrightn_link.png") no-repeat 0 0;
+}
+#content a.bright_link.features:before {
+    margin-left: -35px;
+    width: 25px;
+    height: 26px;
+    background-position: 0 -43px;
+}
+
+
+
+/*-------Available products Start-------*/
+.products_available {
+    margin-top: .5em;
+    border-top: dashed 1px #ddd;
+}
+.products_available h6 {
+    margin-top: -1.2em;
+    text-align: center;
+    color: #9d9d9d;
+    font-weight: normal;
+    font-size: 85%;
+}
+.products_available h6 span {
+    padding: 0 .3em;
+    background-color: #fff;
+}
+.products_available ul li {
+    margin-right: 1.2em;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/bgProducts_available.png") no-repeat 0 0;
+}
+.products_available ul li:last-child {
+    margin-right: 0;
+}
+.products_available ul li:hover {
+    background-position: 0 -58px;
+}
+body.idea .products_available ul li.idea,
+body.pycharm .products_available ul li.pycharm,
+body.webstorm .products_available ul li.webstorm,
+body.phpstorm .products_available ul li.phpstorm,
+body.ruby .products_available ul li.ruby,
+body.objc .products_available ul li.objc
+{
+    background-position: 0 -58px;
+}
+.products_available ul li a.ico {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 29px;
+    height: 26px;
+    text-indent: -50000px;
+    display: inline-block;
+    position: relative;
+}
+.products_available ul li.idea a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_idea.svg") no-repeat 2px 11px;
+}
+.products_available ul li.pycharm a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_pycharm.svg") no-repeat 2px 11px;
+}
+.products_available ul li.webstorm a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_webstorm.svg") no-repeat 2px 11px;
+}
+.products_available ul li.phpstorm a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_phpstorm.svg") no-repeat 0 9px;
+}
+.products_available ul li.ruby a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_rubymine.svg") no-repeat 2px 11px;
+}
+.products_available ul li.objc a.ico {
+    background: url("/phpstorm/download/../../styles2/../img/logos/logo_appcode.svg") no-repeat 2px 11px;
+}
+
+.products_available ul li .tooltip {
+    margin-top: 55px;
+    margin-left: -16px;
+    padding: .4em .7em;
+    color: #333;
+    font-size: 90%;
+    background: #fff;
+    border: solid 1px #ccc;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.products_available ul li .tooltip:before {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	top: -10px;
+	left: 25px;
+	width: 10px;
+	height: 9px;
+	border-style: solid;
+	border-width: 0 0 1px 1px;
+	border-color: #ccc;
+	background: #fff;
+    -webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-left-radius: 8px;
+    display:block;
+}
+.products_available ul li .tooltip:after {
+	content: "";
+	position: absolute;
+	z-index: 10;
+	top: -10px;
+	left: 15px;
+	width: 10px;
+	height: 9px;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: #ccc;
+	background: #fff;
+    -webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-right-radius: 8px;
+    display:block;
+}
+.products_available ul li .tooltip > :first-child:after {
+	content: "";
+	position: absolute;
+	top: -3px;
+	left: 16px;
+	width: 18px;
+	height: 5px;
+	background: #fff;
+}
+
+.products_available ul li .tooltip a.product {
+    margin-bottom: -.4em;
+    display: block;
+    text-align: left;
+    font-size: 130%;
+}
+
+/*-------Available products End-------*/
+
+#formContainer, dl.subcription {
+    margin: 0;
+}
+dl.subcription label {
+    display: block;
+}
+dl.subcription #sForm {
+
+}
+dl.subcription #sForm input, dl.subcription textarea, dl.subcription select {
+    margin: 0;
+    padding: 2px 3px;
+    display: inline;
+    font-size: 11px;
+}
+dl.subcription #sForm input.text {
+    border: 1px solid #ccc;
+}
+dl.subcription #sForm #error-msg {
+    color: #ff0000;
+}
+#subcontent dl.subcription #sForm input.text {
+    margin-top: 10px;
+    width: 170px;
+}
+#subcontent dl.subcription #sForm input.submit {
+    margin-top: .5em;
+    width: 178px;
+    text-align: center;
+}
+
+
+#content dl.subcription {
+    height: 30px;
+}
+#content dl.subcription #sForm input {
+    margin-right: .8em;
+    font-size: 12px;
+}
+#content dl.subcription #sForm input.text {
+    margin-top: 3px;
+    padding-bottom: 3px;
+    float: left;
+    width: 170px;
+    height: 17px;
+}
+#content dl.subcription #sForm input.submit {
+    padding-top: 1px;
+    float: left;
+    height: 28px;
+    width: 140px;
+    font-weight: bold;
+    color: #2277d9;
+    background: transparent url("/phpstorm/download/../../styles2/../img/button.gif") no-repeat 0 2px;
+    border: none;
+}
+#content dl.subcription #sForm #error-msg {
+    margin-top: .3em;
+    float: left;
+}
+
+body.subscription .feedback {
+    margin-top: .3em;
+}
+
+
+/*------------------------------discount start----------------------------------*/
+body.pycharm .discount {
+    float: left;
+    margin-top: 1.5em;
+    background: url("/phpstorm/download/../../styles2/../pycharm/img/bgDiscount.gif") repeat-x 0 0;
+}
+body.pycharm .discount .wrap-discount {
+    padding: .2em 1.2em 3em 165px;
+    height: 100px;
+    background: url("/phpstorm/download/../../styles2/../pycharm/img/discount50.gif") no-repeat 0 1em;
+}
+.discount #progress {
+    margin-top: .5em;
+}
+.discount #error-msg {
+    color: #ff0000;
+}
+.discount .input-text {
+    width: 90%;
+    display: block;
+    color: #666;
+}
+.discount .input-text.active {
+    color: #333;
+}
+.discount .checkbox {
+    margin: .3em .2em 0 0;
+    width: 1.1em;
+    height: 1em;
+}
+.discount .btn-coupon {
+    margin-top: .4em;
+    width: 90%;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/btn-coupon_left.png") no-repeat 0 0;
+}
+.discount .btn-coupon input {
+    height: 37px;
+    width: 100%;
+    display: block;
+    background: url("/phpstorm/download/../../styles2/../img/buttons/btn-coupon_right.png") no-repeat right 0;
+    border: none;
+}
+/*------------------------------discount end----------------------------------*/
+
+div.screenshot {
+    position: relative;
+}
+div.screenshot.rightfloated {
+    text-align: right;
+    margin-bottom: 1em;
+}
+div.screenshot.leftfloated {
+
+}
+div.screenshot.numeration {
+    margin-top: 1em;
+}
+p.screenshot img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+.screenshot img.bg {
+    padding: 7px;
+    background: #e9e9e9 url("/phpstorm/download/../../styles2/../img/screenshots/bgGradientWhite.gif") repeat-y right 0;
+}
+.screenshot img.border {
+    border: solid 7px #e9e9e9;
+}
+.screenshot .number {
+    padding-top: 10px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    width: 40px;
+    height: 30px;
+    top: -12px;
+    left: -12px;
+    color: #737373;
+    font-size: 150%;
+    font-family: arial black, arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 -1px .5px #3a3a3a, 1px 1px 1px #f5f5f5;
+    background: url("/phpstorm/download/../../styles2/../img/screenshots/bgNumber.png") no-repeat 0 0;
+
+}
+
+.screenshot.shadow img {
+    -webkit-box-shadow: 2px 2px 5px #e1e1e1;
+    -moz-box-shadow: 2px 2px 5px #e1e1e1;
+    box-shadow: 2px 2px 5px #e1e1e1;
+    filter:	progid:DXImageTransform.Microsoft.Shadow(color='#e8e8e8', Direction=135, Strength=6);
+    border: solid 1px #ccc;
+}
+.screenshot.shadow.gallery {
+    position: relative;
+    display: block;
+    margin-top: 1em;
+}
+.screenshot.shadow.gallery .action {
+    display: block;
+    position: absolute;
+    text-indent: -999em;
+    z-index: 1;
+}
+.screenshot.shadow.gallery .action.enlarge {
+    height: 27px;
+    width: 27px;
+    left: -13px;
+    top: -13px;
+    background: url("/phpstorm/download/../../styles2/../img/jquery/boximage/enlarge.png") no-repeat 0 0;
+}
+.screenshot.shadow.gallery img {
+    -webkit-box-shadow: 3px 3px 0 0 #f3f3f3, 4px 4px 0 0 #ccc, 2px 3px 0 0 #ccc, 3px 2px 0 0 #ccc, 5px 5px 4px #e1e1e1;
+    -moz-box-shadow: 3px 3px 0 0 #f3f3f3, 4px 4px 0 0 #ccc, 2px 3px 0 0 #ccc, 3px 2px 0 0 #ccc, 5px 5px 4px #e1e1e1;
+    box-shadow: 3px 3px 0 0 #f3f3f3, 4px 4px 0 0 #ccc, 2px 3px 0 0 #ccc, 3px 2px 0 0 #ccc, 5px 5px 4px #e1e1e1;
+}
+
+
+
+
+body.overview #content .intro {
+    font-size: 130%;
+}
+body.overview #content .note {
+    margin-bottom: 3em;
+    padding-left: 2.8em;
+    background: url("/phpstorm/download/../../img/icons/icoInfo.png") no-repeat 0 .1em;
+}
+body.overview #content .fresh {
+    margin: -1em 0 0 -1%;
+    padding: 2em 1.2em .6em;
+    width: 27%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+body.overview #content .fresh h2 {
+    margin-left: .5em;
+    font-size: 180%;
+}
+body.overview #content .fresh ul {
+    margin-left: 1em;
+    margin-bottom: 0;
+    font-size: 90%;
+}
+body.overview #content .fresh ul li {
+    margin-left: 22px;
+    margin-bottom: .8em;
+    position: relative;
+}
+body.overview #content .fresh ul li:before {
+    margin-top: .4em;
+    margin-left: -22px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background: url("/phpstorm/download/../../webstorm/img/bullFresh.png") no-repeat 0 0;
+}
+body.overview #content .fresh p.learn_more {
+    margin-left: 2.8em;
+}
+body.overview #content .fresh p.comment {
+    margin: .7em -.3em;
+    color: #999;
+}
+
+body.overview #content .checkIDE {
+    margin-top: 1em;
+}
+body.overview #content .checkIDE h4 {
+    margin-bottom: .3em;
+    float: left;
+}
+body.overview #content .checkIDE ul {
+    margin: -1.3em 0 0 0;
+    padding: 0 1em;
+    height: 56px;
+    width: 300px;
+    float: right;
+    background: url("/phpstorm/download/../../img/logos/bg_checkIDE.png") no-repeat center bottom;
+}
+body.overview #content .checkIDE ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+body.overview #content .checkIDE ul li a {
+    display: block;
+    text-indent: -50000px;
+    height: 56px;
+    background: url("/phpstorm/download/../../img/logos/logos_checkIDE.png") no-repeat .5em 0;
+}
+body.overview #content .checkIDE ul li.php a {
+    background-position: 0 -77px;
+}
+body.overview #content .checkIDE ul li.ruby a {
+    background-position: 1em -157px;
+}
+body.overview #content .checkIDE ul li.python a {
+    background-position: .5em -248px;
+}
+
+body.overview #content .bright_link {
+    margin-bottom: 2em;
+}
+
+body.overview #content dl.subcription #sForm, body.whatsnew #content dl.subcription #sForm {
+    margin: -.1em 0 0 2em;
+    padding-left: 20px;
+    height: 21px;
+    border: solid 1px #c4c4c4;
+    background: url("/phpstorm/download/../../img/icons/icoSubscribe.png") no-repeat 3px 5px;
+}
+body.overview #content dl.subcription #sForm input.text, body.whatsnew #content dl.subcription #sForm input.text {
+    margin: 0;
+    border: none;
+    height: 16px;
+    color: #bcbcbc;
+    width: 165px;
+}
+body.overview #content dl.subcription #sForm input.submit, body.whatsnew #content dl.subcription #sForm input.submit {
+    margin-right: 0;
+    width: 15px;
+    height: 21px;
+    text-indent: -50000px;
+    cursor: pointer;
+    background: url("/phpstorm/download/../../img/icons/icoSubscribe.png") no-repeat 2px -36px;
+}
+
+.pcScreenshot {
+    margin: 0;
+    width: 50%;
+}
+.pcScreenshot ul.starlist {
+    margin: 0;
+    height: 115px;
+    font-size: 90%;
+}
+.pcScreenshot ul.starlist li {
+    margin: 0;
+    padding-bottom: .2em;
+}
+.pcScreenshot .img {
+    margin-top: .6em;
+    margin-right: 1.2em;
+}
+.pcScreenshot .img img {
+    border: solid 1px #ccc;
+}
+
+#content .button_download_selectOS .menu_os .oss  {
+    padding-top: 0;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+#content .button_download_selectOS .menu_os:hover .oss  {
+    /*display: block;*/
+}
+#content .button_download_selectOS .menu_os .oss ul  {
+    margin: .7em 0 0 0;
+    padding: 0;
+    position: relative;
+	border: 1px solid #808080;
+	background: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#content .button_download_selectOS.yt .menu_os .oss ul  {
+	border: 1px solid #4895bb;
+}
+#content .button_download_selectOS .menu_os .oss ul:before {
+    content: "";
+	position: absolute;
+    display: block;
+    width: 0;
+    top: -7px;
+	right: 15px;
+    border-width: 0 7px 7px;
+    border-style: solid;
+    border-color: #808080 transparent;
+}
+#content .button_download_selectOS.small .menu_os .oss ul:before {
+	right: 10px;
+}
+#content .button_download_selectOS.yt .menu_os .oss ul:before {
+    border-color: #4895bb transparent;
+}
+#content .button_download_selectOS .menu_os .oss ul:after {
+    content: "";
+	position: absolute;
+    display: block;
+    width: 0;
+    top: -6px;
+	right: 16px;
+    border-width: 0 6px 6px;
+    border-style: solid;
+	border-color: #fff transparent;
+}
+#content .button_download_selectOS.small .menu_os .oss ul:after {
+	right: 11px;
+}
+#content .button_download_selectOS .menu_os .oss ul li {
+    padding: .2em 3em .2em 1em;
+    white-space: nowrap;
+    text-align: right;
+    background: url("/phpstorm/download/../../styles2/../img/navigation/icoSelectOS.png") no-repeat  97% .5em;
+}
+#content .button_download_selectOS .menu_os .oss ul li.mac {
+    background-position:  97% -27px;
+}
+#content .button_download_selectOS .menu_os .oss ul li.linux {
+    background-position:  97% -57px;
+}
+#content .button_download_selectOS .menu_os .oss ul li.javaEE {
+    background-position: 97% -87px;
+}
+#content .button_download_selectOS .menu_os .oss ul li:hover {
+    background-color: #808080;
+}
+#content .button_download_selectOS.yt .menu_os .oss ul li:hover {
+    background-color: #4895bb;
+}
+#content .button_download_selectOS .menu_os .oss ul li a {
+    color: #333;
+    text-shadow: none;
+    text-decoration: none;
+}
+#content .button_download_selectOS .menu_os .oss ul li:hover a {
+    color: #fff;
+}
+
+
+
+/* download ----------------------------------------- */
+.steps li {
+    font-size: 110%;
+    padding: 10px 10px 18px 10px;
+    list-style-type: none;
+    border: 1px dotted #ccc;
+    margin-bottom: 2em;
+    background-color: #F5F5F5;
+}
+
+.steps li a:link, .steps li a:visited, .steps li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #F5F5F5;
+    display: block;
+    padding: 0.5em 0 0 50px;
+    height: 2.2em;
+}
+
+.step1 a:link, .step1 a:visited, .step1 a:hover {
+    background: url("/phpstorm/download/../../styles2/../img/pic_win.gif") no-repeat 5px 0.5em;
+    background-repeat: no-repeat;
+}
+
+.step2 a:link, .step2 a:visited, .step2 a:hover {
+    background: url("/phpstorm/download/../../styles2/../img/pic_linux.gif") no-repeat 5px 0.5em;
+    background-repeat: no-repeat;
+}
+
+.step3 a:link, .step3 a:visited, .step3 a:hover {
+    background: url("/phpstorm/download/../../styles2/../img/pic_solaris.gif") no-repeat 1px 0.5em;
+    background-repeat: no-repeat;
+}
+
+.step4 a:link, .step4 a:visited, .step4 a:hover {
+    background: url("/phpstorm/download/../../styles2/../img/pic_mac.gif") no-repeat 5px 0.5em;
+    background-repeat: no-repeat;
+}
+
+#download h4 {
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+#downloadtext p {
+    padding-bottom: 2em;
+    margin-left: 36px;
+}
+
+/*-- -------- start: New download styles -------- --*/
+.download_info{
+    color: #555;
+    font-size: 86%;
+    line-height: 1.7em;
+    margin: 0;
+    margin-bottom: 1.5em;
+    padding-top: 10px;
+    padding-left: 75px;
+    background: no-repeat 2em 0.85em;
+}
+.download_info dd {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 6em;
+}
+.DownloadButton{
+    position:absolute;
+    z-index:2;
+    margin-top: 15px;
+    margin-left: 255px;
+    border: 0!important;
+    cursor: pointer;
+}
+#content .download_info.win {
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/win.png");
+}
+#content .download_info.linux{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/linux.png");
+}
+#content .download_info.mac{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/mac.png");
+}
+#content .download_info.kit{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/intellijidea.gif");
+}
+#content .download_info.j2ee{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/jee2.png");
+}
+#content .download_info.win32{
+    background: url("/phpstorm/download/../../styles2/../img/navigation/memory_profiling.gif") no-repeat 2em 1em;
+}
+#content .download_info.win64{
+    background: url("/phpstorm/download/../../styles2/../img/navigation/memory_profiling.gif") no-repeat 2em 1em;
+}
+#content .mps-src{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/mps.gif");
+    background-position: 2em 1.15em;
+}
+#content .download_info.mps-plugin_idea{
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/intellijidea.gif");
+    background-position: 2em 1.15em;
+}
+#content .download_info.beta {
+    background-image: url("/phpstorm/download/../../styles2/../img/navigation/performance_profiling.gif");
+    background-position: 2em 1.15em;
+}
+#content .workflow {
+    padding-left: 3.3em;
+    background: url("/phpstorm/download/../../styles2/../img/navigation/bg_workflow.gif") no-repeat 0 .4em;
+}
+
+#content .download_button {
+    margin: 2em 0 0 2em;
+    cursor: pointer;
+    display: block;
+}
+
+
+
+/*-- -------- start: Style for WI download -------- --*/
+body.phpstorm #content .products img, body.webstorm #content .products img, body.ruby #content .products img, body.pycharm #content .products img {
+    margin-right: 1em;
+}
+body.phpstorm #content .products p, body.webstorm #content .products p, body.ruby #content .products p, body.pycharm #content .products p {
+    line-height: 1.8em!important;
+}
+body.phpstorm #content .yt p, body.webstorm #content .yt p, body.ruby #content .yt p, body.pycharm #content .yt p, body.objc #content .yt p {
+    padding: .8em 0 .5em 4.2em;
+    background: url("/phpstorm/download/../../styles2/../img/banners/better_together.png") no-repeat .4em .8em;
+}
+body.phpstorm #content .subcription_text, body.webstorm #content .subcription_text {
+    margin-top: 1.2em;
+}
+/*-- -------- end: Style for WI download -------- --*/
+
+/*-- -------- start: Style for IDE download -------- --*/
+.jbIDE {
+    padding-left: .7em;
+    padding-bottom: .1em;
+    background: #FFFFFF; /* old browsers */
+    background: -moz-linear-gradient(top, #FFFFFF 50%, #F0F0F0 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#FFFFFF), color-stop(100%,#F0F0F0)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#F0F0F0',GradientType=0 ); /* ie */
+    background: -o-linear-gradient(top, #FFFFFF 50%,#F0F0F0 100%); /* opera */
+}
+.jbIDE h6 {
+    margin-bottom: .2em;
+}
+.jbIDE ul {
+    margin: 0;
+}
+.jbIDE ul li {
+    margin: 0 .7em;
+    list-style: none;
+    display: inline;
+}
+.jbIDE ul li:first-child {
+    margin-left: .3em;
+}
+/*-- -------- end: Style for IDE download -------- --*/
+
+.tabb {display: none;}
+.tabb.activeTabBody {display: block;}
+.tabb.secondary{
+    margin-left:180px; 
+}
+#secondary_nav .children {
+    background: url("/phpstorm/download/../../styles2/../img/tree/child.gif") no-repeat 0 3px;
+    padding-left: 8px;
+    *margin-left: 20px
+}
+
+ul#tabs, ul#tabsDecorate {
+    margin: 0.3em 0 0.4em 0;
+    padding: 0;
+    display: block;
+    /*height:2.1em;*/
+    height: 27px;
+    background: url("/phpstorm/download/../../styles2/../img/navigation/bgTabs2.gif") no-repeat right bottom;
+    /**background-position: right 2em;*/
+}
+
+ul#tabs li, ul#tabsDecorate li {
+    margin: 0 -1px 0 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+ul#tabs li.first, ul#tabsDecorate li.first {
+    margin: 0;
+    padding: 0 0 7px 5px;
+    color: #fff;
+}
+ul#tabs li p, ul#tabsDecorate li p {
+    margin: 0 1px 0 1px;
+    padding: 0;
+    border-top: solid 1px #bfbfbf;
+}
+ul#tabs li p a, ul#tabsDecorate li p a {
+    margin: 0 -1px 0 -1px;
+    padding: 3px 1.4em;
+    *padding-bottom: 2px;
+    display: block;
+    color: #686868;
+    font-size: 85%;
+    font-weight: bold;
+    background: #fff url("/phpstorm/download/../../styles2/../img/navigation/bgTabb.gif") repeat-x 0 0;
+    border-left: solid 1px #bfbfbf;
+    border-right: solid 1px #bfbfbf;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+ul#tabs li p a:hover, ul#tabsDecorate li p a:hover {
+    color: #203da3;
+    background-image: none;
+}
+ul#tabs li p a.activTab, ul#tabsDecorate li p a.activTab {
+    background-image: none;
+    color: #555;
+    border-bottom: solid 1px #fff;
+}
+
+
+/*-- -------- start: Horizontal  -------- --*/
+
+ul#sub_tabs {
+    padding-top: 0;
+}
+ul.sub_tabs {
+    padding: 0 0 5px 10px;
+    margin-bottom: 1.5em;
+}
+ul#tabs.sub_tabs{
+    width: 100%;
+    overflow: hidden;
+    background: none;
+    *padding-bottom: 0;
+    _padding-bottom: 1em;
+}
+ul.sub_tabs li span {
+    color: #ccc;
+}
+ul.sub_tabs li {
+    list-style: none;
+    display: inline;
+}
+
+ul#tabs.sub_tabs li{  /* licenses types */
+    margin: 0;
+    padding: 0 7px 0 7px;
+    list-style: none;
+    display: inline;
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+    *font-size: 13px;
+}
+
+ul.sub_tabs li a {
+    margin: 0 0.2em 0 0.5em;
+    border: 0;
+    font-size: 85%;
+
+
+}
+ul.sub_tabs li a:hover {
+    color: #203da3;
+}
+ul.sub_tabs li a.activTab {
+    color: #7f7f7f;
+    font-weight: bold;
+}
+
+
+/*--  --------- end: Horizontal  --------- --*/
+#licensing{
+    margin-left:180px;
+    width1: 455px;
+    padding-bottom: 2em;
+    margin-top:0;
+}
+
+/*-- -------- start: Vertical navigation -------- --*/
+
+#secondary_nav{
+    font-size: 85%;
+    width: 150px;
+    float: left;
+}
+
+#secondary_nav ul{
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 0.7em 0 0.7em 0;
+}
+#secondary_nav ul ul{
+    margin-top: 0.5em;
+
+}
+#container #secondary_nav ul li{
+    list-style: none;
+    margin-left: 0;
+}
+#secondary_nav ul li a{
+    border: 0;
+}
+
+#secondary_nav ul li a.activTab{
+    font-weight: bold;
+    border: 0;
+    background: url("/phpstorm/download/../../styles2/../img/tree/arrow_tree_closed.gif") no-repeat 0 4px;
+    background-position: 0 4px!important;
+    padding-left: 9px;
+    margin-left: -8px;
+}
+
+#secondary_nav ul li a.children {
+    background: url("/phpstorm/download/../../styles2/../img/tree/child.gif") no-repeat 0 7px;
+    padding-left: 8px;
+
+}
+#secondary_nav ul li a.children.activTab {
+    font-weight: bold;
+    margin-left: 0;
+}
+
+#secondary_nav dl.buy {
+    *width: 150px;
+    _width: auto;
+    display: block;
+    line-height: 1.9em;
+    padding: 4px 6px 6px;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    border: 1px dotted #ddd;
+    /*border-bottom: 4px solid #eee;*/
+    border-bottom-style: solid;
+    overflow-y: hidden;
+}
+#secondary_nav dl.buy dt{
+    font-size: 120%;
+    /**font-size: 13px;*/
+    display: block;
+    letter-spacing: -1px;
+    color: #777;
+    margin-left: 3px;
+}
+#secondary_nav dl.buy dt.price{
+    float:right;
+    margin-right: 3px;
+    padding-right: 0;
+    clear: both;
+}
+#secondary_nav dl.buy dd{
+    margin-left: 67px;
+    *font-size: 11px;
+    float: none;
+}
+
+#secondary_nav dl.buy dd.links{
+    padding-left: 0;
+    margin-left: 4px;
+    margin-right: 10px;
+    /*margin-bottom: 10px;*/
+    display: block;
+    float: left;
+}
+
+#secondary_nav dl.buy dd.caption {
+    margin: 0 0 0 3px;
+    padding: 0;
+    font-size: 110%;
+    font-weight: bold;
+    color: #777;
+    border-bottom: 1px dotted #ddd;
+    clear: left;
+}
+
+
+#secondary_nav.tabs{
+    margin: 0;
+    padding: 0;
+    border: dotted 1px #ccc;
+    border-right: none;
+}
+#secondary_nav.tabs ul{
+    margin: 0;
+    padding: .5em 0 .1em .4em;
+    border: none;
+}
+#secondary_nav.tabs ul li {
+    margin: 0;
+    padding: 0;
+}
+#secondary_nav.tabs ul li a {
+    margin-bottom: .4em;
+    padding: .2em 0 .2em 1em;
+    *padding-left: 0;
+    display: block;
+    background-color: #f0f0f0;
+}
+#secondary_nav.tabs ul li a.activTab {
+    margin-left: 0;
+    background-color: #fff;
+    background-position: .2em 4px!important;
+
+}
+/*--  --------- end: Vertical navigation --------- --*/
+
+
+
+body.download #content .whatsnew {
+    position: relative;
+    z-index: 20;
+}
+body.down .subcription {
+    margin-top: -.2em;
+    margin-left: -2em;
+}
+body.download #content .blockcenter.gray-round {
+
+}
+body.download #content .button_download {
+    margin: 1em 0 .8em 0;
+}
+
+body.download #content .inf {
+    padding-left: 2.8em;
+    background: url("../../img/icons/icoInfo.png") no-repeat 0 .1em;
+}
